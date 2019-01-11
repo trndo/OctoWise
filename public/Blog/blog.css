@@ -1,0 +1,111 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navInBlog div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
+}
+
+.navInBlog div p {
+  color: #979797;
+}
+
+.mainS {
+  width: 100%;
+  height: 4400px;
+  background-color: #bfbfbf;
+}
+
+.oneObjBlg {
+  background-color: white;
+  height: 1200px;
+  margin-top: 200px;
+}
+
+.infOneObj h1 {
+  padding: 70px 70px 5px 40px;
+}
+
+.infOneObj p {
+  color: #979797;
+  padding: 0 70px;
+}
+
+.infTwoObj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.infTwoObj p {
+  padding: 0 300px;
+}
+
+.imgInOneObj {
+  max-width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imgInOneObj img {
+  width: 80%;
+}
+
+.numPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.numPage ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.numPage ul li {
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.numPage ul span {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,136 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}AboutUs{% endblock %}
+{% block body %}
+<nav class="AbtN">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1>Про Нас</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis totam vitae temporibus ipsa
+                        nihil iste perspiciatis quis modi aut velit culpa doloremque mollitia dolor facere, deleniti
+                        libero tempora maxime, consequatur quasi facilis commodi minima molestias.</p>
+                </div>
+            </div>
+        </div>
+</nav>
+
+<main>
+
+
+
+    <section class="WhaWeBeliIn">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 infInBeli">
+                    <h2>Во что мы верим?</h2>
+                    <p>В трезвый дух и бодрый взгляд</p>
+                </div>
+            </div>
+
+            <div class="posSh">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 blBloInBeli"></div>
+                    <div class="col-lg-2 col-md-2 blBloInBeli"></div>
+                    <div class="col-lg-2 col-md-2 blBloInBeli"></div>
+                    <div class="col-lg-2 col-md-2 blBloInBeli"></div>
+                    <div class="col-lg-2 col-md-2 blBloInBeli"></div>
+                </div>
+
+                <div class="row textBeli">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bgBl"></div>
+
+
+
+    </section>
+
+
+
+
+    <section class="ourValu">
+        <div class="container">
+            <div class="row frR">
+                <h2>Наши Ценности!</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img class="imgInfValu" src="/img/Shape.png" alt="shape">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 twBlInVal">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="ourWork">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 infInWork">
+                    <h2>Во что мы верим?</h2>
+                    <p>В трезвый дух и бодрый взгляд</p>
+                </div>
+            </div>
+
+            <div class="row blInW">
+                <div class="col-lg-4 col-md-4 blockW">1</div>
+                <div class="col-lg-4 col-md-4 blockW">1</div>
+                <div class="col-lg-4 col-md-4 blockW">1</div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="FourSec">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 infoFS">
+                    <h1>Наши Контакты</h1>
+                    <p><small><i>Свяжись с нами. Работаем с 10:00 - 19:00</i></small></p>
+                    <div class="conFImg">
+                        <div class="oneObj">
+                            <i class="fas fa-phone"></i>
+                            <!-- <img src="/OctoWiceNew/img/Phone.svg" alt="phone"> -->
+                            <p><small>38(066)010-51-78</small></p>
+                        </div>
+                        <div class="twoObj">
+                            <i class="fas fa-envelope"></i>
+                            <!-- <img src="/OctoWiceNew/img/Mail.svg" alt="mail"> -->
+                            <p><small>octowice@gmail.com</small></p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            {{ render_esi(url(
+                'contacts'
+            )) }}
+        </div>
+
+    </section>
+
+
+</main>
+{% endblock %}

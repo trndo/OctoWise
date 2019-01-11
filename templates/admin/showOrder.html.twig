@@ -1,0 +1,31 @@
+{% extends 'admin/baseAdmin.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th class="text-center" scope="col">#</th>
+                <th class="text-center" scope="col">Имя</th>
+                <th class="text-center" scope="col">Email</th>
+                <th class="text-center" scope="col">Телефон</th>
+                <th class="text-center" scope="col">Сообщение</th>
+                <th class="text-center" scope="col">Дата</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for order in orders %}
+            <tr>
+                <th class="text-center" scope="row">{{ order.id }}</th>
+                <td class="text-center">{{ order.name }}</td>
+                <td class="text-center">{{ order.email }}</td>
+                <td class="text-center">{{ order.telNumber }}</td>
+                <td class="text-center">{{ order.information }}</td>
+                <td class="text-center">{{ order.createdAt|date('Y-m-d') }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}

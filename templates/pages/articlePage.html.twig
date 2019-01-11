@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ articles.slug.title }}{% endblock %}
+
+{% block body %}
+        <h1>{{ articles.title }}</h1>
+        <p>{{ articles.CreatedAt|date('Y-m-d') }}</p>
+        <img src="/uploads/{{ articles.img }}">
+        <br>
+        <p>{{ articles.text|raw }}</p>
+{% endblock %}

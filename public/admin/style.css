@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px; }
+header .oneObj {
+    background-color: red;
+    max-width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px; }
+header .oneObj p {
+    margin-top: 15px; }
+header .twoObj {
+    background-color: black;
+    max-width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px; }
+header .twoObj p {
+    margin-top: 15px; }
+header .twoObj a:hover {
+    color: lightgray !important; }
+header .thereObj {
+    border: 3px solid black;
+    max-width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 19px; }
+header .thereObj p {
+    margin-top: 15px;
+    color: black; }
+header .row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px; }
+header a {
+    color: white; }
+header a:hover {
+    color: black; }
+header .test {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; }

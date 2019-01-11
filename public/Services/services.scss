@@ -1,0 +1,274 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+
+.headerB {
+    z-index: 999;
+    ul {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        
+        a {
+            color: black;
+        }
+        
+        a:hover {
+            color: #ed1c24;
+            text-decoration: none;
+        }
+    }
+
+        li {
+            list-style-type: none;
+            padding: 10px 15px;
+
+        }
+    }
+}
+
+#imgInHL {
+    padding: 0 15px;
+    width: 100px;
+    height: auto;
+  }
+
+
+  #LInH {
+    background-color: #ed1c24;
+    color: white !important;
+   padding: 10px;
+}
+#LInH:hover { 
+    color: black !important;
+ }
+
+
+.iconsMes {
+    i {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    a {
+        color: black;
+    }
+    a:hover {
+        color: #979797;
+    }
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.listF {
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        li {
+            padding: 25px 25px;
+        }
+        a {
+            color: black;
+        }
+        a:hover {
+            color: #ed1c24;
+        }
+    }
+}
+
+#FotL {
+    padding-right: 85px;
+    color: #bbbbbb;
+}
+
+#FotR {
+    padding-left: 85px;
+    li {
+        display: flex;
+        flex-direction: column;
+        color: #bbbbbb;
+        text-align: center;
+    }
+}
+
+.infBlock {
+    display: flex;
+    align-items: center;
+}
+
+.artO {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;
+    h3 {
+        color: white;
+    }
+    p {
+        color: #979797;
+        font-style: italic;
+    }
+}
+
+.artO {
+    h3::before {
+        content: url(../img/icon.png);
+    }
+
+}
+
+
+
+.algN {
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    text-align: center;
+    padding: 100px 0;
+    p {
+        color: #979797;
+        margin-right: 150px;
+    }
+}
+
+.butInNav {
+
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    border: solid 1px black;
+    max-width: 200px !important;
+    cursor: pointer;
+
+     p {
+         padding: 13px 20px;
+         margin: 0;
+         color: black;
+
+     }
+}
+
+.butPos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatS {
+    max-width: 100%;
+    height: 700px;
+    background-color: #363636;
+}
+
+.creatInf {
+    color: lightgray;
+    text-align: left;
+    padding: 50px 0;
+    p {
+        color: #979797;
+        padding-left: 50px;
+    }
+}
+
+.firstB {
+    div {
+        border-radius: 10px;
+        margin: 0 47px;
+        p {
+            color: lightgray;
+            text-align: center;
+            line-height: 1px;
+        }
+        p::after {
+            content: url("../img/iconsNum.svg");
+        }
+    }
+}
+
+.creatF {
+    background-color: #222222;
+    padding: 20px 45px 5px 45px;
+
+}
+
+.oneB {
+    div {
+        margin: 10px 47px;
+        text-align: center;
+        border: 2px solid #242424;
+        border-radius: 10px;
+        padding: 15px 0;
+
+        p {
+            color: #555555;
+        }
+    }
+}
+
+.twoS {
+    padding: 25px 300px;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    top: 200px;
+    cursor: pointer;
+}
+
+.twoB {
+    color: black;
+    background-color: white;
+    p {
+        margin-top: 15px;
+    }
+}
+
+.seoW {
+    background-color: #242424;
+    width: 100%;
+    height: 700px;
+}
+
+.seoInf {
+    color: lightgray;
+    text-align: left;
+    padding: 120px 0;
+    p {
+        color: #979797;
+        padding-left: 50px;
+    }
+}
+
+.firstBInSeo {
+
+}
+
+.designW {
+
+}
+
+.desB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 75px 0;
+    button {
+        background-color: red;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 10px 35px;
+        cursor: pointer;
+    }
+}

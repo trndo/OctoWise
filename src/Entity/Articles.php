@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ArticlesRepository")
@@ -17,17 +18,19 @@ class Articles
     private $id;
 
     /**
-     * @ORM\Column(type="text", length=255)
+     * @ORM\Column(type="text", nullable=true)
      */
     private $Title;
 
     /**
-     * @ORM\Column(type="text", length=255)
+     * @ORM\Column(type="text", nullable=true)
+     * @Assert\NotBlank(message="Please upload jpeg,png file")
+     * @Assert\File(mimeTypes={ "image/jpeg", "image/png" })
      */
     private $Img;
 
     /**
-     * @ORM\Column(type="text", length=255)
+     * @ORM\Column(type="text", nullable=true)
      */
     private $Text;
 
@@ -40,6 +43,16 @@ class Articles
      * @ORM\Column(type="datetime", nullable=true)
      */
     private $UpdatedAt;
+
+    /**
+     * @ORM\Column(type="text", nullable=true)
+     */
+    private $description;
+
+    /**
+     * @ORM\Column(type="string", length=255, unique=true)
+     */
+    private $slug;
 
     public function __construct()
     {
@@ -107,6 +120,30 @@ class Articles
     public function setUpdatedAt(?\DateTimeInterface $UpdatedAt): self
     {
         $this->UpdatedAt = $UpdatedAt;
+
+        return $this;
+    }
+
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
+
+    public function setDescription(?string $description): self
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    public function getSlug(): ?string
+    {
+        return $this->slug;
+    }
+
+    public function setSlug(string $slug): self
+    {
+        $this->slug = $slug;
 
         return $this;
     }

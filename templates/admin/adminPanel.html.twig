@@ -1,0 +1,18 @@
+{% extends 'admin/baseAdmin.html.twig' %}
+{% block title %}Панель{% endblock %}
+
+{% block body %}
+    {% for article in articles %}
+        <h1>{{ article.title }}</h1>
+        {% if is_granted('ROLE_ADMIN') %}
+        <a href="{{ path('deleteArticle',{'slug':article.slug})}}">Delete</a>
+        <a href="{{ path('editArticle',{'slug':article.slug})}}">Edit</a>
+        {% endif %}
+        <p>{{ article.CreatedAt|date('Y-m-d') }}</p>
+        <img src="/uploads/{{ article.img }}">
+        <br>
+        <p>{{ article.text|raw }}</p>
+    {% endfor %}
+{% endblock %}
+
+

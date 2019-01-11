@@ -1,0 +1,16 @@
+{% extends "admin/baseAdmin.html.twig" %}
+{% block title %}Создать статью{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+        {{ form_row(form.title) }}
+        {{ form_row(form.slug) }}
+        {{ form_row(form.description) }}
+        {{ form_row(form.img) }}
+        {{ form_row(form.text,{'attr':{'class':'editor'}}) }}
+        {{ form_row(form.save) }}
+    {{ form_end(form) }}
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}

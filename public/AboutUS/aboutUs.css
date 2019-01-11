@@ -1,0 +1,134 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.conFImg {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .conFImg .oneObj, .conFImg .twoObj {
+    padding: 100px 60px; }
+    .conFImg .oneObj i, .conFImg .twoObj i {
+      font-size: 25px; }
+
+.inpInF {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .inpInF input {
+    max-width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    text-align: center; }
+  .inpInF #spaL {
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 160px; }
+
+.butnInF {
+  font-size: 23px;
+  background-color: white;
+  border: 5px solid black;
+  padding: 5px 0;
+  width: 62%;
+  margin: 20px 0; }
+
+.AbtN {
+  text-align: center;
+  padding: 100px 0;
+  }
+  .AbtN p {
+    padding: 0 150px;
+    color: #979797;
+  }
+  .AbtN h1 {
+    font-weight: 300;
+  }
+
+.infInBeli {
+  text-align: center;
+  padding-bottom: 50px;
+  z-index: 100; }
+  .infInBeli p {
+    color: #979797; }
+  .infInBeli h2 {
+    font-weight: 300; }
+
+.WhaWeBeliIn {
+  margin-top: 200px;
+  z-index: 100; }
+
+.blBloInBeli {
+  border-radius: 10px;
+  margin: 20px 19px;
+  padding: 80px 0;
+  background-color: #242424;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 100; }
+
+.textBeli p {
+  padding: 0 13px;
+  z-index: 100;
+  color: lightgray; }
+
+.bgBl {
+  width: 100%;
+  height: 400px;
+  background-color: #363636;
+  z-index: 1; }
+
+.ourValu {
+  background-color: #242424;
+  width: 100%;
+  height: 600px; }
+
+.posSh {
+  position: relative;
+  top: 140px; }
+
+.frR {
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0; }
+
+#imgInfValu {
+  max-width: 100%;
+  height: auto; }
+
+.twBlInVal {
+  z-index: 100;
+  color: #979797;
+  text-align: center; }
+  .twBlInVal p {
+    display: inline;
+    padding: 0 75px;
+    font-size: 25px; }
+
+.ourWork {
+  background-color: #363636;
+  width: 100%;
+  height: 1000px; }
+
+.infInWork {
+  text-align: center;
+  margin-top: 100px;
+  z-index: 100; }
+  .infInWork p {
+    color: lightgray; }
+  .infInWork h2 {
+    color: lightgray;
+    font-weight: 300; }
+
+.blInW {
+  background-color: black; }
+  .blInW .blockW {
+    border-radius: 10px;
+    margin: 20px 19px;
+    padding: 80px 0; }

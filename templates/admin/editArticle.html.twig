@@ -1,0 +1,19 @@
+{% extends 'admin/baseAdmin.html.twig' %}
+{% block title %}Редактировать{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_row(form.title) }}
+    {{ form_row(form.slug) }}
+    {{ form_row(form.description) }}
+    {% if article.getImg != null %}
+        <img src="/uploads/{{ article.getImg }}" alt="Select your image" class="aImage">
+    {% endif %}
+    {{ form_row(form.img) }}
+    {{ form_row(form.text,{'attr':{'class':'editor'}}) }}
+    {{ form_row(form.save) }}
+    {{ form_end(form) }}
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
