@@ -6,14 +6,14 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 alImg">
             <h3>Создание статьи</h3>
-    {{ form_start(form) }}
-        {{ form_row(form.title,{'attr':{'class':'nameArticle','placeholder':'Имя статьи'}}) }}
-        {{ form_row(form.slug,{'attr':{'class':'nameArticle','placeholder':'Слаг(имя статьи в URL)'}}) }}
-        {{ form_row(form.description,{'attr':{'class':'nameArticle','placeholder':'Описание статьи'}}) }}
-        {{ form_row(form.img) }}
-        {{ form_row(form.text,{'id':'editor','attr':{'class':'descriptionArticle','cols':30,'rows':10}}) }}
-        {{ form_row(form.save,{'id':'buttonSendMes'}) }}
-    {{ form_end(form) }}
+            {{ form_start(form) }}
+                {{ form_row(form.title,{'attr':{'class':'nameArticle','placeholder':'Имя статьи'}}) }}
+                {{ form_row(form.slug,{'attr':{'class':'nameArticle','placeholder':'Слаг(имя статьи в URL)'}}) }}
+                {{ form_row(form.description,{'attr':{'class':'nameArticle','placeholder':'Описание статьи'}}) }}
+                {{ form_row(form.img) }}
+                {{ form_row(form.text,{'id':'editor','attr':{'class':'descriptionArticle','cols':30,'rows':10}}) }}
+                {{ form_row(form.save,{'id':'buttonSendMes'}) }}
+            {{ form_end(form) }}
         </div>
     </div>
 </div>
