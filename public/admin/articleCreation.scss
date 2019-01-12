@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.alImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 15px 0;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  textarea {
+    border: 1px solid #979797;
+    resize: none;
+    margin: 15px 0;
+  }
+
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logoImg {
+  width: 100px;
+  height: 100px;
+}
+
+#nameArticle {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color: #979797;
+}
+
+#descriptionArticle {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  padding-top: 10px;
+  color: #979797;
+}
+
+#buttonSendMes {
+  background-color: black;
+  color: white;
+  width: 500px;
+  height: 50px;
+}

@@ -18,8 +18,8 @@ const $ = require('jquery');
 require('jquery-mask-plugin');
 
 ClassicEditor
-    .create( document.querySelector( '.editor' ), {
-        toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote','undo','redo']
+    .create( document.querySelector( '#editor' ), {
+        toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote','redo','undo']
     })
     .catch( error => {
         console.error( error );

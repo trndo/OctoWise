@@ -20,16 +20,26 @@ class ArticlesType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder,array $options)
     {
-        $builder->add('title',TextType::class)
-                ->add('slug',TextType::class)
-                ->add('description',TextType::class)
+        $builder->add('title',TextType::class,[
+            'label' => false
+        ])
+                ->add('slug',TextType::class,[
+                    'label' => false
+                ])
+                ->add('description',TextType::class,[
+                    'label' => false
+                ])
                 ->add('img',FileType::class,[
-                    'required' => false
+                    'required' => false,
+                    'label' => false
                 ])
                 ->add('text',TextareaType::class,[
-                    'required' => false
+                    'required' => false,
+                    'label' => 'Текст'
                 ])
-                ->add('save',SubmitType::class)
+                ->add('save',SubmitType::class,[
+                    'label' => 'Добавить статью'
+                ])
                 ->getForm();
     }
 }
