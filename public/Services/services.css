@@ -1,25 +1,115 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box; }
-.SrvN {
+  body .headerB {
+    z-index: 999; }
+    body .headerB ul {
+      list-style-type: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px; }
+      body .headerB ul a {
+        color: black; }
+      body .headerB ul a:hover {
+        color: #ed1c24;
+        text-decoration: none; }
+    body .headerB li {
+      list-style-type: none;
+      padding: 10px 15px; }
+
+#imgInHL {
+  padding: 0 15px;
+  width: 100px;
+  height: auto; }
+
+#LInH {
+  background-color: #ed1c24;
+  color: white !important;
+  padding: 10px; }
+
+#LInH:hover {
+  color: black !important; }
+
+.iconsMes {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  .iconsMes i {
+    font-size: 24px;
+    padding: 0 10px; }
+  .iconsMes a {
+    color: black; }
+  .iconsMes a:hover {
+    color: #979797; }
+
+.listF ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 13px; }
+  .listF ul li {
+    padding: 25px 25px; }
+  .listF ul a {
+    color: black; }
+  .listF ul a:hover {
+    color: #ed1c24; }
+
+#FotL {
+  padding-right: 85px;
+  color: #bbbbbb; }
+
+#FotR {
+  padding-left: 85px; }
+  #FotR li {
+    display: flex;
+    flex-direction: column;
+    color: #bbbbbb;
+    text-align: center; }
+
+.infBlock {
+  display: flex;
+  align-items: center; }
+
+.artO {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0; }
+  .artO h3 {
+    color: white; }
+  .artO p {
+    color: #979797;
+    font-style: italic; }
+
+.artO h3::before {
+  content: url(../img/icon.png); }
+
+.algN {
+  display: flex;
+  flex-direction: column; }
+
+nav {
   text-align: center;
   padding: 100px 0; }
-.SrvN p {
+  nav p {
     color: #979797;
     margin-right: 150px; }
 
 .butInNav {
-  color: black;
+  color: white;
+  background-color: #363636;
   text-align: center;
   align-items: center;
   margin-top: 100px;
-  border: solid 1px black;
-  max-width: 200px !important;
+  max-width: 300px !important;
   cursor: pointer; }
   .butInNav p {
     padding: 13px 20px;
     margin: 0;
-    color: black; }
+    color: white; }
 
 .butPos {
   display: flex;
@@ -102,3 +192,156 @@ body {
     color: white;
     padding: 10px 35px;
     cursor: pointer; }
+
+.contactUs {
+  width: 100%;
+  height: 725px;
+  background-color: #363636; }
+
+.iconsBl {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .iconsBl i {
+    text-align: center;
+    margin: 0 20px;
+    background-color: red;
+    padding: 25px;
+    border-radius: 50%;
+    cursor: pointer; }
+
+#oneI {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+#twoI {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.desScr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0; }
+  .desScr h2 {
+    color: white; }
+  .desScr p {
+    color: #999999;
+    margin-left: 150px; }
+
+.fiveBlockContUs {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0; }
+  .fiveBlockContUs div {
+    background-color: #555555;
+    margin: 0 14px;
+    width: 200px;
+    height: 200px; }
+
+.fiveBlockInfUs {
+  display: flex;
+  justify-content: center; }
+  .fiveBlockInfUs div {
+    margin: 5px 46px; }
+    .fiveBlockInfUs div p {
+      color: #555555; }
+
+.descOfServ {
+  width: 100%;
+  height: 725px;
+  background-color: #242424; }
+
+.infoServ {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px 0; }
+  .infoServ h1 {
+    color: white; }
+  .infoServ p {
+    color: #cccccc;
+    text-align: center; }
+
+.buttonServ {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 115px; }
+  .buttonServ div button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 20px;
+    cursor: pointer; }
+
+.workEx {
+  display: flex;
+  justify-content: center; }
+  .workEx div {
+    margin-top: 200px; }
+
+.thereBlock {
+  padding: 50px 0; }
+  .thereBlock div {
+    width: 350px;
+    height: 350px;
+    background-color: #555555;
+    margin: 0 15px;
+    border-radius: 10px; }
+
+.buttonOuW {
+  display: flex;
+  justify-content: center; }
+  .buttonOuW div button {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    padding: 5px 40px;
+    font-size: 20px;
+    cursor: pointer; }
+
+.costServ {
+  width: 100%;
+  height: 785px;
+  background-color: #242424;
+  margin: 50px 0; }
+
+.pricSch {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0; }
+  .pricSch div h1 {
+    color: white; }
+  .pricSch div p {
+    color: #555555; }
+
+.thereMainBlocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .thereMainBlocks #newCol {
+    background-color: #c6c6c6 !important;
+    border-radius: 25px;
+    height: 550px !important;
+    position: relative;
+    bottom: 25px; }
+  .thereMainBlocks #radius {
+    border-radius: 50px 0 0 50px; }
+  .thereMainBlocks #radiusTwo {
+    border-radius: 0 50px 50px 0; }
+  .thereMainBlocks div {
+    width: 300px;
+    height: 500px;
+    background-color: #555555;
+    margin: 5px 25px; }
+
+/*# sourceMappingURL=services.css.map */
