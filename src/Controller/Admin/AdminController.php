@@ -29,7 +29,7 @@ class AdminController extends AbstractController
         $repoOrders = $this->getDoctrine()->getRepository(Contacts::class);
         $orders = $repoOrders->findBy([],['id' =>'DESC']);
 
-        return $this->render('admin/showOrder.html.twig',[
+        return $this->render('admin/pages/showOrderAdmin.html.twig',[
             'orders' => $orders
         ]);
     }
@@ -42,7 +42,7 @@ class AdminController extends AbstractController
         $repoArticles = $this->getDoctrine()->getRepository(Articles::class);
         $articles = $repoArticles->findBy([],['id' =>'DESC']);
 
-        return $this->render('admin/adminPanel.html.twig',[
+        return $this->render('admin/pages/editPageAdmin.html.twig',[
             'articles' => $articles
         ]);
     }
@@ -68,7 +68,7 @@ class AdminController extends AbstractController
 
                 return $this->redirectToRoute('editPage');
             }
-        return $this->render('admin/addArticle.html.twig',[
+        return $this->render('admin/pages/addArticleAdmin.html.twig',[
             'form' => $form->createView()
         ]);
     }
@@ -122,7 +122,7 @@ class AdminController extends AbstractController
 
                 return $this->redirectToRoute('editPage');
             }
-            return $this->render('admin/editArticle.html.twig',[
+            return $this->render('admin/pages/editArticleAdmin.html.twig',[
                'form' => $form->createView(),
                 'article' => $articles
             ]);
