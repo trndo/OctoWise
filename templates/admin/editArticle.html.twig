@@ -11,8 +11,8 @@
     {% endif %}
     {{ form_row(form.img) }}
     {{ form_row(form.text,{'id':'editor'}) }}
-    {{ form_row(form.save) }}
-    {{ form_end(form,{'id':'buttonSendMes'}) }}
+    {{ form_row(form.save,{'id':'buttonSendMes'}) }}
+    {{ form_end(form) }}
 {% endblock %}
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
