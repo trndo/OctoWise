@@ -1,7 +1,9 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+  body nav {
+    text-align: left;
+    padding: 0; }
   body .headerB {
     z-index: 999; }
     body .headerB ul {
@@ -36,8 +38,7 @@ body {
 
 .imgS {
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .imgR {
   z-index: 0;
@@ -123,6 +124,12 @@ body {
   border: 5px solid white;
   padding: 10px 100px;
   margin-top: 50px; }
+  .Serv a {
+    color: white; }
+  .Serv a:hover {
+    color: lightgray; }
+  .Serv h2 {
+    cursor: pointer; }
 
 .blInF {
   display: flex;
@@ -215,6 +222,10 @@ body {
   background-color: black;
   border: 5px solid black;
   padding: 5px 0;
+  width: 100%;
+  text-align: center; }
+
+#contacts_save {
   width: 100%; }
 
 .butnInF:hover {
@@ -269,7 +280,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 70px 0; }
+  padding: 120px 0; }
   .artO h3 {
     color: white; }
   .artO p {
@@ -297,6 +308,17 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center; }
+  .blockCol div {
+    width: 100%;
+    margin-top: 50px; }
+    .blockCol div p {
+      font-size: 14px; }
+
+.brifC a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px; }
 
 .buttonBlock div {
   display: flex;
@@ -319,20 +341,25 @@ body {
   font-size: 23px;
   color: white;
   background-color: red;
-  padding: 10px !important; }
+  padding: 10px !important;
+  margin-left: 20px !important; }
 
 .blogTextInf {
   color: #979797;
   text-align: center;
   line-height: 30px;
-  margin-top: 200px; }
+  margin-top: 100px; }
+  .blogTextInf b {
+    font-size: 20px; }
 
 .buttonInInfBlock {
   display: flex;
   justify-content: center;
-  margin-top: 200px; }
+  margin-top: 150px; }
   .buttonInInfBlock button {
     padding: 10px 20px;
     border: none;
     background-color: white;
     cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
