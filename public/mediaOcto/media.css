@@ -24,7 +24,6 @@
 
     }
 
-
     #imgLineMain {
         display: none;
     }
@@ -32,7 +31,6 @@
     .buttonBlock {
         max-width: 33.333%;
     }
-
 
     .conFImg, infoFS {
         max-width: 33.333%;
@@ -171,6 +169,18 @@
 
     .conFImg {
         display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
     }
 
 
