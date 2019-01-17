@@ -193,26 +193,33 @@
         display: none;
     }
 
+    nav p {
+        padding: 0;
+    }
 
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0px !important;
+    }
+
+    .imgR img {
+        max-width: 200px;
+        height: auto;
+        margin-top: 225px;
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
 
     #imgLineMain {
-        max-width: 80px;
-        height: auto;
+        display: none;
     }
 
     .buttonBlock {
         max-width: 33.333%;
     }
-
-    .blockCol div p  {
-        font-size: 10px;
-    }
-
-    .blockCol div h3  {
-        font-size: 15px;
-    }
-
-
 
     .conFImg, infoFS {
         max-width: 33.333%;
@@ -226,27 +233,180 @@
 
     .listF ul {
         display: none;
+    }
+
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .artO h3, p {
+        font-size: 10px !important;
+        padding: 0 50px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        text-shadow: 1px 1px 40px black, 0 0 1em white;
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: 750px !important;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf {
+        line-height: inherit !important;
+    }
+
+    .ThereSec {
+        height: 1700px;
+        background-color: #171717 !important;
+        background-image: none;
+        margin-top: 150px;
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
     }
 
 }
 
-
 @media screen and (max-width: 414px) {
+
     header section {
         display: none;
     }
 
+    nav p {
+        padding: 0;
+    }
 
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0px !important;
+    }
+
+    .imgR img {
+        max-width: 200px;
+        height: auto;
+        margin-top: 225px;
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
 
     #imgLineMain {
-        max-width: 80px;
-        height: auto;
+        display: none;
     }
 
     .buttonBlock {
         max-width: 33.333%;
     }
-
 
     .conFImg, infoFS {
         max-width: 33.333%;
@@ -262,4 +422,326 @@
         display: none;
     }
 
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .artO h3, p {
+        font-size: 10px !important;
+        padding: 0 50px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        text-shadow: 1px 1px 40px black, 0 0 1em white;
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: 750px !important;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf  {
+        line-height: inherit!important;
+    }
+
+    .ThereSec {
+        height: 1700px;
+        background-color: #171717 !important;
+        background-image: none;
+        margin-top: 150px;
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header section {
+        display: none;
+    }
+
+    nav p {
+        padding: 0;
+    }
+
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0px !important;
+    }
+
+    .imgR img {
+        max-width: 200px;
+        height: auto;
+        margin-top: 225px;
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
+
+    #imgLineMain {
+        display: none;
+    }
+
+    .buttonBlock {
+        max-width: 33.333%;
+    }
+
+    .conFImg, infoFS {
+        max-width: 33.333%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .iconsMes {
+        display: none;
+    }
+
+    .listF ul {
+        display: none;
+    }
+
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .artO h3, p {
+        font-size: 10px !important;
+        padding: 0 50px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        text-shadow: 1px 1px 40px black, 0 0 1em white;
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: 750px !important;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf  {
+        line-height: inherit!important;
+    }
+
+    .ThereSec {
+        height: 1700px;
+        background-color: #171717 !important;
+        background-image: none;
+        margin-top: 150px;
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
+    }
 }
