@@ -1,73 +1,73 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box; }
-  /*body .headerB {*/
-    /*z-index: 999; }*/
-    /*body .headerB ul {*/
-      /*list-style-type: none;*/
-      /*text-decoration: none;*/
-      /*display: flex;*/
-      /*flex-direction: row;*/
-      /*align-items: center;*/
-      /*justify-content: center;*/
-      /*font-size: 13px; }*/
-      /*body .headerB ul a {*/
-        /*color: black; }*/
-      /*body .headerB ul a:hover {*/
-        /*color: #ed1c24;*/
-        /*text-decoration: none; }*/
-    /*body .headerB li {*/
-      /*list-style-type: none;*/
-      /*padding: 10px 15px; }*/
+  body .headerB {
+    z-index: 999; }
+    body .headerB ul {
+      list-style-type: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px; }
+      body .headerB ul a {
+        color: black; }
+      body .headerB ul a:hover {
+        color: #ed1c24;
+        text-decoration: none; }
+    body .headerB li {
+      list-style-type: none;
+      padding: 10px 15px; }
 
-/*#imgInHL {*/
-  /*padding: 0 15px;*/
-  /*width: 100px;*/
-  /*height: auto; }*/
+#imgInHL {
+  padding: 0 15px;
+  width: 100px;
+  height: auto; }
 
-/*#LInH {*/
-  /*background-color: #ed1c24;*/
-  /*color: white !important;*/
-  /*padding: 10px; }*/
+#LInH {
+  background-color: #ed1c24;
+  color: white !important;
+  padding: 10px; }
 
-/*#LInH:hover {*/
-  /*color: black !important; }*/
+#LInH:hover {
+  color: black !important; }
 
-/*.iconsMes {*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*margin-top: 100px; }*/
-  /*.iconsMes i {*/
-    /*font-size: 24px;*/
-    /*padding: 0 10px; }*/
-  /*.iconsMes a {*/
-    /*color: black; }*/
-  /*.iconsMes a:hover {*/
-    /*color: #979797; }*/
+.iconsMes {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  .iconsMes i {
+    font-size: 24px;
+    padding: 0 10px; }
+  .iconsMes a {
+    color: black; }
+  .iconsMes a:hover {
+    color: #979797; }
 
-/*.listF ul {*/
-  /*list-style-type: none;*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*font-size: 13px; }*/
-  /*.listF ul li {*/
-    /*padding: 25px 25px; }*/
-  /*.listF ul a {*/
-    /*color: black; }*/
-  /*.listF ul a:hover {*/
-    /*color: #ed1c24; }*/
+.listF ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 13px; }
+  .listF ul li {
+    padding: 25px 25px; }
+  .listF ul a {
+    color: black; }
+  .listF ul a:hover {
+    color: #ed1c24; }
 
-/*#FotL {*/
-  /*padding-right: 85px;*/
-  /*color: #bbbbbb; }*/
+#FotL {
+  padding-right: 85px;
+  color: #bbbbbb; }
 
-/*#FotR {*/
-  /*padding-left: 85px; }*/
-  /*#FotR li {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*color: #bbbbbb;*/
-    /*text-align: center; }*/
+#FotR {
+  padding-left: 85px; }
+  #FotR li {
+    display: flex;
+    flex-direction: column;
+    color: #bbbbbb;
+    text-align: center; }
 
 .infBlock {
   display: flex;
@@ -91,10 +91,10 @@ body {
   display: flex;
   flex-direction: column; }
 
-.SrvN {
+nav {
   text-align: center;
   padding: 100px 0; }
- .SrvN p {
+  nav p {
     color: #979797;
     margin-right: 150px; }
 
@@ -103,7 +103,7 @@ body {
   background-color: #363636;
   text-align: center;
   align-items: center;
-  margin-top: 100px;
+  margin: 100px 100px;
   max-width: 300px !important;
   cursor: pointer; }
   .butInNav p {
@@ -249,13 +249,17 @@ body {
   display: flex;
   justify-content: center; }
   .fiveBlockInfUs div {
-    margin: 5px 46px; }
+    margin: 5px 13px;
+    width: 200px;
+    height: 50px; }
     .fiveBlockInfUs div p {
-      color: #555555; }
+      color: lightgray;
+      font-size: 17px;
+      text-align: center; }
 
 .descOfServ {
   width: 100%;
-  height: 725px;
+  height: 1300px;
   background-color: #242424; }
 
 .infoServ {
@@ -269,6 +273,8 @@ body {
   .infoServ p {
     color: #cccccc;
     text-align: center; }
+  .infoServ ul {
+    color: lightgray; }
 
 .buttonServ {
   display: flex;
@@ -343,5 +349,8 @@ body {
     height: 500px;
     background-color: #555555;
     margin: 5px 25px; }
+
+.navB {
+  padding: 100px 0; }
 
 /*# sourceMappingURL=services.css.map */

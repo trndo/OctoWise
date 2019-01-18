@@ -183,7 +183,103 @@
         font-size: 13px;
     }
 
+    .butInNav p {
+        font-size: 15px !important;
+    }
 
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px !important;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: 3100px;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: 2000px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
+    }
 }
 
 
@@ -370,6 +466,105 @@
 
     .infoFS p small {
         font-size: 13px;
+    }
+
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px !important;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: 3100px;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: 2000px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
     }
 
 }
@@ -559,6 +754,105 @@
         font-size: 13px;
     }
 
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px !important;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: 2300px !important;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: 2000px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -726,7 +1020,6 @@
         display: flex;
         justify-content: center !important;
         align-items: center !important;
-
     }
 
     .conFImg {
@@ -743,5 +1036,104 @@
 
     .infoFS p small {
         font-size: 13px;
+    }
+
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px !important;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: 2500px;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: 2000px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
     }
 }
