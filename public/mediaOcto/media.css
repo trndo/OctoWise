@@ -280,6 +280,21 @@
     #newCol  {
         margin: 25px 30px;
     }
+
+    .imgV {
+        display: none;
+    }
+
+    .hText {
+        margin-top: 100px;
+        text-align: center !important;
+    }
+
+    .hText p {
+        text-align: center !important;
+        margin-right: 0;
+    }
+
 }
 
 
