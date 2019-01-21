@@ -350,7 +350,7 @@ nav {
       border-radius: 25px 25px 0 0;
       padding: 5px;
       text-align: center;
-      border-bottom: 7px solid black;
+      border-bottom: 7px solid #222222;
       font-size: 25px; }
     .thereMainBlocks #newCol h1 {
       text-align: center; }
@@ -360,21 +360,21 @@ nav {
     -webkit-border-radius: 25px 0 0 25px; }
     .thereMainBlocks #radius p {
       background-color: #999999 !important;
-      border-radius: 25px 25px 0 25px;
-      -moz-border-radius: 25px 0 0 25px;
-      -webkit-border-radius: 25px 0 0 25px;
+      border-radius: 25px 25px 0 0;
+      -moz-border-radius: 25px 0 0 0;
+      -webkit-border-radius: 25px 0 0 0;
       padding: 5px 35px 5px 5px;
       text-align: right;
-      border-bottom: 7px solid black;
+      border-bottom: 7px solid #222222;
       font-size: 25px; }
   .thereMainBlocks #radiusTwo {
     border-radius: 0 50px 50px 0; }
     .thereMainBlocks #radiusTwo p {
       background-color: #999999 !important;
-      border-radius: 0 50px 50px 0;
+      border-radius: 0 25px 0 0;
       padding: 5px 5px 5px 35px;
       text-align: left;
-      border-bottom: 7px solid black;
+      border-bottom: 7px solid #222222;
       font-size: 25px; }
   .thereMainBlocks div {
     width: 300px;
