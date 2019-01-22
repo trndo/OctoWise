@@ -11,8 +11,8 @@ namespace App\Service;
 use Symfony\Component\HttpFoundation\File\Exception\FileException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
-class FileUploader
-{
+class FileUploader {
+
     private $uploadDir;
 
     public function __construct(string $uploadDir)
