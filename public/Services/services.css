@@ -367,6 +367,8 @@ nav {
       text-align: right;
       border-bottom: 7px solid #222222;
       font-size: 25px; }
+    .thereMainBlocks #radius h1 {
+      text-align: center; }
   .thereMainBlocks #radiusTwo {
     border-radius: 0 50px 50px 0; }
     .thereMainBlocks #radiusTwo p {
@@ -376,6 +378,8 @@ nav {
       text-align: left;
       border-bottom: 7px solid #222222;
       font-size: 25px; }
+    .thereMainBlocks #radiusTwo h1 {
+      text-align: center; }
   .thereMainBlocks div {
     width: 300px;
     height: 500px;

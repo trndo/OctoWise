@@ -26,6 +26,17 @@
 
 <style scoped>
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
     p {
         font-size: 2em;
         text-align: center;

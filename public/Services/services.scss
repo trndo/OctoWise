@@ -499,8 +499,10 @@ nav {
             text-align: right;
             border-bottom: 7px solid #222222;
             font-size: 25px;
-
         }
+      h1 {
+        text-align: center;
+      }
     }
 
     #radiusTwo {
@@ -512,6 +514,9 @@ nav {
             text-align: left;
             border-bottom: 7px solid #222222;
             font-size: 25px;
+        }
+        h1 {
+            text-align: center;
         }
     }
 
