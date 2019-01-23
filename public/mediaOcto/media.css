@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-width: 375px){
     header section {
         display: none;
     }
@@ -150,6 +150,7 @@
 
     .FourSec {
         max-width: 100%;
+        height: 730px;
     }
 
     .oneObj, .twoObj {
@@ -239,7 +240,7 @@
     }
 
     .descOfServ {
-        height: 3100px;
+        height: 3100px !important;
     }
 
     .workEx div {
@@ -277,9 +278,27 @@
     #radius, #radiusTwo {
         border-radius: 25px !important;
     }
-    #newCol  {
-        margin: 25px 30px;
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
     }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
+
 
     .imgV {
         display: none;
@@ -295,11 +314,32 @@
         margin-right: 0;
     }
 
+    .infInBeli {
+        padding-bottom: 0 !important;
+    }
+
+    #infW {
+        width: 100% !important;
+        height: 150px;
+    }
+
+    .ourWork {
+        height: 3400px;
+    }
+
+    .twBlInVal p {
+        font-size: 20px !important;
+    }
+
+    .frR p {
+        font-size: 15px !important;
+    }
+
 }
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
     header section {
         display: none;
     }
@@ -582,6 +622,26 @@
         margin: 25px 30px;
     }
 
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
 }
 
 @media screen and (max-width: 414px) {
@@ -826,7 +886,7 @@
     }
 
     .descOfServ {
-        height: 2300px !important;
+        height: 2300px;
     }
 
     .workEx div {
@@ -1150,5 +1210,25 @@
     }
     #newCol  {
         margin: 25px 30px;
+    }
+
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
     }
 }
