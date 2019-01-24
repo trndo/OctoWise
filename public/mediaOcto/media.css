@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 320px) and (max-width: 375px){
+@media only screen and (max-width: 320px) {
     header section {
         display: none;
     }
@@ -10,13 +10,13 @@
 
     .octH h1 {
         font-size: 30px;
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .imgR img {
-        max-width: 200px;
+        width: 200px;
         height: auto;
-        margin-top: 225px;
+        margin-top: 142px !important;
     }
 
     .pointers {
@@ -130,10 +130,10 @@
     }
 
     .ThereSec {
-        height: 1700px;
+        height: auto;
         background-color: #171717 !important;
         background-image: none;
-        margin-top: 150px;
+        margin-top: 300px !important;
     }
 
     .hInImg {
@@ -142,10 +142,6 @@
 
     .blogTextInf {
         margin-top: 0;
-    }
-
-    .buttonInInfBlock {
-        display: none;
     }
 
     .FourSec {
@@ -212,6 +208,10 @@
     .desScr h2, p {
         text-align: center;
         margin-left: 0 !important;
+    }
+
+    .desScr p {
+        font-size: 15px !important;
     }
 
     .contactUs {
@@ -339,7 +339,7 @@
 
 
 
-@media screen and (max-width: 375px) and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     header section {
         display: none;
     }
@@ -354,9 +354,12 @@
     }
 
     .imgR img {
-        max-width: 200px;
+        width: 200px !important;
         height: auto;
-        margin-top: 225px;
+    }
+
+    .imgR {
+        top: -20px;
     }
 
     .pointers {
@@ -470,10 +473,10 @@
     }
 
     .ThereSec {
-        height: 1700px;
+        height: auto;
         background-color: #171717 !important;
         background-image: none;
-        margin-top: 150px;
+        margin-top: 300px !important;
     }
 
     .hInImg {
@@ -490,6 +493,7 @@
 
     .FourSec {
         max-width: 100%;
+        height: auto;
     }
 
     .oneObj, .twoObj {
@@ -644,7 +648,7 @@
 
 }
 
-@media screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
 
     header section {
         display: none;
@@ -656,13 +660,16 @@
 
     .octH h1 {
         font-size: 30px;
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .imgR img {
         max-width: 200px;
         height: auto;
-        margin-top: 225px;
+    }
+
+    .imgR {
+        top: 95px;
     }
 
     .pointers {
@@ -776,7 +783,7 @@
     }
 
     .ThereSec {
-        height: 1700px;
+        height: auto;
         background-color: #171717 !important;
         background-image: none;
         margin-top: 150px;
@@ -796,6 +803,7 @@
 
     .FourSec {
         max-width: 100%;
+        height: auto;
     }
 
     .oneObj, .twoObj {
@@ -930,9 +938,19 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+
     header section {
-        display: none;
+
+    }
+
+    .headerB ul li {
+        font-size: 10px;
+    }
+
+    #imgInHL {
+        width: 70px;
+        height: auto;
     }
 
     nav p {
@@ -945,9 +963,9 @@
     }
 
     .imgR img {
-        max-width: 200px;
+        max-width: 300px;
         height: auto;
-        margin-top: 225px;
+
     }
 
     .pointers {
@@ -1061,7 +1079,7 @@
     }
 
     .ThereSec {
-        height: 1700px;
+        height: auto;
         background-color: #171717 !important;
         background-image: none;
         margin-top: 150px;
