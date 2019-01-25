@@ -24,17 +24,15 @@ form {
   width: 100px;
   height: 100px; }
 
-.nameArticle {
+#nameArticle {
   width: 500px;
   height: 50px;
   text-align: center;
   padding-top: 10px;
-  margin: 10px;
   color: #979797; }
 
-#editor {
-
-  max-width: 500px!important;
+#descriptionArticle {
+  width: 500px;
   height: 300px;
   text-align: center;
   padding-top: 10px;
@@ -45,3 +43,5 @@ form {
   color: white;
   width: 500px;
   height: 50px; }
+
+/*# sourceMappingURL=articleCreation.css.map */
