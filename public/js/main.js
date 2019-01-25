@@ -19,7 +19,3 @@ var LInH = document.getElementById('LInH');
         alert('Work this button');
     });
 
-
-
-
-
