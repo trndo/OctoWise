@@ -50,7 +50,7 @@ class Articles
     private $description;
 
     /**
-     * @ORM\Column(type="string", length=255, unique=true)
+     * @ORM\Column(type="string", length=128, unique=true)
      */
     private $slug;
 

@@ -23,9 +23,6 @@ class ArticlesType extends AbstractType
         $builder->add('title',TextType::class,[
             'label' => false
         ])
-                ->add('slug',TextType::class,[
-                    'label' => false
-                ])
                 ->add('description',TextType::class,[
                     'label' => false
                 ])

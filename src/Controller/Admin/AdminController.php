@@ -13,11 +13,14 @@ use App\Entity\Contacts;
 use App\Form\ArticlesType;
 use App\Model\UpdateModel;
 use App\Service\FileUploader;
+use Cocur\Slugify\Slugify;
+use Cocur\Slugify\SlugifyInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+
 
 class AdminController extends AbstractController
 {
@@ -50,7 +53,7 @@ class AdminController extends AbstractController
     /**
      * @Route("/adminPanel/addArticle",name="addArticle")
      */
-    public function addArticle(Request $request,FileUploader $fileUploader)
+    public function addArticle(Request $request,FileUploader $fileUploader,SlugifyInterface $slugify)
     {
         $article = new Articles();
         $form = $this->createForm(ArticlesType::class,$article);
@@ -58,6 +61,7 @@ class AdminController extends AbstractController
         $form->handleRequest($request);
             if($form->isSubmitted() && $form->isValid()) {
                 $data = $form->getData();
+                $article->setSlug($slugify->slugify($data->getTitle()));
                 $img = $data->getImg();
                     if ($pictureName = $fileUploader->upload($img)) {
                         $data->setImg($pictureName);
@@ -90,13 +94,12 @@ class AdminController extends AbstractController
     /**
      * @Route("/adminPanel/editArticle/{slug}",name="editArticle")
      */
-    public function editArticle(Request $request,FileUploader $fileUploader,Articles $articles)
+    public function editArticle(Request $request,FileUploader $fileUploader,Articles $articles,SlugifyInterface $slugify)
     {
 
         $updateModel = new UpdateModel();
         $updateModel->setTitle($articles->getTitle());
         $updateModel->setText($articles->getText());
-        $updateModel->setSlug($articles->getSlug());
         $updateModel->setDescription($articles->getDescription());
 
         $form = $this->createForm(ArticlesType::class,$updateModel);
@@ -113,7 +116,7 @@ class AdminController extends AbstractController
                 }
                 $articles->setTitle($data->getTitle());
                 $articles->setText($data->getText());
-                $articles->setSlug($data->getSlug());
+                $articles->setSlug($slugify->slugify($data->getTitle()));
                 $articles->setDescription($data->getDescription());
                 $articles->setUpdatedAt(new \DateTime());
 
