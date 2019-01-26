@@ -1,111 +1,151 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  box-sizing: border-box; }
+  body .headerB {
+    z-index: 999; }
+    body .headerB ul {
+      list-style-type: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px; }
+      body .headerB ul a {
+        color: black; }
+      body .headerB ul a:hover {
+        color: #ed1c24;
+        text-decoration: none; }
+    body .headerB li {
+      list-style-type: none;
+      padding: 10px 15px; }
+
+#imgInHL {
+  padding: 0 15px;
+  width: 100px;
+  height: auto; }
+
+#LInH {
+  background-color: #ed1c24;
+  color: white !important;
+  padding: 10px; }
+
+#LInH:hover {
+  color: black !important; }
+
+.iconsMes {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; }
+  .iconsMes i {
+    font-size: 24px;
+    padding: 0 10px; }
+  .iconsMes a {
+    color: black; }
+  .iconsMes a:hover {
+    color: #979797; }
+
+.listF ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 13px; }
+  .listF ul li {
+    padding: 25px 25px; }
+  .listF ul a {
+    color: black; }
+  .listF ul a:hover {
+    color: #ed1c24; }
+
+#FotL {
+  padding-right: 85px;
+  color: #bbbbbb; }
+
+#FotR {
+  padding-left: 85px; }
+  #FotR li {
+    display: flex;
+    flex-direction: column;
+    color: #bbbbbb;
+    text-align: center; }
+
+.infBlock {
+  display: flex;
+  align-items: center; }
+
+.artO {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0; }
+  .artO h3 {
+    color: white; }
+  .artO p {
+    color: #979797;
+    font-style: italic; }
+
+.artO h3::before {
+  content: url(../img/icon.png); }
+
+.algN {
+  display: flex;
+  flex-direction: column; }
 
 .navInBlog div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 100px 0;
-}
-
-.navInBlog div p {
-  color: #979797;
-}
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0; }
+  .navInBlog div p {
+    color: #979797; }
 
 .mainS {
   width: 100%;
   height: 4400px;
-  background-color: #bfbfbf;
-}
+  background-color: #bfbfbf; }
 
-.oneObjBlg {
+.oneObj {
   background-color: white;
   height: 1200px;
-  margin-top: 200px;
-}
+  margin-top: 200px; }
 
 .infOneObj h1 {
-  padding: 70px 70px 5px 40px;
-}
-
+  padding: 70px 70px 5px 40px; }
 .infOneObj p {
   color: #979797;
-  padding: 0 70px;
-}
+  padding: 0 70px; }
 
 .infTwoObj {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.infTwoObj p {
-  padding: 0 300px;
-}
+  align-items: center;
+  justify-content: center; }
+  .infTwoObj p {
+    padding: 0 300px; }
 
 .imgInOneObj {
   max-width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.imgInOneObj img {
-  width: 80%;
-}
+  justify-content: center;
+  align-items: center; }
+  .imgInOneObj img {
+    width: 80%; }
 
 .numPage {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+  justify-content: center; }
+  .numPage ul {
+    list-style-type: none;
+    display: flex; }
+    .numPage ul li {
+      border: 1px solid black;
+      padding: 10px 15px;
+      margin: 10px;
+      border-radius: 100%; }
+    .numPage ul span {
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 100%; }
 
-.numPage ul {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.numPage ul li {
-  border: 1px solid black;
-  padding: 10px 15px;
-  margin: 10px;
-  border-radius: 100%;
-}
-
-.numPage ul span {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 100%;
-}
 /*# sourceMappingURL=blog.css.map */
