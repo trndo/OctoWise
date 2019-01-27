@@ -9,11 +9,11 @@
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
             <link rel="stylesheet" href="/style/style.css">
-            <link rel="stylesheet" href="/AboutUS/aboutUs.css">
-            <link rel="stylesheet" href="/Services/services.css">
-            <link rel="stylesheet" href="/Blog/blog.css">
-            <link rel="stylesheet" href="/mediaOcto/media.css">
-            <link rel="stylesheet" href="/errors/errors.css">
+            {#<link rel="stylesheet" href="/AboutUS/aboutUs.css">#}
+            {#<link rel="stylesheet" href="/Services/services.css">#}
+            {#<link rel="stylesheet" href="/Blog/blog.css">#}
+            {#<link rel="stylesheet" href="/mediaOcto/media.css">#}
+            {#<link rel="stylesheet" href="/errors/errors.css">#}
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.css" integrity="sha256-Qm8mv8NyEDwniBPKGqdKIpYT0KFZlWY7GJ2F0cs3N/g=" crossorigin="anonymous" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/item.css" integrity="sha256-Zmhl7JzF/rWYir2WAAbCgfX9pJtoQ43vQOYsRv6jqAo=" crossorigin="anonymous" />
@@ -34,6 +34,7 @@
     {% include '_footer.html.twig' %}
     {% block javascripts %}
         {{ encore_entry_script_tags('app') }}
+
     {% endblock %}
     </body>
 </html>

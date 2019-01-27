@@ -4,7 +4,6 @@
 {% block body %}
     {{ form_start(form) }}
     {{ form_row(form.title,{'attr':{'class':'nameArticle'}}) }}
-    {{ form_row(form.slug,{'attr':{'class':'nameArticle'}}) }}
     {{ form_row(form.description,{'attr':{'class':'nameArticle'}}) }}
     {% if article.getImg != null %}
         <img src="/uploads/{{ article.getImg }}" alt="Select your image" class="aImage" width="400px" height="auto">
