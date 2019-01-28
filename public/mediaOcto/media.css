@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 375px) {
     header section {
         display: none;
     }
@@ -14,10 +14,15 @@
     }
 
     .imgR img {
+<<<<<<< HEAD
+        width: 150px;
+        height: auto;
+=======
         /*width: 200px;*/
         /*height: auto;*/
         /*margin-top: 142px !important;*/
         display: none;
+>>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .pointers {
@@ -340,7 +345,7 @@
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) and (max-width: 414px) {
     header section {
         display: none;
     }
@@ -355,9 +360,14 @@
     }
 
     .imgR img {
+<<<<<<< HEAD
+        width: 300px !important;
+        height: auto;
+=======
         /*width: 200px !important;*/
         /*height: auto;*/
         display: none;
+>>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .imgR {
@@ -650,7 +660,7 @@
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) and (max-width: 768px) {
 
     header section {
         display: none;
@@ -944,7 +954,7 @@
 @media only screen and (max-width: 768px) {
 
     header section {
-
+        display: none;
     }
 
     .headerB ul li {
@@ -957,7 +967,8 @@
     }
 
     nav p {
-        padding: 0;
+
+        height: auto;
     }
 
     .octH h1 {
@@ -965,11 +976,20 @@
         margin-top: 0 !important;
     }
 
+    .imgS {
+        height: 67px;
+    }
+
     .imgR img {
+<<<<<<< HEAD
+        max-width: 400px;
+        height: auto;
+=======
         /*max-width: 300px;*/
         /*height: auto;*/
         display: none;
 
+>>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .pointers {
@@ -1065,7 +1085,8 @@
     }
 
     .OneSec {
-        height: 750px !important;
+        height: auto;
+        padding-bottom: 35px;
     }
 
     .blockTwo img {
@@ -1087,6 +1108,7 @@
         background-color: #171717 !important;
         background-image: none;
         margin-top: 150px;
+        padding-bottom: 25px;
     }
 
     .hInImg {
@@ -1103,6 +1125,8 @@
 
     .FourSec {
         max-width: 100%;
+        height: auto;
+        padding-bottom: 50px;
     }
 
     .oneObj, .twoObj {
@@ -1234,6 +1258,328 @@
         margin: 25px 30px;
     }
 
+
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    header section {
+        display: none;
+    }
+
+    .headerB ul li {
+        font-size: 10px;
+    }
+
+    #imgInHL {
+        width: 70px;
+        height: auto;
+    }
+
+    nav p {
+
+        height: auto;
+    }
+
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0 !important;
+    }
+
+    .imgS {
+        height: 67px;
+    }
+
+    .imgR img {
+        width: 400px;
+        height: auto;
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
+
+    #imgLineMain {
+        display: none;
+    }
+
+    .buttonBlock {
+        max-width: 33.333%;
+    }
+
+    .conFImg, infoFS {
+        max-width: 33.333%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .iconsMes {
+        display: none;
+    }
+
+    .listF ul {
+        display: none;
+    }
+
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .artO h3, p {
+        font-size: 10px !important;
+        padding: 0 50px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        text-shadow: 1px 1px 40px black, 0 0 1em white;
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf  {
+        line-height: inherit!important;
+    }
+
+    .ThereSec {
+        height: auto;
+        background-color: #171717 !important;
+        background-image: none;
+        margin-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: none;
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
+    }
+
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px !important;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: 2500px;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: 2000px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
+    }
 
 
     #radius p {
