@@ -14,11 +14,7 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
         display: none;
-=======
-         display: none;
->>>>>>> a3bfcc895a2115101df6037deb1338784dcfeaae
     }
     .pointers {
         margin-top: 55px;
@@ -362,14 +358,7 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        /*width: 200px !important;*/
-        /*height: auto;*/
         display: none;
-
-=======
-        display: none;
->>>>>>> a3bfcc895a2115101df6037deb1338784dcfeaae
     }
 
     .imgR {
@@ -995,11 +984,6 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        /*max-width: 300px;*/
-        /*height: auto;*/
-=======
->>>>>>> a3bfcc895a2115101df6037deb1338784dcfeaae
         display: none;
     }
 
@@ -1627,7 +1611,7 @@
 
     .ThereSec {
         height: auto;
-        padding-bottom: 215px;
+        padding-bottom: 275px;
     }
 
     .firstButton {
