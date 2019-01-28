@@ -14,15 +14,7 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        width: 150px;
-        height: auto;
-=======
-        /*width: 200px;*/
-        /*height: auto;*/
-        /*margin-top: 142px !important;*/
         display: none;
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .pointers {
@@ -360,14 +352,10 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        width: 300px !important;
-        height: auto;
-=======
         /*width: 200px !important;*/
         /*height: auto;*/
         display: none;
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
+
     }
 
     .imgR {
@@ -981,15 +969,9 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        max-width: 400px;
-        height: auto;
-=======
         /*max-width: 300px;*/
         /*height: auto;*/
         display: none;
-
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .pointers {
