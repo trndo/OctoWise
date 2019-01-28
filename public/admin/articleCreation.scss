@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
 
-  padding: 15px 0;
+  padding: 80px 0;
 
   h3 {
     font-weight: 400;
@@ -19,6 +19,19 @@
     border: 1px solid #979797;
     resize: none;
     margin: 15px 0;
+  }
+
+  form {
+    div {
+      padding: 10px 0;
+
+      input {
+        width: 400px;
+        height: 50px;
+        text-align: center;
+      }
+
+    }
   }
 
 
@@ -57,4 +70,8 @@ form {
   color: white;
   width: 500px;
   height: 50px;
+}
+
+#articles_img {
+  padding: 15px 0 60px 0;
 }

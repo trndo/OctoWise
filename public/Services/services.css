@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column; }
 
-nav {
+nav {                  //Laggg
   text-align: center;
   padding: 100px 0; }
   nav p {
@@ -302,7 +302,7 @@ nav {
     height: 350px;
     background-color: #555555;
     margin: 0 15px;
-    border-radiusradius: 10px; }
+    border-radius: 10px; }
     .thereBlock div p {
       text-align: center;
       color: white !important;

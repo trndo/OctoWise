@@ -15,7 +15,7 @@ class UpdateModel
     private $title;
     private $text;
     private $img;
-    private $slug;
+//    private $slug;
     private $description;
 
     /**
@@ -34,21 +34,21 @@ class UpdateModel
         $this->description = $description;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getSlug()
-    {
-        return $this->slug;
-    }
-
-    /**
-     * @param mixed $slug
-     */
-    public function setSlug($slug): void
-    {
-        $this->slug = $slug;
-    }
+//    /**
+//     * @return mixed
+//     */
+//    public function getSlug()
+//    {
+//        return $this->slug;
+//    }
+//
+//    /**
+//     * @param mixed $slug
+//     */
+//    public function setSlug($slug): void
+//    {
+//        $this->slug = $slug;
+//    }
 
     /**
      * @return mixed
