@@ -14,17 +14,8 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        width: 150px;
-        height: auto;
-=======
-        /*width: 200px;*/
-        /*height: auto;*/
-        /*margin-top: 142px !important;*/
-        display: none;
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
+         display: none;
     }
-
     .pointers {
         margin-top: 55px;
 
@@ -176,6 +167,8 @@
 
     .inpInf input {
         border: 1px solid black;
+        padding: 0;
+        margin: 0;
     }
 
     #contacts_name, #contacts_email, #telNumb, #spaL  {
@@ -246,7 +239,7 @@
     }
 
     .descOfServ {
-        height: 3100px !important;
+        height: auto;
     }
 
     .workEx div {
@@ -302,6 +295,11 @@
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
+    }
+
+    #newCol {
+        position: relative;
+        top: 1px;
     }
 
 
@@ -360,14 +358,7 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        width: 300px !important;
-        height: auto;
-=======
-        /*width: 200px !important;*/
-        /*height: auto;*/
         display: none;
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .imgR {
@@ -596,7 +587,8 @@
     }
 
     .descOfServ {
-        height: 3100px;
+        height: auto !important;
+        padding-bottom: 200px;
     }
 
     .workEx div {
@@ -656,6 +648,11 @@
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
+    }
+
+    #newCol {
+        position: relative;
+        top: 1px;
     }
 
 }
@@ -907,7 +904,8 @@
     }
 
     .descOfServ {
-        height: 2300px;
+        height: auto !important;
+        padding-bottom: 200px;
     }
 
     .workEx div {
@@ -949,6 +947,11 @@
         margin: 25px 30px;
     }
 
+    #newCol {
+        position: relative;
+        top: 1px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -981,15 +984,7 @@
     }
 
     .imgR img {
-<<<<<<< HEAD
-        max-width: 400px;
-        height: auto;
-=======
-        /*max-width: 300px;*/
-        /*height: auto;*/
         display: none;
-
->>>>>>> 848c29abc366b8250abf400541b2e5f21cc08688
     }
 
     .pointers {
@@ -1216,7 +1211,9 @@
     }
 
     .descOfServ {
-        height: 2500px;
+        height: auto !important;
+        padding-bottom: 200px;
+
     }
 
     .workEx div {
@@ -1230,6 +1227,7 @@
 
     .thereBlock div {
         height: 150px;
+        width: 90%;
         margin: 15px 25px;
     }
 
@@ -1240,7 +1238,8 @@
     }
 
     .costServ {
-        height: 2000px;
+        height: auto !important;
+        padding-bottom: 100px;
     }
 
     .pricSch div h1 {
@@ -1290,7 +1289,7 @@
     }
 
     .headerB ul li {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     #imgInHL {
@@ -1364,7 +1363,7 @@
 
     .artO h3, p {
         font-size: 10px !important;
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
     .artO {
@@ -1514,7 +1513,7 @@
     }
 
     .contactUs {
-        height: 900px;
+        height: auto;
     }
 
     .fiveBlockContUs {
@@ -1539,7 +1538,8 @@
     }
 
     .descOfServ {
-        height: 2500px;
+        height: auto;
+        padding-bottom: 200px;
     }
 
     .workEx div {
@@ -1553,6 +1553,7 @@
 
     .thereBlock div {
         height: 150px;
+        width: 90%;
         margin: 15px 25px;
     }
 
@@ -1563,7 +1564,8 @@
     }
 
     .costServ {
-        height: 2000px;
+        height: auto;
+        padding-bottom: 100px;
     }
 
     .pricSch div h1 {
@@ -1600,4 +1602,25 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+}
+
+@media only screen and (max-width: 1920px) {
+    .imgR img {
+        max-width: 95%;
+    }
+
+    .ThereSec {
+        height: auto;
+        padding-bottom: 215px;
+    }
+
+    .firstButton {
+        padding: 15px 25px 0 25px;
+    }
+
+    .descOfServ {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
 }
