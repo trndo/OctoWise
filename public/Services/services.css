@@ -91,12 +91,11 @@ body {
   display: flex;
   flex-direction: column; }
 
-nav {                  //Laggg
+nav {
   text-align: center;
   padding: 100px 0; }
   nav p {
-    color: #979797;
-    margin-right: 150px; }
+    color: #979797; }
 
 .butInNav {
   color: white;
@@ -302,7 +301,7 @@ nav {                  //Laggg
     height: 350px;
     background-color: #555555;
     margin: 0 15px;
-    border-radius: 10px; }
+    border-radiusradius: 10px; }
     .thereBlock div p {
       text-align: center;
       color: white !important;
