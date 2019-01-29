@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom';
         document.getElementById('#')
     );
 
+                                        //JS
 
     var LInH = document.getElementById('LInH');
 
