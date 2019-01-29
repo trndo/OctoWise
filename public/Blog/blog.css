@@ -12,7 +12,8 @@ body {
       justify-content: center;
       font-size: 13px; }
       body .headerB ul a {
-        color: black; }
+        color: black;
+        transition: .5s; }
       body .headerB ul a:hover {
         color: #ed1c24;
         text-decoration: none; }

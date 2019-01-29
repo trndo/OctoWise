@@ -16,6 +16,7 @@ body {
         
         a {
             color: black;
+            transition: .5s;
         }
         
         a:hover {
@@ -27,7 +28,6 @@ body {
         li {
             list-style-type: none;
             padding: 10px 15px;
-
         }
     }
 }
