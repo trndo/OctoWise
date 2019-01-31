@@ -1,3 +1,5 @@
-    $('button').on('click', function(){
+
+
+    $('button').on('click', function() {
         $('body').toggleClass('open');
     });
