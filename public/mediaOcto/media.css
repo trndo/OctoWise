@@ -1,12 +1,14 @@
 
 @media only screen and (max-width: 320px) and (max-width: 375px) {
-    header section {
+    .headInf {
         display: none;
     }
 
     nav p {
         padding: 0;
     }
+
+
 
     .octH h1 {
         font-size: 30px;
@@ -372,7 +374,7 @@
 
 
 @media only screen and (max-width: 375px) and (max-width: 414px) {
-    header section {
+    .headInf {
         display: none;
     }
 
@@ -701,7 +703,7 @@
 
 @media only screen and (max-width: 414px) and (max-width: 768px) {
 
-    header section {
+    .headInf {
         display: none;
     }
 
@@ -1037,7 +1039,7 @@
 
 @media only screen and (max-width: 768px) {
 
-    header section {
+    .headInf {
         display: none;
     }
 
@@ -1381,6 +1383,10 @@
 
 @media only screen and (max-width: 1024px)  {
 
+    /*.adptiveMenu {*/
+        /*display: none;*/
+    /*}*/
+
     header section {
         /*display: none;*/
     }
@@ -1711,6 +1717,10 @@
         width: 100%;
     }
 
+    /*.adptiveMenu {*/
+        /*display: none;*/
+    /*}*/
+
 }
 
 
@@ -1738,5 +1748,9 @@
         padding: 0;
         margin: 0;
     }
+
+    /*.adptiveMenu {*/
+        /*display: none;*/
+    /*}*/
 
 }
