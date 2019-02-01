@@ -1744,9 +1744,13 @@
         max-width: 95%;
     }
 
+    .buttonInInfBlock a {
+        margin: 140px 0;
+    }
+
     .ThereSec {
         height: auto;
-        padding-bottom: 215px;
+        /*padding-bottom: 280px;*/
     }
 
     .firstButton {

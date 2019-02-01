@@ -6,7 +6,7 @@ body {
     text-align: left;
     padding: 0; }
   body .headerB {
-    z-index: 999; }
+    z-index: 599; }
     body .headerB ul {
       list-style-type: none;
       text-decoration: none;
@@ -93,12 +93,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 270px;
-}
-
-.pointers img {
-  z-index: 1;
-}
+  margin-top: 270px; }
 
 .OneSec {
   width: 100%;
@@ -161,7 +156,7 @@ body {
   background-image: url(../img/ServicesBackground.svg);
   max-width: 100%;
   height: auto;
-  padding-bottom: 250px; }
+  padding-bottom: 283px; }
 
 #imgSB {
   width: 100%;
