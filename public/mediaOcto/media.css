@@ -8,7 +8,9 @@
         padding: 0;
     }
 
-
+    .nav__item  {
+        z-index: 999;
+    }
 
     .octH h1 {
         font-size: 30px;
@@ -83,7 +85,7 @@
     .BuCen p {
         color: black;
         font-weight: 700;
-        text-shadow: 1px 1px 40px black, 0 0 1em white;
+        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -378,6 +380,10 @@
         display: none;
     }
 
+    .adptiveMenu {
+        z-index: 999;
+    }
+
     nav p {
         padding: 0;
     }
@@ -472,7 +478,7 @@
     .BuCen p {
         color: black;
         font-weight: 700;
-        text-shadow: 1px 1px 40px black, 0 0 1em white;
+        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -709,6 +715,10 @@
 
     nav p {
         padding: 0;
+    }
+
+    .adptiveMenu {
+        z-index: 999;
     }
 
     .octH h1 {
@@ -1041,6 +1051,10 @@
 
     .headInf {
         display: none;
+    }
+
+    .adptiveMenu {
+        z-index: 999;
     }
 
     .headerB ul li {
@@ -1383,9 +1397,9 @@
 
 @media only screen and (max-width: 1024px)  {
 
-    /*.adptiveMenu {*/
-        /*display: none;*/
-    /*}*/
+    .adptiveMenu {
+        z-index: 999;
+    }
 
     header section {
         /*display: none;*/
@@ -1488,7 +1502,7 @@
     .BuCen p {
         color: black;
         font-weight: 700;
-        text-shadow: 1px 1px 40px black, 0 0 1em white;
+        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -1717,9 +1731,9 @@
         width: 100%;
     }
 
-    /*.adptiveMenu {*/
-        /*display: none;*/
-    /*}*/
+    .adptiveMenu {
+        display: none;
+    }
 
 }
 
@@ -1749,8 +1763,8 @@
         margin: 0;
     }
 
-    /*.adptiveMenu {*/
-        /*display: none;*/
-    /*}*/
+    .adptiveMenu {
+        display: none;
+    }
 
 }
