@@ -93,7 +93,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 270px; }
+  margin-top: 270px;
+}
+
+.pointers img {
+  z-index: 1;
+}
 
 .OneSec {
   width: 100%;
