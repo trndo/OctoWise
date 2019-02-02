@@ -1,5 +1,57 @@
 
 @media only screen and (max-width: 320px) and (max-width: 375px) {
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 999 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
+
     .headInf {
         display: none;
     }
@@ -376,12 +428,59 @@
 
 
 @media only screen and (max-width: 375px) and (max-width: 414px) {
-    .headInf {
-        display: none;
+
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 999 !important;
     }
 
     .adptiveMenu {
-        z-index: 999;
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
+
+    .headInf {
+        display: none;
     }
 
     nav p {
@@ -709,6 +808,55 @@
 
 @media only screen and (max-width: 414px) and (max-width: 768px) {
 
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 999 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
+
     .headInf {
         display: none;
     }
@@ -717,9 +865,6 @@
         padding: 0;
     }
 
-    .adptiveMenu {
-        z-index: 999;
-    }
 
     .octH h1 {
         font-size: 30px;
@@ -1049,13 +1194,59 @@
 
 @media only screen and (max-width: 768px) {
 
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 999 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
     .headInf {
         display: none;
     }
 
-    .adptiveMenu {
-        z-index: 999;
-    }
 
     .headerB ul li {
         font-size: 10px;
@@ -1397,9 +1588,55 @@
 
 @media only screen and (max-width: 1024px)  {
 
-    .adptiveMenu {
-        z-index: 999;
+
+    body p {
+        z-index: 199 !important;
     }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 199 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
 
     header section {
         /*display: none;*/

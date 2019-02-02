@@ -5,6 +5,12 @@ body {
   body nav {
     text-align: left;
     padding: 0; }
+  body p {
+    z-index: 100 !important; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    z-index: 100 !important; }
+  body .adptiveMenu {
+    z-index: 999 !important; }
   body .headerB {
     z-index: 599; }
     body .headerB ul {
