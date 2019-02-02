@@ -11,7 +11,6 @@
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 
-
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 const $ = require('jquery');
 

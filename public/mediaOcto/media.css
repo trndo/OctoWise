@@ -21,6 +21,11 @@
         z-index: 999 !important;
     }
 
+    .header img {
+        display: flex;
+        justify-content: center;
+    }
+
     .nav-burger__checkbox {
         z-index: 999 !important;
     }
