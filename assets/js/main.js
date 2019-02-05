@@ -4,16 +4,15 @@ import ReactDOM from 'react-dom';
 
     ReactDOM.render(
         <div>
-            <h1>Hello friend</h1>
+            alert('Work');
         </div>,
-        document.getElementById('#')
+        document.getElementById('contacts_save')
     );
 
                                         //JS
-
-    var LInH = document.getElementById('LInH');
+    var LInH = document.getElementById('contacts_save');
 
     LInH.addEventListener('click', function () {
-        alert('Work this button');
+        alert('Ваше письмо было отправленно');
     });
 
