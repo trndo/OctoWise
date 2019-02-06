@@ -95,7 +95,10 @@ nav {
   text-align: center;
   padding: 100px 0; }
   nav p {
-    color: #979797; }
+    color: #979797;
+    text-align: center; }
+  nav h1 {
+    text-align: center; }
 
 .butInNav {
   color: white;
@@ -231,8 +234,7 @@ nav {
   .desScr h2 {
     color: white; }
   .desScr p {
-    color: #999999;
-    margin-left: 150px; }
+    color: #999999; }
 
 .fiveBlockContUs {
   display: flex;
@@ -258,7 +260,7 @@ nav {
 
 .descOfServ {
   width: 100%;
-  height: 1300px;
+  height: 1100px;
   background-color: #242424; }
 
 .infoServ {
@@ -273,7 +275,8 @@ nav {
     color: #cccccc;
     text-align: center; }
   .infoServ ul {
-    color: lightgray; }
+    color: lightgray;
+    width: 80%; }
 
 .buttonServ {
   display: flex;
@@ -305,7 +308,7 @@ nav {
     .thereBlock div p {
       text-align: center;
       color: white !important;
-      margin-top: 300px;
+      margin-top: 200px;
       font-size: 20px; }
 
 .buttonOuW {

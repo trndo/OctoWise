@@ -137,7 +137,10 @@ nav {
     padding: 100px 0;
     p {
         color: #979797;
-        //margin-right: 150px;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
     }
 }
 
@@ -320,7 +323,7 @@ nav {
     }
     p {
         color: #999999;
-        margin-left: 150px;
+        //margin-left: 150px;
     }
 }
 
@@ -355,7 +358,7 @@ nav {
 
 .descOfServ {
     width: 100%;
-    height: 1300px;
+    height: 1100px;
     background-color: #242424;
 }
 
@@ -375,6 +378,7 @@ nav {
     }
     ul {
         color: lightgray;
+        width: 80%;
         li {
 
         }
@@ -417,7 +421,7 @@ nav {
         p {
             text-align: center;
             color: white !important;
-            margin-top: 300px;
+            margin-top: 200px;
             font-size: 20px;
         }
     }
