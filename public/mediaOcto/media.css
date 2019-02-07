@@ -1797,7 +1797,7 @@
         background-color: #171717 !important;
         background-image: none;
         /*margin-top: 150px;*/
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
 
     .hInImg {
@@ -1969,11 +1969,61 @@
     }
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1920px)  {
+@media only screen and (max-width: 1440px)  {
 
-    .imgR img {
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 199 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
         width: 100%;
     }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .imgR img {
+       max-width: 95%;
+    }
+
+    .ThereSec {
+        height: auto;
+        background-color: #171717 !important;
+        background-image: none;
+        /*padding-bottom: 200px;*/
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px)  {
+
+
 
     .adptiveMenu {
         display: none;

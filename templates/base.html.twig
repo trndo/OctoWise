@@ -16,6 +16,8 @@
             <link rel="stylesheet" href="/errors/errors.css">
             <link rel="stylesheet" href="/choicePage/choicePage.css">
             <link rel="stylesheet" href="/adaptiveMenu/adaptiveMenu.css">
+            <link rel="stylesheet" href="/Blog/articleCSS/style.css">
+
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.css" integrity="sha256-Qm8mv8NyEDwniBPKGqdKIpYT0KFZlWY7GJ2F0cs3N/g=" crossorigin="anonymous" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/item.css" integrity="sha256-Zmhl7JzF/rWYir2WAAbCgfX9pJtoQ43vQOYsRv6jqAo=" crossorigin="anonymous" />
@@ -23,6 +25,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/menu.css" integrity="sha256-QXVhP5B9h80o2da7dZ1P0o/iU6y/q26xiudmCtphp5k=" crossorigin="anonymous" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
+            
             <link rel="shortcut icon" href="{{ asset('/img/Logo.jpg') }}" type="image/x-icon">
 
 
@@ -43,6 +46,8 @@
 
     {% block javascripts %}
         {{ encore_entry_script_tags('app') }}
+        {{ encore_entry_script_tags('adaptiveMenu') }}
+        {{ encore_entry_script_tags('adaptiveMenu') }}
 
     {% endblock %}
     </body>
