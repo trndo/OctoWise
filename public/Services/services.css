@@ -102,7 +102,7 @@ nav {
 
 .butInNav {
   color: white;
-  background-color: #363636;
+  background-color: white;
   text-align: center;
   align-items: center;
   margin: 100px 100px;
@@ -111,7 +111,7 @@ nav {
   .butInNav p {
     padding: 13px 20px;
     margin: 0;
-    color: white !important; }
+    color: black !important; }
 
 .butPos {
   display: flex;

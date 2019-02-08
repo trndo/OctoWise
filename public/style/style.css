@@ -132,7 +132,7 @@ body {
 .Serv {
   color: white;
   border: 5px solid white;
-  padding: 10px 100px;
+  padding: 7px 80px;
   margin-top: 50px; }
   .Serv a {
     color: white; }
@@ -328,18 +328,21 @@ body {
 .brifC a {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 250px; }
+  align-items: center; }
 
-.buttonBlock div {
+.buttonBlock {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 20px; }
-  .buttonBlock div p {
-    color: black !important;
-    text-align: center;
-    align-items: center; }
+  justify-content: center; }
+  .buttonBlock div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; }
+    .buttonBlock div p {
+      color: black !important;
+      text-align: center;
+      align-items: center; }
 
 .firstButton {
   font-size: 23px;
@@ -352,7 +355,7 @@ body {
   font-size: 23px;
   color: white;
   background-color: red;
-  padding: 10px !important;
+  padding: 17px !important;
   margin-left: 20px !important; }
 
 .blogTextInf {
@@ -368,7 +371,7 @@ body {
   justify-content: center;
   margin-top: 150px; }
   .buttonInInfBlock button {
-    padding: 10px 20px;
+    padding: 15px 35px;
     border: none;
     background-color: white;
     cursor: pointer; }
