@@ -12,12 +12,12 @@ aboutUs:
   defaults:
     template: pages/aboutUsPage.html.twig
 services:
+  path: /choiceService
+  controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
+  defaults:
+    template: pages/newServicesPage.html.twig
+choiceService:
   path: /services
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/servicesPage.html.twig
-choiceService:
-  path: /choiceService
-  controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
-  defaults:
-    template: pages/choiceServicePage.html.twig

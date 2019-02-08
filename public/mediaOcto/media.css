@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 320px) and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
 
     body p {
         z-index: 199 !important;
@@ -11,6 +11,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: block !important;
     }
 
     .containerMenu {
@@ -432,7 +433,7 @@
 
 
 
-@media only screen and (max-width: 375px) and (max-width: 414px) {
+@media only screen and (max-width: 375px) {
 
 
     body p {
@@ -445,6 +446,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: block !important;
     }
 
     .containerMenu {
@@ -811,7 +813,7 @@
 
 }
 
-@media only screen and (max-width: 414px) and (max-width: 768px) {
+@media only screen and (max-width: 414px) {
 
     body p {
         z-index: 199 !important;
@@ -823,6 +825,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: block !important;
     }
 
     .containerMenu {
@@ -1210,6 +1213,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: block !important;
     }
 
     .containerMenu {
@@ -1593,6 +1597,9 @@
 
 @media only screen and (max-width: 1024px)  {
 
+    header {
+        display: none !important;
+    }
 
     body p {
         z-index: 199 !important;
@@ -1604,6 +1611,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: block !important;
     }
 
     .containerMenu {
@@ -1672,7 +1680,7 @@
     }
 
     .imgR img {
-        width: 58%;
+        width: 48%;
         height: auto;
     }
 
@@ -1969,7 +1977,7 @@
     }
 }
 
-@media only screen and (max-width: 1440px)  {
+@media only screen and (max-width: 1440px) and (max-width: 1920px)  {
 
 
     body p {
@@ -1982,6 +1990,7 @@
 
     .adptiveMenu {
         z-index: 999 !important;
+        display: none;
     }
 
     .containerMenu {

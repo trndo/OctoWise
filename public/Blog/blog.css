@@ -109,7 +109,8 @@ body {
     height: auto;
     text-align: center;
     background-color: lightgray;
-    margin: 100px 0; }
+    margin: 100px 0;
+    border-radius: 10px; }
 
 .oneObj, .twoObj {
   background-color: white;
@@ -135,7 +136,8 @@ body {
   justify-content: center;
   align-items: center; }
   .imgInOneObj img {
-    width: 80%; }
+    width: 80%;
+    padding: 50px 0; }
 
 .numPage {
   display: flex;
@@ -152,5 +154,8 @@ body {
       background-color: white;
       border: 1px solid black;
       border-radius: 100%; }
+
+#clockInBlog {
+  margin-right: 3px; }
 
 /*# sourceMappingURL=blog.css.map */
