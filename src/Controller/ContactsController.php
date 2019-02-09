@@ -19,7 +19,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ContactsController extends AbstractController
 {
     /**
-     * @Route("/sendEmail",name="contacts")
+     * @Route("/addToLog",name="contacts")
      */
     public function addToLog(Request $request,MailSender $mail)
     {
@@ -28,22 +28,34 @@ class ContactsController extends AbstractController
 
         $form->handleRequest($request);
 
-
         if($form->isSubmitted() && $form->isValid()) {
 
             $data = $form->getData();
-            $mail->sendMessage($data);
+
+            //$this->addFlash('notice','mail sent');
             $em = $this->getDoctrine()->getManager();
             $em->persist($data);
             $em->flush();
 
-            return $this->redirectToRoute('home');
-        }
+            return $this->redirectToRoute('sendEmail',['id'=> $data->getId()]);
+        }r
         return $this->render('components/contactForm.html.twig', [
             'form' => $form->createView()
-        ]);
+        ]);r
     }
 
+    /**
+     * @Route("/sendEmail",name="sendEmail")
+     */
+    public function sendEmail(Request $request, MailSender $mail)
+    {
+        $inform = $request->query->get('id');
+        $repoContacts = $this->getDoctrine()->getRepository(Contacts::class);
+        $data = $repoContacts->findOneBy(['id' => $inform]);
 
+        $mail->sendMessage($data);
+
+        return $this->redirectToRoute('/');
+    }
 
 }
