@@ -38,10 +38,10 @@ class ContactsController extends AbstractController
             $em->flush();
 
             return $this->redirectToRoute('sendEmail',['id'=> $data->getId()]);
-        }r
+        }
         return $this->render('components/contactForm.html.twig', [
             'form' => $form->createView()
-        ]);r
+        ]);
     }
 
     /**
