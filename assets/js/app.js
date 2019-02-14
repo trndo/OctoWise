@@ -30,9 +30,9 @@
 
 
 
-    var LInH = document.getElementById('contacts_save');
-
-    LInH.addEventListener('click', function () {
-        alert('Ваше письмо было отправленно');
-    });
+    // var LInH = document.getElementById('contacts_save');
+    //
+    // LInH.addEventListener('click', function () {
+    //     alert('Ваше письмо было отправленно');
+    // });
 
