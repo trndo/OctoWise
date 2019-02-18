@@ -37,10 +37,10 @@
                 </div>
 
                 <div class="row firstB">
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Сайт визитка <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Сайт каталог <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('landingPage') }}"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('choiceService') }}"><p>Сайт визитка <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('siteDirectory') }}"><p>Сайт каталог <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('business') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
                 </div>
 
                 <div class="row oneB">
@@ -73,8 +73,8 @@
                 </div>
 
                 <div class="row firstB">
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="#"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('landingPage') }}"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('business') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
                 </div>
 
                 <div class="row oneB">
@@ -96,7 +96,7 @@
                         <p>
                             Давайте создадим удобный и красивый интерфейс для вашего проекта
                         </p>
-                        <a href="{{ path('choiceService') }}"><button>Узнайте больше <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="{{ path('designPage') }}"><button>Узнайте больше <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
                 {{ render_esi(url(
