@@ -35,7 +35,7 @@ class ArticlesController extends AbstractController
     }
 
     /**
-     * @Route("/blog/article/{slug}",name="article")
+     * @Route("/blog/{slug}",name="article")
      */
     public function showArticle($slug)
     {

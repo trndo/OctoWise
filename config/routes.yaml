@@ -16,33 +16,33 @@ services:
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/servicesPage.html.twig
-choiceService:
-  path: /choiceService
+cardSite:
+  path: /services/cardSite
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/newServicesPage.html.twig
 business:
-  path: /businessPage
+  path: /services/storeSite
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/newBusinesSite.html.twig
 designPage:
-  path: /designPage
+  path: /services/designPage
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
-    template: pages/newBusinesSite.html.twig
+    template: pages/newDesignPage.html.twig
 landingPage:
-  path: /landingPage
+  path: /services/landingPage
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/newLandingPage.html.twig
 seoPage:
-  path: /seoPage
+  path: /services/seoPage
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/newSEOPage.html.twig
 siteDirectory:
-  path: /seoPage
+  path: /services/directorySite
   controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
   defaults:
     template: pages/newSiteDirectory.html.twig
