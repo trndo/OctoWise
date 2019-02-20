@@ -454,7 +454,36 @@
     }
 
     .creatF {
-        padding: 20px 0;
+        padding: 10px 0;
+    }
+
+    .firstB div {
+        width: 90% !important;
+        margin: 5px 0;
+    }
+
+    .creatF a p {
+        font-size: 30px !important;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .seoW {
+        padding-top: 450px;
+    }
+
+    .seoInf p {
+        font-size: 13px !important;
+    }
+
+    .designW {
+        padding-top: 250px;
+    }
+
+    .desB {
+        text-align: center;
     }
 
 }
@@ -860,6 +889,40 @@
     }
 
     .seoInf h1 {
+        text-align: center;
+    }
+
+
+    .creatF {
+        padding: 10px 0;
+    }
+
+    .firstB div {
+        width: 90% !important;
+        margin: 5px 0;
+    }
+
+    .creatF a p {
+        font-size: 30px !important;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .seoW {
+        padding-top: 450px;
+    }
+
+    .seoInf p {
+        font-size: 13px !important;
+    }
+
+    .designW {
+        padding-top: 250px;
+    }
+
+    .desB {
         text-align: center;
     }
 
@@ -1271,6 +1334,40 @@
     }
 
     .seoInf h1 {
+        text-align: center;
+    }
+
+
+    .creatF {
+        padding: 10px 0;
+    }
+
+    .firstB div {
+        width: 90% !important;
+        margin: 5px 0;
+    }
+
+    .creatF a p {
+        font-size: 30px !important;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .seoW {
+        padding-top: 450px;
+    }
+
+    .seoInf p {
+        font-size: 13px !important;
+    }
+
+    .designW {
+        padding-top: 250px;
+    }
+
+    .desB {
         text-align: center;
     }
 
@@ -1691,6 +1788,14 @@
         text-align: center;
     }
 
+    .oneB {
+        display: none !important;
+    }
+
+    .firstB {
+        padding-bottom: 200px;
+    }
+
 }
 
 
@@ -2099,6 +2204,14 @@
 
     .seoInf h1 {
         text-align: center;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .firstB {
+        padding-bottom: 130px;
     }
 }
 

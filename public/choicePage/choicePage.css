@@ -180,24 +180,24 @@ body {
     padding-left: 50px;
 }
 
-.firstB div {
-    border-radius: 10px;
-    margin: 0 47px;
-}
+/*.firstB div {*/
+    /*border-radius: 10px;*/
+    /*margin: 0 47px;*/
+/*}*/
 
-.firstB div p {
-    color: lightgray;
-    text-align: center;
-    line-height: 1px;
-}
+/*.firstB div p {*/
+    /*color: lightgray;*/
+    /*text-align: center;*/
 
-.firstB div p::after {
-    content: url("../img/iconsNum.svg");
-}
+/*}*/
+
+/*.firstB div p::after {*/
+    /*content: url("../img/iconsNum.svg");*/
+/*}*/
 
 .creatF {
     background-color: #222222;
-    padding: 20px 45px 5px 45px;
+    /*padding: 20px 45px 5px 45px;*/
 }
 
 .oneB div {

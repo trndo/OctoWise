@@ -126,33 +126,38 @@ nav {
 .creatInf {
   color: lightgray;
   text-align: left;
-  padding: 50px 0; }
+  padding: 50px 0;
+  height: auto; }
   .creatInf p {
     color: #979797;
     padding-left: 50px; }
 
-.firstB div {
-  border-radius: 10px;
-  margin: 0 47px; }
-  .firstB div p {
-    color: lightgray;
-    text-align: center;
-    line-height: 1px; }
-  .firstB div p::after {
-    content: url("../img/iconsNum.svg"); }
+.firstB {
+  height: 100px;
+  display: flex;
+  justify-content: space-around; }
+  .firstB div {
+    border-radius: 10px; }
+    .firstB div p {
+      color: lightgray;
+      text-align: center;
+      margin-top: 35px;
+      font-size: 15px; }
 
 .creatF {
-  background-color: #222222;
-  padding: 20px 45px 5px 45px; }
+  background-color: #222222; }
 
-.oneB div {
-  margin: 10px 47px;
-  text-align: center;
-  border: 2px solid #242424;
-  border-radius: 10px;
-  padding: 15px 0; }
-  .oneB div p {
-    color: #555555; }
+.oneB {
+  display: flex;
+  justify-content: space-around; }
+  .oneB div {
+    margin: 10px 47px;
+    text-align: center;
+    border: 2px solid #242424;
+    border-radius: 10px;
+    padding: 15px 0; }
+    .oneB div p {
+      color: #555555; }
 
 .twoS {
   padding: 25px 300px;
@@ -171,7 +176,7 @@ nav {
 .seoW {
   background-color: #242424;
   width: 100%;
-  height: 700px; }
+  height: auto !important; }
 
 .seoInf {
   color: lightgray;

@@ -179,6 +179,7 @@ nav {
     color: lightgray;
     text-align: left;
     padding: 50px 0;
+    height: auto;
     p {
         color: #979797;
         padding-left: 50px;
@@ -186,27 +187,31 @@ nav {
 }
 
 .firstB {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
     div {
         border-radius: 10px;
-        margin: 0 47px;
+
+
         p {
             color: lightgray;
             text-align: center;
-            line-height: 1px;
+            margin-top: 35px;
+            font-size: 15px;
         }
-        p::after {
-            content: url("../img/iconsNum.svg");
-        }
+
     }
 }
 
 .creatF {
     background-color: #222222;
-    padding: 20px 45px 5px 45px;
-
 }
 
 .oneB {
+    display: flex;
+    justify-content: space-around;
     div {
         margin: 10px 47px;
         text-align: center;
@@ -240,7 +245,7 @@ nav {
 .seoW {
     background-color: #242424;
     width: 100%;
-    height: 700px;
+    height: auto !important;
 }
 
 .seoInf {
