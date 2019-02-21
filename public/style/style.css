@@ -376,4 +376,13 @@ body {
     background-color: white;
     cursor: pointer; }
 
+.articleTwo {
+  text-align: center; }
+
+.headT {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 25px 10px; }
+
 /*# sourceMappingURL=style.css.map */

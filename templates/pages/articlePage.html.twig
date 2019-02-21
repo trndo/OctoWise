@@ -5,19 +5,60 @@
 {% block body %}
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 articleOn">
-                <h1>{{ articles.title }}</h1>
-                <p>{{ articles.CreatedAt|date('Y-m-d') }}</p>
-                <img src="/uploads/{{ articles.img }}">
-                <br>
-                <p>{{ articles.text|raw }}</p>
+    <nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 articleOn">
+                    <img src="../../public/img/RectangleOne.png" alt="IMG">
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <section>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 headT">
+                        <h1>Главный заголовок</h1>
+
+                        <p><i id="clockInBlog" class="far fa-clock">05/12/2018</i></p>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 articleTwo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorem id illo nam nisi, placeat quas quia ratione repellat repudiandae! Architecto commodi dolorum, esse modi obcaecati quisquam sequi! Amet, autem dolorum eos laborum nostrum numquam optio sed sit ullam voluptatum! Aliquam deserunt labore laboriosam obcaecati ratione totam. Facilis, nemo, quod. Accusamus aliquam aliquid asperiores, aspernatur fugiat illo porro qui ratione saepe. Accusamus accusantium ad architecto aut beatae blanditiis consequuntur dolorem ducimus exercitationem explicabo fuga impedit magnam, maxime, nam nemo odio officia porro possimus quasi repellendus rerum saepe sequi vel. Aspernatur dolor eos et fuga laboriosam nihil similique ullam voluptatibus? Blanditiis.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 articleTwo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae culpa dolorem, doloremque inventore ipsum iusto labore officia placeat porro quis quo quod rerum voluptates voluptatum. Cupiditate earum ex facere facilis inventore. Accusantium blanditiis cupiditate debitis dicta dignissimos doloribus eligendi excepturi ipsam iste libero minima molestias nemo neque nihil quia quidem quisquam ratione, rem sapiente tempore. Accusantium aliquam dolores error maxime natus necessitatibus nulla perspiciatis, ullam! Beatae cumque dolor ex in non quam quod, sequi? Ad atque dolorem ducimus enim esse excepturi exercitationem facilis, illo laudantium nulla quam quasi sapiente similique tenetur, velit! Accusamus inventore itaque necessitatibus obcaecati possimus quo!</p>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+
+
+                                                     {#Пагинация#}
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 numPage">
+            <div class="navigation">
+
             </div>
         </div>
     </div>
-
-
+    
 
 
 {% endblock %}
