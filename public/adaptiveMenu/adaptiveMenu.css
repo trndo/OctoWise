@@ -5,15 +5,18 @@
     width: 100%;
     margin: 0 auto;
     position: fixed;
+
 }
 .header {
     height: 55px;
     background-color: #333;
     position: relative;
+
 }
 
 span {
     font-weight: 900;
+
 }
 
 
@@ -24,6 +27,8 @@ span {
     left: 0%;
     z-index: 100;
     display: none;
+
+
 }
 .nav__item {
     display: block;
@@ -36,6 +41,7 @@ span {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #333;
+
 }
 
 /*.nav__item:not(:first-of-type) {*/
@@ -49,16 +55,19 @@ span {
 
 .nav__item:last-of-type {
     box-shadow: inset 0 -5px 10px -5px rgba(0, 0, 0, 0.4);
+
 }
 
 .nav__item:hover {
     background-color: #2768c1;
+
 }
 
 
 .nav__item:active {
     background-color: black;
     color: #fff;
+
 }
 
 
@@ -74,17 +83,22 @@ span {
     top: 16px;
     right: 20px;
     z-index: 1;
+    transition: 0.5s;
+
 }
 
 .nav-burger__checkbox {
     display: none;
+
 }
 
 .nav-burger__checkbox:checked + .nav-burger {
     background-image: url("../img/icon-cross.svg");
+
 }
 
 .nav-burger__checkbox:checked ~ .nav {
     display: block;
+
 }
 

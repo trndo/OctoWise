@@ -2256,7 +2256,7 @@
     }
 
     .imgR img {
-       max-width: 95%;
+       max-width: 95.6%;
     }
 
     .ThereSec {
@@ -2290,7 +2290,7 @@
 
     .ThereSec {
         height: auto;
-        /*padding-bottom: 280px;*/
+        padding-bottom: 75px;
     }
 
     .firstButton {
@@ -2309,6 +2309,10 @@
 
     .adptiveMenu {
         display: none;
+    }
+
+    .buttonInInfBlock {
+        margin-top: 0;
     }
 
 }
