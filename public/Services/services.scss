@@ -187,13 +187,19 @@ nav {
 }
 
 .firstB {
-    height: 100px;
+    height: 100px !important;
     display: flex;
     justify-content: space-around;
 
+    a {
+        height: 100px !important;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
     div {
         border-radius: 10px;
-
 
         p {
             color: lightgray;
@@ -207,6 +213,8 @@ nav {
 
 .creatF {
     background-color: #222222;
+    width: 100% !important;
+    height: auto;
 }
 
 .oneB {
