@@ -1,6 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Blog{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="/Blog/blog.css">
+{% endblock %}
 {% block body %}
 
 

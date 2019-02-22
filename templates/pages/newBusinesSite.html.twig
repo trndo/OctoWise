@@ -1,6 +1,11 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Services{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="/choicePage/choicePage.css">
+    <link rel="stylesheet" href="/Services/services.css">
+{% endblock %}
 {% block body %}
 
 
