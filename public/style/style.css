@@ -1,103 +1,81 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  box-sizing: border-box;
-}
-body nav {
-  text-align: left;
-  padding: 0;
-}
-body p {
-  z-index: 100 !important;
-}
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  z-index: 100 !important;
-}
-body .adptiveMenu {
-  z-index: 999 !important;
-}
-body .headerB {
-  z-index: 599;
-}
-body .headerB ul {
-  list-style-type: none;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-body .headerB ul a {
-  color: black;
-}
-body .headerB ul a:hover {
-  color: #ed1c24;
-  text-decoration: none;
-}
-body .headerB li {
-  list-style-type: none;
-  padding: 10px 15px;
-}
-body .headerB li #bacRed {
-  background-color: red;
-  color: white;
-  padding: 7px 5px;
-}
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box; }
+  body nav {
+    text-align: left;
+    padding: 0; }
+  body p {
+    z-index: 100 !important; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    z-index: 100 !important; }
+  body .adptiveMenu {
+    z-index: 999 !important; }
+  body .headerB {
+    z-index: 599; }
+    body .headerB ul {
+      list-style-type: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px; }
+      body .headerB ul a {
+        color: black; }
+      body .headerB ul a:hover {
+        color: #ed1c24;
+        text-decoration: none; }
+    body .headerB li {
+      list-style-type: none;
+      padding: 10px 15px; }
+      body .headerB li #bacRed {
+        background-color: red;
+        color: white;
+        padding: 7px 5px; }
 
 #imgInHL {
   padding: 0 15px;
   width: 100px;
-  height: auto;
-}
+  height: auto; }
 
 #LInH {
   background-color: #ed1c24;
   color: white !important;
-  padding: 10px;
-}
+  padding: 10px; }
 
 #LInH:hover {
-  color: black !important;
-}
+  color: black !important; }
 
 .imgS {
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .imgR {
   z-index: 0;
   height: auto;
   position: absolute;
-  top: -1px;
-}
-.imgR img {
-  max-width: 89.3%;
-  height: auto;
-  float: right;
-}
+  top: -1px; }
+  .imgR img {
+    max-width: 89.3%;
+    height: auto;
+    float: right; }
 
 .octH {
   z-index: 100;
-  margin-top: 100px;
-}
-.octH h1 {
-  font-size: 50px;
-  font-weight: 300;
-  text-align: left;
-}
-.octH p {
-  color: #999999;
-  margin-left: 60px;
-  text-align: left;
-}
+  margin-top: 100px; }
+  .octH h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left; }
+  .octH p {
+    color: #999999;
+    margin-left: 60px;
+    text-align: left; }
 
 .infoO {
-  z-index: 100;
-}
-.infoO h1 {
-  font-size: 60px;
-}
+  z-index: 100; }
+  .infoO h1 {
+    font-size: 60px; }
 
 .BuCen {
   color: black;
@@ -107,17 +85,14 @@ body .headerB li #bacRed {
   margin-top: 100px;
   border: solid 1px black;
   width: 200px;
-  cursor: pointer;
-}
-.BuCen p {
-  padding: 10px;
-  margin: 0;
-}
+  cursor: pointer; }
+  .BuCen p {
+    padding: 10px;
+    margin: 0; }
 
 .Post {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .pointers {
   max-width: 100%;
@@ -125,160 +100,129 @@ body .headerB li #bacRed {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 270px;
-}
+  margin-top: 270px; }
 
 .OneSec {
   width: 100%;
   height: 1350px;
   background-color: #363636;
   z-index: 100;
-  margin-top: 43px;
-}
+  margin-top: 43px; }
 
 .LineP {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
-}
-.LineP h2 {
-  color: white;
-}
-.LineP p {
-  color: #979797;
-  margin-left: 100px;
-  font-style: italic;
-}
-.LineP #imgLineMain {
-  max-width: 50%;
-  height: auto;
-  z-index: 1;
-}
+  margin-top: 50px; }
+  .LineP h2 {
+    color: white; }
+  .LineP p {
+    color: #979797;
+    margin-left: 100px;
+    font-style: italic; }
+  .LineP #imgLineMain {
+    max-width: 50%;
+    height: auto;
+    z-index: 1; }
 
 .imgBlock {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .Serv {
   color: white;
   border: 5px solid white;
   padding: 7px 0px;
-  margin-top: 50px;
-}
-.Serv a {
-  color: white;
-}
-.Serv a:hover {
-  color: lightgray;
-}
-.Serv h2 {
-  cursor: pointer;
-  width: 300px;
-  height: 35px;
-  text-align: center;
-}
+  margin-top: 50px; }
+  .Serv a {
+    color: white; }
+  .Serv a:hover {
+    color: lightgray; }
+  .Serv h2 {
+    cursor: pointer;
+    width: 300px;
+    height: 35px;
+    text-align: center; }
 
 .blInF {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .TwoSec {
   width: 100%;
   height: auto;
   text-align: center;
-  padding-top: 50px;
-}
-.TwoSec h1 {
-  font-weight: 300;
-}
-.TwoSec p {
-  color: #979797;
-}
+  padding-top: 50px; }
+  .TwoSec h1 {
+    font-weight: 300; }
+  .TwoSec p {
+    color: #979797; }
 
 .ThereSec {
   background-image: url(../img/ServicesBackground.svg);
   max-width: 100%;
   height: auto;
-  padding-bottom: 283px;
-}
+  padding-bottom: 283px; }
 
 #imgSB {
   width: 100%;
   height: auto;
-  position: relative;
-}
+  position: relative; }
 
 .hInImg {
   text-align: center;
   margin-top: 300px;
-  color: white;
-}
-.hInImg p {
-  color: #979797;
-  margin-left: 40px;
-}
+  color: white; }
+  .hInImg p {
+    color: #979797;
+    margin-left: 40px; }
 
 .FourSec {
   width: 100%;
-  height: 1000px;
-}
+  height: 1000px; }
 
 .infoFS {
   text-align: center;
-  margin-top: 100px;
-}
-.infoFS p {
-  color: #979797;
-}
+  margin-top: 100px; }
+  .infoFS p {
+    color: #979797; }
 
 .inpInF {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.inpInF input {
-  max-width: 100%;
-  margin: 10px 0;
-  height: 50px;
-  text-align: center;
-}
-.inpInF #spaL {
-  height: 200px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-bottom: 160px;
-}
+  align-items: center; }
+  .inpInF input {
+    max-width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    text-align: center; }
+  .inpInF #spaL {
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 160px; }
 
 .test {
   float: left;
-  z-index: 999;
-}
-.test h3 {
-  color: white;
-}
-.test p {
-  color: #979797;
-}
+  z-index: 999; }
+  .test h3 {
+    color: white; }
+  .test p {
+    color: #979797; }
 
 .conFImg {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.conFImg .oneObj, .conFImg .twoObj {
-  padding: 100px 60px;
-}
-.conFImg .oneObj i, .conFImg .twoObj i {
-  font-size: 25px;
-}
+  justify-content: center; }
+  .conFImg .oneObj, .conFImg .twoObj {
+    padding: 100px 60px; }
+    .conFImg .oneObj i, .conFImg .twoObj i {
+      font-size: 25px; }
 
 .butnInF {
   font-size: 23px;
@@ -286,8 +230,7 @@ body .headerB li #bacRed {
   border: 5px solid black;
   padding: 5px 0;
   width: 62%;
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
 .butnInFTwo {
   color: white;
@@ -296,193 +239,155 @@ body .headerB li #bacRed {
   border: 5px solid black;
   padding: 5px 0;
   width: 100%;
-  text-align: center;
-}
+  text-align: center; }
 
 #contacts_save {
-  width: 100%;
-}
+  width: 100%; }
 
 .butnInF:hover {
   box-shadow: 1px 1px 10px #979797;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .butnInFTwo:hover {
   box-shadow: 1px 1px 10px #979797;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .iconsMes {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
-}
-.iconsMes i {
-  font-size: 24px;
-  padding: 0 10px;
-}
-.iconsMes a {
-  color: black;
-}
-.iconsMes a:hover {
-  color: #979797;
-}
+  margin-top: 200px; }
+  .iconsMes i {
+    font-size: 24px;
+    padding: 0 10px; }
+  .iconsMes a {
+    color: black; }
+  .iconsMes a:hover {
+    color: #979797; }
 
 .listF ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  font-size: 13px;
-}
-.listF ul li {
-  padding: 25px 25px;
-}
-.listF ul a {
-  color: black;
-}
-.listF ul a:hover {
-  color: #ed1c24;
-}
+  font-size: 13px; }
+  .listF ul li {
+    padding: 25px 25px; }
+  .listF ul a {
+    color: black; }
+  .listF ul a:hover {
+    color: #ed1c24; }
 
 #FotL {
   padding-right: 85px;
-  color: #bbbbbb;
-}
+  color: #bbbbbb; }
 
 #FotR {
-  padding-left: 85px;
-}
-#FotR li {
-  display: flex;
-  flex-direction: column;
-  color: #bbbbbb;
-  text-align: center;
-}
+  padding-left: 85px; }
+  #FotR li {
+    display: flex;
+    flex-direction: column;
+    color: #bbbbbb;
+    text-align: center; }
 
 .infBlock {
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .artO {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 120px 0;
-}
-.artO h3 {
-  color: white;
-}
-.artO p {
-  color: #979797;
-  font-style: italic;
-}
+  padding: 120px 0; }
+  .artO h3 {
+    color: white; }
+  .artO p {
+    color: #979797;
+    font-style: italic; }
 
 .artO h3::before {
-  content: url(../img/icon.png);
-}
+  content: url(../img/icon.png); }
 
 .algN {
   display: flex;
   flex-direction: column;
-  padding-bottom: 200px;
-}
+  padding-bottom: 200px; }
 
 .algF {
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-}
+  padding-top: 200px; }
 
 .test {
   color: red;
-  background-color: white;
-}
+  background-color: white; }
 
 .blockCol {
   display: flex;
   flex-direction: row;
-  text-align: center;
-}
-.blockCol div {
-  width: 100%;
-  margin-top: 50px;
-}
-.blockCol div p {
-  font-size: 14px;
-}
+  text-align: center; }
+  .blockCol div {
+    width: 100%;
+    margin-top: 50px; }
+    .blockCol div p {
+      font-size: 14px; }
 
 .brifC a {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .buttonBlock {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.buttonBlock div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-.buttonBlock div p {
-  color: black !important;
-  text-align: center;
-  align-items: center;
-}
+  justify-content: center; }
+  .buttonBlock div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; }
+    .buttonBlock div p {
+      color: black !important;
+      text-align: center;
+      align-items: center; }
 
 .firstButton {
   font-size: 23px;
   border: 3px solid black;
   text-align: center;
   align-items: center;
-  padding: 13px 25px 0 25px;
-}
+  padding: 13px 25px 0 25px; }
 
 .twoButton {
   font-size: 23px;
   color: white;
   background-color: red;
   padding: 17px !important;
-  margin-left: 20px !important;
-}
+  margin-left: 20px !important; }
 
 .blogTextInf {
   color: #979797;
   text-align: center;
   line-height: 30px;
-  margin-top: 100px;
-}
-.blogTextInf b {
-  font-size: 20px;
-}
+  margin-top: 100px; }
+  .blogTextInf b {
+    font-size: 20px; }
 
 .buttonInInfBlock {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
-}
-.buttonInInfBlock button {
-  padding: 15px 35px;
-  border: none;
-  background-color: white;
-  cursor: pointer;
-}
+  margin-top: 150px; }
+  .buttonInInfBlock button {
+    padding: 15px 35px;
+    border: none;
+    background-color: white;
+    cursor: pointer; }
 
 .articleTwo {
-  text-align: center;
-}
+  text-align: center; }
 
 .headT {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 25px 10px;
-}
+  padding: 25px 10px; }
 
 /*# sourceMappingURL=style.css.map */

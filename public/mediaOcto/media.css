@@ -160,6 +160,10 @@
         padding: 5px 20px;
     }
 
+    .Serv h2 {
+        width: 200px;
+    }
+
     .algF {
         padding-top: 0;
     }
@@ -2271,22 +2275,10 @@
         /*padding-bottom: 200px;*/
     }
 
-<<<<<<< HEAD
     .twoS {
         display: none !important;
     }
 
-
-=======
-    /*.costServ {*/
-        /*height: auto !important;*/
-    /*}*/
-
-    /*.thereBlock {*/
-        /*padding: 50px 0;*/
-        /*display: flex;*/
-        /*justify-content: center;*/
->>>>>>> 6cf24ab24c2fc135f8309bdf0daaf69af4ed1868
 
 }
 
