@@ -160,6 +160,10 @@
         padding: 5px 20px;
     }
 
+    .Serv h2 {
+        width: 200px;
+    }
+
     .algF {
         padding-top: 0;
     }
@@ -2213,6 +2217,11 @@
     .firstB {
         padding-bottom: 130px;
     }
+
+    /*.twoS {*/
+        /*position: relative;*/
+        /*top: 105px;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 1440px) and (max-width: 1920px)  {
@@ -2266,14 +2275,10 @@
         /*padding-bottom: 200px;*/
     }
 
-    /*.costServ {*/
-        /*height: auto !important;*/
-    /*}*/
+    .twoS {
+        display: none !important;
+    }
 
-    /*.thereBlock {*/
-        /*padding: 50px 0;*/
-        /*display: flex;*/
-        /*justify-content: center;*/
 
 }
 
