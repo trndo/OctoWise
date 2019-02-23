@@ -184,7 +184,7 @@ body {
  .Serv {
     color: white;
     border: 5px solid white;
-    padding: 7px 80px;
+    padding: 7px 0px;
     margin-top: 50px;
 
    a {
@@ -197,6 +197,9 @@ body {
 
    h2 {
     cursor: pointer;
+     width: 300px;
+     height: 35px;
+     text-align: center;
    }
 }
 

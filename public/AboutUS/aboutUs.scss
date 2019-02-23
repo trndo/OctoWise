@@ -218,7 +218,7 @@ body {
 
  .infInBeli {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     z-index: 100;
     p {
 
@@ -249,10 +249,15 @@ body {
 }
 
 .textBeli {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     p {
-       padding: 0 13px;
-       z-index: 100;
-       color: lightgray;
+        width: 220px;
+        padding: 0 13px;
+        z-index: 100;
+        color: lightgray;
+        text-align: center;
     }
 
 }
@@ -273,7 +278,7 @@ body {
 
 .posSh {
     position: relative;
-    top: 140px;
+    bottom: 100px;
 }
 
 .frR {
