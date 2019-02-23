@@ -2213,6 +2213,11 @@
     .firstB {
         padding-bottom: 130px;
     }
+
+    /*.twoS {*/
+        /*position: relative;*/
+        /*top: 105px;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 1440px) and (max-width: 1920px)  {
@@ -2265,6 +2270,12 @@
         background-image: none;
         /*padding-bottom: 200px;*/
     }
+
+    .twoS {
+        display: none !important;
+    }
+
+
 
 }
 
