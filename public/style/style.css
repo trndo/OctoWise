@@ -29,6 +29,8 @@ body .headerB ul {
 }
 body .headerB ul a {
   color: black;
+  transition-property: color;
+  transition-duration: 0.2s;
 }
 body .headerB ul a:hover {
   color: #ed1c24;
@@ -37,6 +39,8 @@ body .headerB ul a:hover {
 body .headerB li {
   list-style-type: none;
   padding: 10px 15px;
+  transition-property: background;
+  transition-duration: 3s;
 }
 body .headerB li #bacRed {
   background-color: red;

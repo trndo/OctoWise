@@ -31,9 +31,14 @@ body {
         align-items: center;
         justify-content: center;
         font-size: 13px;
+
         
         a {
             color: black;
+          transition-property: color;
+          transition-duration: 0.2s;
+
+
         }
         
         a:hover {
@@ -45,6 +50,8 @@ body {
         li {
             list-style-type: none;
             padding: 10px 15px;
+          transition-property: background;
+          transition-duration: 3s;
 
           #bacRed {
             background-color: red;
