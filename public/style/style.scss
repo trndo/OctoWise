@@ -532,3 +532,12 @@ body {
   flex-direction: row;
   padding: 25px 10px;
 }
+
+#noBorder {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#adaptiveIMG {
+  max-width: 100%;
+}
