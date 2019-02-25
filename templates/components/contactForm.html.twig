@@ -2,7 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 inpInF">
-                {{ form_start(form,{'action': path('contacts')}) }}
+
+                {{ form_start(form,{'action': path('contacts'),'id':'mailF'}) }}
+                {% for message in app.flashes('success') %}
+                    <div class="alert alert-success">
+                        {{ message }}
+                    </div>
+                {% endfor %}
                 {{ form_row(form.name,{'attr':{'placeholder':'Ваше Имя',
                     'size':'70px'}}) }}
                 {{ form_row(form.email,{'attr':{'placeholder':'Email',
@@ -12,6 +18,7 @@
                 {{ form_row(form.information,{'id':'spaL','attr':{'placeholder':'Подробнее о вашей компании, адрес вашего сайта',
                     'size':'70px'}}) }}
                 {{ form_row(form.save,{'attr':{'class':'butnInFTwo'}}) }}
+
                 {{ form_end(form) }}
             </div>
         </div>
