@@ -56,7 +56,7 @@ class ContactsController extends AbstractController
         $mail->sendMessage($data);
         $this->addFlash('success', 'Ваше письмо отправлено');
 
-        return $this->redirectToRoute('home');
+        return $this->redirectToRoute('home',['_fragment' => 'form']);
     }
 
 }
