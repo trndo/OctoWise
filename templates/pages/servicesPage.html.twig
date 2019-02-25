@@ -13,9 +13,10 @@
                     <p>что нужно для вашего бизнеса?</p>
                 </div>
             </div>
+
             <div class="row butPos">
                 <div class="col-lg-12 col-md-12 butInNav">
-                    <a href="#"><p>Заказать Услугу</p></a>
+                    <a id="noBorder" href="#"><p>Заказать Услугу</p></a>
                 </div>
             </div>
         </div>
@@ -38,10 +39,10 @@
                 </div>
 
                 <div class="row firstB">
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('landingPage') }}"><p>Лендинг Страница<i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('cardSite') }}"><p>Сайт визитка <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('siteDirectory') }}"><p>Сайт каталог <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('business') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('landingPage') }}"><p>Лендинг Страница<i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('cardSite') }}"><p>Сайт визитка <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('siteDirectory') }}"><p>Сайт каталог <i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('business') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
                 </div>
 
                 <div class="row oneB">
@@ -73,15 +74,22 @@
                     </div>
                 </div>
 
-                <div class="row firstB">
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('seoPage') }}"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
-                    <div class="col-lg-2 col-md-2 creatF"><a href="{{ path('seoPage') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
+                <a class="desW" href="{{ path('designPage') }}"><button>Узнайте больше <i class="fas fa-arrow-right"></i></button></a>
+
+
                 </div>
 
-                <div class="row oneB">
-                    <div class="col-lg-2 col-md-2"><p>Лендинг страница - одностраничный сайт созданный для продажи товара/услуги</p></div>
-                    <div class="col-lg-2 col-md-2"><p>Интернет магазин - нацелен для продажи товара или услуги. Удобный функционал как для клиента как и для вас и ваших работников.</p></div>
-                </div>
+
+
+                {#<div class="row firstB">#}
+                    {#<div class="col-lg-2 col-md-2 creatF"><a href="{{ path('seoPage') }}"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>#}
+                    {#<div class="col-lg-2 col-md-2 creatF"><a href="{{ path('seoPage') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>#}
+                {#</div>#}
+
+                {#<div class="row oneB">#}
+                    {#<div class="col-lg-2 col-md-2"><p>Лендинг страница - одностраничный сайт созданный для продажи товара/услуги</p></div>#}
+                    {#<div class="col-lg-2 col-md-2"><p>Интернет магазин - нацелен для продажи товара или услуги. Удобный функционал как для клиента как и для вас и ваших работников.</p></div>#}
+                {#</div>#}
 
             </div>
 
@@ -93,11 +101,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 desB">
-                        <h1>Дизайн для Вас</h1>
+                        <h1>Закажите звонок прямо сейчас</h1>
                         <p>
                             Давайте создадим удобный и красивый интерфейс для вашего проекта
                         </p>
-                        <a href="{{ path('designPage') }}"><button>Узнайте больше <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="{{ path('designPage') }}"><button>Заказать звонок<i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
                 {{ render_esi(url(
