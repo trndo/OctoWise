@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
@@ -46,6 +47,50 @@ body .headerB li #bacRed {
   background-color: red;
   color: white;
   padding: 7px 5px;
+=======
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box; }
+  body nav {
+    text-align: left;
+    padding: 0; }
+  body p {
+    z-index: 100 !important; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    z-index: 100 !important; }
+  body .adptiveMenu {
+    z-index: 999 !important; }
+  body .headerB {
+    z-index: 599; }
+    body .headerB ul {
+      list-style-type: none;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px; }
+      body .headerB ul a {
+        color: black; }
+      body .headerB ul a:hover {
+        color: #ed1c24;
+        text-decoration: none; }
+    body .headerB li {
+      list-style-type: none;
+      padding: 10px 15px; }
+      body .headerB li #bacRed {
+        background-color: red;
+        color: white;
+        padding: 7px 5px; }
+#preloader {
+position: fixed;
+left: 0;
+top: 0;
+z-index: 9999999999999999999999999;
+width: 100%;
+height: 100%;
+overflow: visible;
+background: rgba(255, 255, 255, 0.55) url('/img/loaderG.gif') no-repeat center center;
+>>>>>>> ad9bf1b636ef2032ad2c7189202caced2235f8c0
 }
 
 #imgInHL {

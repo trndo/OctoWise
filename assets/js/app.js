@@ -26,6 +26,10 @@
 
     $(document).ready(function(){
         $('#telNumb').mask('+38(000)000-00-00', {placeholder: "+38(___)___-__-__"});
+        $('form').submit(function () {
+            $('body').css('overflow', 'hidden');
+            $('#preloader').css('display','block');
+        })
     });
 
 

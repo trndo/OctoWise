@@ -54,8 +54,9 @@ class ContactsController extends AbstractController
         $data = $repoContacts->findOneBy(['id' => $inform]);
 
         $mail->sendMessage($data);
+        $this->addFlash('success', 'Ваше письмо отправлено');
 
-        return $this->redirectToRoute('/');
+        return $this->redirectToRoute('home');
     }
 
 }
