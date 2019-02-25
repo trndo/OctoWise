@@ -30,11 +30,6 @@
             $('body').css('overflow', 'hidden');
             $('#preloader').css('display','block');
         })
-
-
-
-        
-        
     });
 
 
