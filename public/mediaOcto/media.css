@@ -2272,7 +2272,7 @@
         height: auto;
         background-color: #171717 !important;
         background-image: none;
-        /*padding-bottom: 200px;*/
+        padding-bottom: 75px;
     }
 
     .twoS {
@@ -2297,17 +2297,17 @@
 
 @media only screen and (min-width: 1920px) and (max-height: 1080px) {
     .imgR img {
-        max-width: 95%;
+        max-width: 95.6%;
     }
 
     .buttonInInfBlock a {
-        margin: 140px 0;
+        margin-top: 0;
     }
 
-    .ThereSec {
-        height: auto;
-        padding-bottom: 75px;
-    }
+    /*.ThereSec {*/
+        /*height: auto;*/
+        /*padding-bottom: 75px;*/
+    /*}*/
 
     .firstButton {
         padding: 15px 25px 0 25px;
@@ -2331,6 +2331,10 @@
         margin-top: 0;
     }
 
+    .ThereSec {
+        padding-bottom: 410px !important;
+    }
+
 }
 
 @media only screen and (min-width: 1920px) and (max-width: 10000px) {
@@ -2339,6 +2343,7 @@
     }
 
     .ThereSec {
+        max-width: 100%;
 
     }
 }

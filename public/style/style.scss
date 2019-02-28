@@ -31,9 +31,14 @@ body {
         align-items: center;
         justify-content: center;
         font-size: 13px;
+
         
         a {
             color: black;
+          transition-property: color;
+          transition-duration: 0.2s;
+
+
         }
         
         a:hover {
@@ -45,6 +50,8 @@ body {
         li {
             list-style-type: none;
             padding: 10px 15px;
+          transition-property: background;
+          transition-duration: 3s;
 
           #bacRed {
             background-color: red;
@@ -228,7 +235,7 @@ body {
     background-image: url(../img/ServicesBackground.svg);
     max-width: 100%;
     height: auto;
-    padding-bottom: 283px;
+    padding-bottom: 213px;
 }
 
 #imgSB {
@@ -524,4 +531,13 @@ body {
   justify-content: space-between;
   flex-direction: row;
   padding: 25px 10px;
+}
+
+#noBorder {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#adaptiveIMG {
+  max-width: 100%;
 }
