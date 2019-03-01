@@ -16,3 +16,28 @@ LInH.addEventListener('click', function () {
     alert('Work this button');
 });
 
+
+    class BoxOne {
+        constructor(name,age,male) {
+            this.name = name;
+            this.age = age;
+            this.male = male;
+        }
+
+        function tops (name,age) {
+            this.name = {
+                firstName: 'Mars',
+                lastName: 'Count'
+            };
+        }
+
+
+
+    }
+
+    class BoxTwo extends BoxOne {
+
+    }
+
+
+    boxCount();
