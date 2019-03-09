@@ -103,7 +103,13 @@
     }
 
     #imgLineMain {
-        display: none;
+        max-width: 70%;
+    }
+
+    .imgBlock {
+        position: relative;
+        bottom: 200px;
+        right: 65px;
     }
 
     .buttonBlock {
@@ -130,16 +136,21 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
         margin-left: 0;
+        text-align: left;
+        float: left;
+        width: 100%;
     }
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
+        float: left;
+        width: 100%;
     }
 
     .artO h3, p {
@@ -605,9 +616,9 @@
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -633,7 +644,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -642,7 +653,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -1059,9 +1070,9 @@
         margin-top: 80px !important;
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1099,7 +1110,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -1108,7 +1119,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -1161,6 +1172,7 @@
 
     .OneSec {
         height: 750px !important;
+        padding-top: 55px;
     }
 
     .blockTwo img {
@@ -1505,6 +1517,7 @@
 
     .imgR {
         overflow: hidden;
+        display: none;
     }
 
     .imgR img {
@@ -1524,9 +1537,9 @@
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1567,7 +1580,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -1576,7 +1589,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -1949,6 +1962,7 @@
 
     .imgR {
         overflow: hidden;
+        display: none;
     }
 
     .imgR img {
@@ -1967,9 +1981,9 @@
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1995,7 +2009,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -2004,7 +2018,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {

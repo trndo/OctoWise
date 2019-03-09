@@ -10,13 +10,21 @@ import '../css/app.css'
             var stps = new Stps();
         }
 
-
-
-
+        errorProps(props,stps) {
+            this.stps = new Stps();
+            if(true) {
+                async function falseStps(props) {
+                    console.log('Event');
+                }
+            }
+        }
 
         render() {
             return(
-                Stps()
+                <div>
+                    {this.errorProps(props)}
+                </div>
+
             )
         }
     }
