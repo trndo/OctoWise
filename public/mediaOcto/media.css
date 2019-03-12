@@ -103,13 +103,15 @@
     }
 
     #imgLineMain {
-        max-width: 70%;
+        /*max-width: 70%;*/
+        display: none;
     }
 
     .imgBlock {
-        position: relative;
-        bottom: 200px;
-        right: 65px;
+        display: none;
+        /*position: relative;*/
+        /*bottom: 200px;*/
+        /*right: 65px;*/
     }
 
     .buttonBlock {
