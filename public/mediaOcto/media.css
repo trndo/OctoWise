@@ -393,6 +393,8 @@
         border-radius: 25px 25px 0 0 !important;
     }
 
+
+
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
@@ -404,6 +406,9 @@
     }
 
 
+    #radiusTwo, #newCol, #radius h1 {
+        text-align: center;
+    }
 
     .imgV {
         display: none;
@@ -914,6 +919,10 @@
         border-radius: 25px 25px 0 0 !important;
     }
 
+    #radiusTwo, #newCol, #radius h1 {
+        text-align: center;
+    }
+
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
@@ -1346,6 +1355,11 @@
     #radius, #radiusTwo {
         border-radius: 25px !important;
     }
+
+    #radiusTwo, #newCol, #radius h1 {
+        text-align: center;
+    }
+
     #newCol  {
         margin: 25px 30px;
     }
