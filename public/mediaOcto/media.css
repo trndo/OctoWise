@@ -588,6 +588,8 @@
         padding: 0;
     }
 
+
+
     .octH {
         margin-top: 40px;
     }
@@ -618,9 +620,9 @@
 
     }
 
-    /*#imgLineMain {*/
-        /*display: none;*/
-    /*}*/
+    #imgLineMain {
+        display: none;
+    }
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1072,9 +1074,9 @@
         margin-top: 80px !important;
     }
 
-    /*#imgLineMain {*/
-        /*display: none;*/
-    /*}*/
+    #imgLineMain {
+        display: none;
+    }
 
     .buttonBlock {
         max-width: 33.333%;
