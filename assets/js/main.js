@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-
-
-    ReactDOM.render(
-        <div>
-            alert('Work');
-        </div>,
-        document.getElementById('contacts_save')
-    );
+    //
+    //
+    // ReactDOM.render(
+    //     <div>
+    //         alert('Work');
+    //     </div>,
+    //     document.getElementById('contacts_save')
+    // );
 
 
                                         //JS
