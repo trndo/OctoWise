@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 375px) {
 
     body p {
         z-index: 199 !important;
@@ -70,21 +70,48 @@
         z-index: 999;
     }
 
+    .octH {
+        margin-top: 40px;
+    }
+
     .octH h1 {
-        font-size: 30px;
-        margin-top: 0 !important;
+        font-size: 20px !important;
+        margin-top: 10px;
+    }
+
+    .imgR {
+        overflow: hidden;
     }
 
     .imgR img {
-        display: none;
+        display: flex;
     }
-    .pointers {
-        margin-top: 55px;
 
+    #imgInMedia {
+        transform: rotate(90deg);
+        max-width: 100%;
+        height: auto;
+        margin-top: 215px !important;
+    }
+
+    .pointers {
+        margin-top: 0 !important;
+    }
+
+    .pointers img {
+        margin-top: 30px !important;
     }
 
     #imgLineMain {
+        /*max-width: 70%;*/
         display: none;
+    }
+
+    .imgBlock {
+        display: none;
+        /*position: relative;*/
+        /*bottom: 200px;*/
+        /*right: 65px;*/
     }
 
     .buttonBlock {
@@ -111,16 +138,21 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
         margin-left: 0;
+        text-align: left;
+        float: left;
+        width: 100%;
     }
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
+        float: left;
+        width: 100%;
     }
 
     .artO h3, p {
@@ -137,13 +169,14 @@
     }
 
     .BuCen {
-        margin-top: 40px;
+        margin-top: 10px !important;
+        background-color: red;
+        border: none;
     }
 
     .BuCen p {
-        color: black;
+        color: white !important;
         font-weight: 700;
-        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -494,7 +527,7 @@
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) and (max-width: 414px) {
 
 
     body p {
@@ -555,27 +588,39 @@
         padding: 0;
     }
 
-    .octH h1 {
-        font-size: 30px;
-        margin-top: 0 !important;
+    .octH {
+        margin-top: 40px;
     }
 
-    .imgR img {
-        display: none;
+    .octH h1 {
+        font-size: 23px !important;
+        margin-top: 10px;
     }
 
     .imgR {
-        top: -20px;
+        overflow: hidden;
     }
 
-    .pointers {
-        margin-top: 55px;
+    .imgR img {
+        display: flex;
+    }
+
+    #imgInMedia {
+        transform: rotate(90deg);
+        max-width: 100%;
+        height: auto;
+        margin-top: 180px;
+    }
+
+
+    .pointers img {
+        margin-top: 180px;
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -601,7 +646,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -610,7 +655,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -642,10 +687,15 @@
         margin-top: 40px;
     }
 
+    .BuCen {
+        margin-top: 40px;
+        background-color: red;
+        border: none;
+    }
+
     .BuCen p {
-        color: black;
+        color: white !important;
         font-weight: 700;
-        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -932,7 +982,7 @@
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) and (max-width: 768px) {
 
     body p {
         z-index: 199 !important;
@@ -992,30 +1042,39 @@
         padding: 0;
     }
 
-
-    .octH h1 {
-        font-size: 30px;
-        margin-top: 0 !important;
+    .octH {
+        margin-top: 40px;
     }
 
-    .imgR img {
-        /*max-width: 200px;*/
-        /*height: auto;*/
-        display: none;
+    .octH h1 {
+        font-size: 25px !important;
+        margin-top: 10px;
     }
 
     .imgR {
-        top: 95px;
+        overflow: hidden;
+        display: block !important;
     }
 
-    .pointers {
-        margin-top: 55px;
-
+    .imgR img {
+        display: flex;
     }
 
-    #imgLineMain {
-        display: none;
+    #imgInMedia {
+        transform: rotate(90deg);
+        max-width: 100%;
+        height: auto;
+        margin-top: 180px;
     }
+
+
+    .pointers img {
+        margin-top: 80px !important;
+    }
+
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1053,7 +1112,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -1062,7 +1121,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -1079,13 +1138,14 @@
     }
 
     .BuCen {
-        margin-top: 40px;
+        margin-top: 140px !important;
+        background-color: red;
+        border: none;
     }
 
     .BuCen p {
-        color: black;
+        color: white !important;
         font-weight: 700;
-        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
     }
 
     .buttonBlock .brifC {
@@ -1114,6 +1174,7 @@
 
     .OneSec {
         height: 750px !important;
+        padding-top: 55px;
     }
 
     .blockTwo img {
@@ -1377,7 +1438,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (max-width: 1024px) {
 
 
     body p {
@@ -1444,7 +1505,6 @@
     }
 
     nav p {
-
         height: auto;
     }
 
@@ -1457,18 +1517,31 @@
         height: 67px;
     }
 
-    .imgR img {
+    .imgR {
+        overflow: hidden;
         display: none;
     }
+
+    .imgR img {
+        display: flex;
+    }
+
+    #imgInMedia {
+        transform: rotate(270deg);
+
+        height: auto;
+
+    }
+
 
     .pointers {
         margin-top: 55px;
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1509,7 +1582,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -1518,7 +1591,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
@@ -1889,9 +1962,20 @@
         height: 67px;
     }
 
+    .imgR {
+        overflow: hidden;
+        display: none;
+    }
+
     .imgR img {
-        width: 48%;
+        display: flex;
+    }
+
+    #imgInMedia {
+        transform: rotate(270deg);
+
         height: auto;
+
     }
 
     .pointers {
@@ -1899,9 +1983,9 @@
 
     }
 
-    #imgLineMain {
-        display: none;
-    }
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
 
     .buttonBlock {
         max-width: 33.333%;
@@ -1927,7 +2011,7 @@
 
     .LineP h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .LineP p {
@@ -1936,7 +2020,7 @@
 
     .LineP p small {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .artO h3, p {
