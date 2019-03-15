@@ -16,7 +16,7 @@ LInH.addEventListener('click', function () {
     alert('Work this button');
 });
 
-    //
+
     // class BoxOne {
     //     constructor(name,age,male) {
     //         this.name = name;
