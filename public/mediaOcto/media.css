@@ -399,7 +399,6 @@
     }
 
 
-
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
@@ -517,10 +516,14 @@
 
     .firstB div p {
         margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+
     }
 
+
     .creatF a p {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .oneB {
@@ -985,7 +988,7 @@
     }
 
     .creatF a p {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .oneB {
@@ -1449,7 +1452,7 @@
     }
 
     .creatF a p {
-        font-size: 26px !important;
+        font-size: 26px;
     }
 
     .oneB {
