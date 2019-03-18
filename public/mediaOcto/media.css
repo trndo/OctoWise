@@ -114,6 +114,10 @@
         /*right: 65px;*/
     }
 
+    .butInNav {
+        display: none;
+    }
+
     .buttonBlock {
         max-width: 33.333%;
     }
@@ -292,12 +296,13 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px !important;
+        font-size: 13px;
     }
 
     .navB h1 {
         padding-top: 40px;
         text-align: center;
+        font-size: 25px;
     }
 
     .iconsBl {
@@ -394,7 +399,6 @@
     }
 
 
-
     #newCol p {
         font-size: 20px !important;
         text-align: center !important;
@@ -476,11 +480,17 @@
     }
 
     .creatInf h1 {
-        text-align: center;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .creatInf p {
+        text-align: left;
+        padding-left: 0 !important;
     }
 
     .creatS {
-        height: auto !important;
+        height: 700px;
     }
 
     .seoW {
@@ -504,8 +514,16 @@
         margin: 5px 0;
     }
 
+    .firstB div p {
+        margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+
+    }
+
+
     .creatF a p {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .oneB {
@@ -513,7 +531,7 @@
     }
 
     .seoW {
-        padding-top: 450px;
+        /*padding-top: 450px;*/
     }
 
     .seoInf p {
@@ -521,7 +539,7 @@
     }
 
     .designW {
-        padding-top: 250px;
+        padding-bottom: 100px;
     }
 
     .desB {
@@ -593,7 +611,9 @@
         padding: 0;
     }
 
-
+    .butInNav {
+        display: none;
+    }
 
     .octH {
         margin-top: 40px;
@@ -817,7 +837,7 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px !important;
+        font-size: 15px;
     }
 
     .navB h1 {
@@ -938,11 +958,11 @@
     }
 
     .creatInf h1 {
-        text-align: center;
+        text-align: left;
     }
 
     .creatS {
-        height: auto !important;
+        height: auto;
     }
 
     .seoW {
@@ -968,7 +988,7 @@
     }
 
     .creatF a p {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .oneB {
@@ -976,7 +996,7 @@
     }
 
     .seoW {
-        padding-top: 450px;
+        /*padding-top: 450px;*/
     }
 
     .seoInf p {
@@ -984,7 +1004,7 @@
     }
 
     .designW {
-        padding-top: 250px;
+        padding-bottom: 100px;
     }
 
     .desB {
@@ -1078,6 +1098,9 @@
         margin-top: 180px;
     }
 
+    .butInNav {
+        display: none;
+    }
 
     .pointers img {
         margin-top: 80px !important;
@@ -1272,7 +1295,7 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px !important;
+        font-size: 15px;
     }
 
     .navB h1 {
@@ -1399,11 +1422,11 @@
     }
 
     .creatInf h1 {
-        text-align: center;
+        text-align: left;
     }
 
     .creatS {
-        height: auto !important;
+        height: 750px !important;
     }
 
     .seoW {
@@ -1429,7 +1452,7 @@
     }
 
     .creatF a p {
-        font-size: 30px !important;
+        font-size: 26px;
     }
 
     .oneB {
@@ -1437,7 +1460,7 @@
     }
 
     .seoW {
-        padding-top: 450px;
+        /*padding-top: 450px;*/
     }
 
     .seoInf p {
@@ -1445,7 +1468,7 @@
     }
 
     .designW {
-        padding-top: 250px;
+        padding-bottom: 100px;
     }
 
     .desB {
@@ -1747,7 +1770,7 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px !important;
+        font-size: 15px;
     }
 
     .navB h1 {
@@ -1862,11 +1885,11 @@
     }
 
     .creatInf h1 {
-        text-align: center;
+        text-align: left;
     }
 
     .creatS {
-        height: auto !important;
+        height: auto;
     }
 
     .seoW {
@@ -2178,7 +2201,7 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px !important;
+        font-size: 15px;
     }
 
     .navB h1 {
@@ -2291,11 +2314,11 @@
     }
 
     .creatInf h1 {
-        text-align: center;
+        text-align: left;
     }
 
     .creatS {
-        height: auto !important;
+        height: auto;
     }
 
     .seoW {
@@ -2377,6 +2400,10 @@
 
     .twoS {
         display: none !important;
+    }
+
+    #radius, #newCol, #radiusTwo h1 {
+        text-align: center;
     }
 
 
