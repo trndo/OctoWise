@@ -17,27 +17,27 @@ LInH.addEventListener('click', function () {
 });
 
 
-    // class BoxOne {
-    //     constructor(name,age,male) {
-    //         this.name = name;
-    //         this.age = age;
-    //         this.male = male;
-    //     }
-    //
-    //      Tops (name,age) {
-    //         this.name = {
-    //             firstName: 'Mars',
-    //             lastName: 'Count'
-    //         };
-    //     }
-    //
-    //
-    //
-    // }
+    class BoxOne {
+        constructor(name,age,male) {
+            this.name = name;
+            this.age = age;
+            this.male = male;
+        }
 
-    // class BoxTwo extends BoxOne {
-    //
-    // }
+         Tops (name,age) {
+            this.name = {
+                firstName: 'Mars',
+                lastName: 'Count'
+            };
+        }
+
+
+
+    }
+
+    class BoxTwo extends BoxOne {
+
+    }
 
 
     boxCount();
