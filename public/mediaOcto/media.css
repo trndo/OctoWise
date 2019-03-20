@@ -215,6 +215,11 @@
         height: 750px !important;
     }
 
+    #object {
+        position: relative;
+        bottom: 9px;
+    }
+
     .blockTwo img {
         display: none;
     }
@@ -518,12 +523,13 @@
         margin-top: 0;
         font-size: 15px !important;
         text-align: center;
+        margin-top: 25px;
 
     }
 
 
     .creatF a p {
-        font-size: 30px;
+        font-size: 20px !important;
     }
 
     .oneB {
@@ -615,6 +621,11 @@
         display: none;
     }
 
+    #object {
+        position: relative;
+        bottom: 9px;
+    }
+
     .octH {
         margin-top: 40px;
     }
@@ -657,6 +668,13 @@
         max-width: 33.333%;
         padding: 0;
         margin: 0;
+    }
+
+    .firstB div p {
+        margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+        margin-top: 20px;
     }
 
     .iconsMes {
@@ -988,7 +1006,7 @@
     }
 
     .creatF a p {
-        font-size: 30px;
+        font-size: 20px !important;
     }
 
     .oneB {
@@ -1098,6 +1116,11 @@
         margin-top: 180px;
     }
 
+    #object {
+        position: relative;
+        bottom: 9px;
+    }
+
     .butInNav {
         display: none;
     }
@@ -1165,6 +1188,14 @@
 
     .artO {
         padding: 10px 0 !important;
+    }
+
+    .firstB div p {
+        margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+        margin-top: 20px;
+
     }
 
     .algN {
@@ -1452,7 +1483,7 @@
     }
 
     .creatF a p {
-        font-size: 26px;
+        font-size: 20px !important;
     }
 
     .oneB {
@@ -1554,6 +1585,11 @@
 
     .imgS {
         height: 67px;
+    }
+
+    #object {
+        position: relative;
+        bottom: 9px;
     }
 
     .imgR {
@@ -1979,6 +2015,11 @@
         /*display: none;*/
     }
 
+    #object {
+        position: relative;
+        bottom: 9px;
+    }
+
     .headerB ul li {
         font-size: 15px;
     }
@@ -2064,7 +2105,7 @@
 
     .artO h3, p {
         font-size: 10px !important;
-        padding: 0 20px;
+        padding: 13px 20px;
     }
 
     .artO {
