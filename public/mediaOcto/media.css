@@ -1603,11 +1603,8 @@
 
     #imgInMedia {
         transform: rotate(270deg);
-
         height: auto;
-
     }
-
 
     .pointers {
         margin-top: 55px;
@@ -1946,6 +1943,10 @@
 
     .firstB {
         padding-bottom: 200px;
+    }
+
+    .firstB div p {
+        margin-top: 15px;
     }
 
 }
