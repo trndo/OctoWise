@@ -5,7 +5,7 @@
 {% block body %}
 
 
-    <nav>
+    <nav class="serv">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 navB">
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="row firstB">
-                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('landingPage') }}"><p>Лендинг Страница<i class="fas fa-arrow-right"></i></p></a></div>
+                    <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('landingPage') }}"><p>Лендинг Страница <i class="fas fa-arrow-right"></i></p></a></div>
                     <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('cardSite') }}"><p>Сайт визитка <i class="fas fa-arrow-right"></i></p></a></div>
                     <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('siteDirectory') }}"><p>Сайт каталог <i class="fas fa-arrow-right"></i></p></a></div>
                     <div class="col-lg-2 col-md-2 creatF"><a id="noBorder" href="{{ path('business') }}"><p>Интернет магазин <i class="fas fa-arrow-right"></i></p></a></div>
@@ -89,16 +89,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 desB">
-                        <h1>Закажите звонок прямо сейчас</h1>
+                        <h1>Дизайн для вас</h1>
                         <p>
                             Давайте создадим удобный и красивый интерфейс для вашего проекта
                         </p>
-                        <a href="{{ path('designPage') }}"><button>Заказать звонок<i class="fas fa-arrow-right"></i></button></a>
+                        <a href="{{ path('designPage') }}"><button>Узнать больше <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
-                {{ render_esi(url(
-                    'contacts'
-                )) }}
+
             </div>
 
         </section>
