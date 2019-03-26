@@ -2045,17 +2045,17 @@
 
     .imgR {
         overflow: hidden;
-        display: none;
+        max-width: 88.7%;
+        height: 88.7%;
     }
 
-    .imgR img {
-        display: flex;
-    }
+    /*.imgR img {*/
+    /*    display: flex;*/
+    /*}*/
 
     #imgInMedia {
-        transform: rotate(270deg);
-
-        height: auto;
+        width: inherit;
+        height:inherit;
 
     }
 
