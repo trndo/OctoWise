@@ -39,6 +39,9 @@ body {
       body .headerB li #bacRed:hover{
         background-color: #e74c3c;
       }
+#object{
+    margin-left: 20px;
+}
 
 #octoImg{
   height: 115%;
@@ -182,7 +185,6 @@ body {
     max-width: 50%;
     height: auto;
     z-index: 1; }
-
 .imgBlock {
   display: flex;
   justify-content: center;

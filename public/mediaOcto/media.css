@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 320px) and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
 
     body p {
         z-index: 199 !important;
@@ -35,7 +35,17 @@
         z-index: 999 !important;
     }
 
-
+    #octoImg{
+        height: 76%;
+        top: 32.5%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(90deg);
+    }
+    #down{
+        opacity: 0;
+    }
     .infTwoObj p {
         padding: 0 10px;
     }
@@ -76,7 +86,12 @@
 
     .octH h1 {
         font-size: 20px !important;
-        margin-top: 10px;
+        top: 25px;
+        position: relative;
+    }
+    .octH p{
+        top: 25px;
+        position: relative;
     }
 
     .imgR {
@@ -137,12 +152,13 @@
     }
 
     .LineP {
-        margin-top: 40px;
+        margin-top: -10px;
     }
 
     .LineP h2 {
         font-size: 20px;
         text-align: left;
+        display:inline;
     }
 
     .LineP p {
@@ -556,7 +572,7 @@
 
 
 
-@media only screen and (max-width: 375px) and (max-width: 414px) {
+@media only screen and (max-width: 375px) {
 
 
     body p {
@@ -565,6 +581,18 @@
 
     body h1,h2,h3,h4,h5,h6 {
         z-index: 999 !important;
+    }
+
+    #octoImg{
+        height: 79%;
+        top: 30.5%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(90deg);
+    }
+    #down{
+        opacity: 0;
     }
 
     .adptiveMenu {
@@ -631,8 +659,13 @@
     }
 
     .octH h1 {
-        font-size: 23px !important;
-        margin-top: 10px;
+        font-size: 20px !important;
+        top: 25px;
+        position: relative;
+    }
+    .octH p{
+        top: 25px;
+        position: relative;
     }
 
     .imgR {
@@ -1041,6 +1074,18 @@
         z-index: 999 !important;
     }
 
+    #octoImg{
+        height: 93.5%;
+        top: 20.5%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(90deg);
+    }
+    #down{
+        opacity: 0;
+    }
+
     .adptiveMenu {
         z-index: 999 !important;
         display: block !important;
@@ -1096,8 +1141,13 @@
     }
 
     .octH h1 {
-        font-size: 25px !important;
-        margin-top: 10px;
+        font-size: 20px !important;
+        top: 25px;
+        position: relative;
+    }
+    .octH p{
+        top: 25px;
+        position: relative;
     }
 
     .imgR {
@@ -1950,10 +2000,6 @@
     }
 
 }
-
-
-
-
 @media only screen and (max-width: 1024px)  {
 
     header {
