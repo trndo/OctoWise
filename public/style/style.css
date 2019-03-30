@@ -42,7 +42,6 @@ body {
 #object{
     margin-left: 20px;
 }
-
 #octoImg{
   height: 115%;
   top: -15%;
@@ -57,6 +56,105 @@ body {
   padding: 0 15px;
   width: 100px;
   height: auto; }
+#siteType{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+#subSiteType{
+    color: #979797;
+    text-align: center;
+    margin-left: 200px;
+    font-style: italic;
+}
+#line{
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.headerWrapperL{
+  margin-top: 190px;
+  width: 83%;
+}
+.headerWrapperL h3{
+  color:white;
+}
+.headerWrapperL p{
+  color: #979797;
+  font-style: italic;
+}
+#iconHL{
+  position: relative;
+  right: -40px;
+}
+.headerWrapperR{
+  margin-top: 50px;
+  width: 83%;
+  margin-left: 80px;
+}
+.headerWrapperR h3{
+  color:white;
+}
+.headerWrapperR h3::before{
+  content: url(../img/icon.png);
+  position:absolute;
+  left: 40px;
+  top:55px;
+}
+.headerWrapperR p{
+  color: #979797;
+  font-style: italic;
+}
+.headerWrapperLS{
+  margin-top:70px;
+  width: 83%;
+}
+.headerWrapperLS h3{
+  color:white;
+}
+.headerWrapperLS p {
+  color: #979797;
+  font-style: italic;
+}
+
+.headerWrapperRI{
+  margin-top: 60px;
+  width: 83%;
+  margin-left: 80px;
+}
+.headerWrapperRI h3{
+  color:white;
+}
+.headerWrapperRI h3::before{
+  content: url(../img/icon.png);
+  position:absolute;
+  left: 40px;
+  top:75px;
+}
+.headerWrapperRI p {
+  color: #979797;
+  font-style: italic;
+}
+
+.servButton{
+  position: relative;
+  margin: 10% auto;
+  color: white;
+  border: 5px solid white;
+  padding: 7px 0;
+  width: 25%;
+  text-align: center;
+}
+
+.servButton a{
+  color: white;
+}
+.servButton a:hover {
+  color: lightgray; }
+
+
 
 #LInH {
   background-color: #ed1c24;
@@ -167,6 +265,7 @@ body {
   height: 1350px;
   background-color: #363636;
   z-index: 100;
+  position: relative;
 }
 
 .LineP {
