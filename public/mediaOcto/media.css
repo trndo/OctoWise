@@ -174,14 +174,138 @@
         width: 83%;
         margin-left: 20%;
     }
+}
+@media only screen and (max-width: 1080px) {
+
+    .headerWrapperL p {
+        color: #979797;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .headerWrapperL h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperL {
+        margin-top:  50%;
+        width: 83%;
+    }
+
+    .headerWrapperR {
+        margin-top: 0.3%;
+        width: 83%;
+        margin-left: 20%;
+    }
+
+    .headerWrapperR h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 7%;
+        top: 0.38%;
+    }
+
+    .headerWrapperR h3 {
+        color: white;
+        font-size: 25px;
+    }
+
+    .headerWrapperLS {
+        margin-top: 7%;
+        width: 83%;
+    }
+
+    .headerWrapperLS h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 7%;
+        top: 12%;
+    }
+
+    .headerWrapperRI h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI {
+        margin-top: 4%;
+        width: 83%;
+        margin-left: 20%;
+    }
 
 }
 
-@media only screen and(max-width: 1030px) {
-
-}
 
 @media only screen and (max-width: 1024px)  {
+
+    .headerWrapperL p {
+        color: #979797;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .headerWrapperL h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperL {
+        margin-top: 47%;
+        width: 83%;
+        margin-left: 8%;
+
+    }
+
+    .headerWrapperR {
+        margin-top: -5%;
+        width: 83%;
+        margin-left: 16%;
+    }
+
+    .headerWrapperR h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 3%;
+        top: -10%;
+    }
+
+    .headerWrapperR h3 {
+        color: white;
+        font-size: 25px;
+    }
+
+    .headerWrapperLS {
+        margin-top: 5%;
+        width: 83%;
+        margin-left: 7%;
+    }
+
+    .headerWrapperLS h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 7%;
+        top: 12%;
+    }
+
+    .headerWrapperRI h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI {
+        margin-top: 4%;
+        width: 83%;
+        margin-left: 20%;
+    }
 
     header {
         display: none !important;
