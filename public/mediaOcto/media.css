@@ -1,5 +1,633 @@
+@media only screen and (min-width: 1920px) and (max-width: 10000px) {
 
-@media only screen and (max-width: 320px) {
+    .adptiveMenu {
+        display: none;
+    }
+
+    .ThereSec {
+        max-width: 100%;
+
+    }
+}
+@media only screen and (min-width: 1920px) and (max-height: 1080px) {
+    .imgR img {
+        max-width: 95.6%;
+    }
+    .buttonInInfBlock a {
+        margin-top: 0;
+    }
+    .firstButton {
+        padding: 15px 25px 0 25px;
+    }
+    .descOfServ {
+        height: auto;
+        padding-bottom: 200px;
+    }
+    .inpInf {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .adptiveMenu {
+        display: none;
+    }
+    .buttonInInfBlock {
+        margin-top: 0;
+    }
+    .ThereSec {
+        padding-bottom: 410px !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px)  {
+    .adptiveMenu {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1440px) and (max-width: 1920px)  {
+
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 199 !important;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+        display: none;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .imgR img {
+        max-width: 95.6%;
+    }
+
+    .ThereSec {
+        height: auto;
+        background-color: #171717 !important;
+        background-image: none;
+        padding-bottom: 75px;
+    }
+
+    .twoS {
+        display: none !important;
+    }
+
+    #radius, #newCol, #radiusTwo h1 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .line{
+        display: none;   }
+    #line {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 30%;
+    }
+    .headerWrapperL p {
+        color: #979797;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .headerWrapperL h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperL {
+        margin-top:  50%;
+        width: 83%;
+    }
+
+    .headerWrapperR {
+        margin-top: 0.3%;
+        width: 83%;
+        margin-left: 20%;
+    }
+
+    .headerWrapperR h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 7%;
+        top: 0.38%;
+    }
+
+    .headerWrapperR h3 {
+        color: white;
+        font-size: 25px;
+    }
+
+    .headerWrapperLS {
+        margin-top: 15%;
+        width: 83%;
+    }
+
+    .headerWrapperLS h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI h3::before {
+        content: url(../img/icon.png);
+        position: absolute;
+        left: 7%;
+        top: 20%;
+    }
+
+    .headerWrapperRI h3 {
+        color: white;
+        font-size: 23px;
+    }
+
+    .headerWrapperRI {
+        margin-top: 10%;
+        width: 83%;
+        margin-left: 20%;
+    }
+
+}
+
+@media only screen and(max-width: 1030px) {
+
+}
+
+@media only screen and (max-width: 1024px)  {
+
+    header {
+        display: none !important;
+    }
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 199 !important;
+    }
+    #object {
+        position: relative;
+        bottom: 9px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #webStudio{
+        position: relative;
+        margin-top: 2%;
+        left: 3%;
+        font-size: 13px;
+        text-align: center;
+    }
+    .adptiveMenu {
+        z-index: 999 !important;
+        display: block !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
+    }
+
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .imgBlock{
+        display: none
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
+
+    header section {
+        /*display: none;*/
+    }
+
+
+
+    .headerB ul li {
+        font-size: 15px;
+    }
+
+    #imgInHL {
+        width: 70px;
+        height: auto;
+    }
+
+    nav p {
+        height: auto;
+    }
+
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0 !important;
+    }
+
+    .imgS {
+        height: 67px;
+    }
+
+    .imgR {
+        overflow: hidden;
+        max-width: 88.7%;
+        height: 88.7%;
+    }
+
+    /*.imgR img {*/
+    /*    display: flex;*/
+    /*}*/
+
+    #imgInMedia {
+        width: inherit;
+        height:inherit;
+
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
+
+    /*#imgLineMain {*/
+    /*display: none;*/
+    /*}*/
+
+    .buttonBlock {
+        max-width: 33.333%;
+    }
+
+    .conFImg, infoFS {
+        max-width: 33.333%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .iconsMes {
+        /*display: none;*/
+    }
+
+    .listF ul {
+        /*display: none;*/
+    }
+
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .artO h3,.artO p {
+        font-size: 10px !important;
+        padding: 13px 20px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .posSh .row {
+        display: none;
+    }
+
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf  {
+        line-height: inherit!important;
+    }
+
+    .ThereSec {
+        height: auto;
+        background-color: #171717 !important;
+        background-image: none;
+        /*margin-top: 150px;*/
+        padding-bottom: 15px;
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: none;
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
+    }
+
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2, .desScr p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: auto;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        width: 90%;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
+    }
+
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
+    .twoS {
+        padding: 0 !important;
+    }
+
+    .creatInf h1 {
+        text-align: left;
+    }
+
+    .creatS {
+        height: auto;
+    }
+
+    .seoW {
+        height: auto !important;
+    }
+
+    .twoS {
+        display: none !important;
+    }
+
+    .seoInf h1 {
+        text-align: center;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .firstB {
+        padding-bottom: 130px;
+    }
+
+    /*.twoS {*/
+    /*position: relative;*/
+    /*top: 105px;*/
+    /*}*/
+}
+@media only screen and (max-width: 768px) and (max-width: 1024px) {
+
 
     body p {
         z-index: 199 !important;
@@ -22,9 +650,472 @@
         z-index: 999 !important;
     }
 
-    .header img {
+    .nav-burger__checkbox {
+        z-index: 999 !important;
+    }
+
+    .nav {
+        z-index: 999 !important;
+    }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
+    .infTwoObj p {
+        padding: 0 10px;
+    }
+
+    .infOneObj h1 {
+        font-size: 17px;
+    }
+
+    .mainS .row {
+        padding: 25px 0;
+    }
+
+    .mainS .container .row {
+        margin: 25px 0;
+    }
+
+    .headInf {
+        display: none;
+    }
+
+
+    .headerB ul li {
+        font-size: 10px;
+    }
+
+    #imgInHL {
+        width: 70px;
+        height: auto;
+    }
+
+    nav p {
+        height: auto;
+    }
+
+    .octH h1 {
+        font-size: 30px;
+        margin-top: 0 !important;
+    }
+    .octH p{
+        top: 25px;
+        font-size: 10px;
+        position: relative;
+    }
+
+    .imgS {
+        height: 67px;
+    }
+
+    #object {
+        position: relative;
+        bottom: 9px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #webStudio{
+        position: relative;
+        margin-top: 2%;
+        left: 3%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .imgR {
+        overflow: hidden;
+        display: none;
+    }
+
+    .imgR img {
+        display: flex;
+    }
+
+    #imgInMedia {
+        transform: rotate(270deg);
+        height: auto;
+    }
+
+    .pointers {
+        margin-top: 55px;
+
+    }
+
+    /*#imgLineMain {*/
+        /*display: none;*/
+    /*}*/
+
+    .buttonBlock {
+        max-width: 33.333%;
+    }
+
+    .conFImg, infoFS {
+        max-width: 33.333%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .iconsMes {
+        display: none;
+
+    }
+
+    .ourWork {
+        height: auto;
+    }
+
+    .blInW #infW {
+        width: 100%;
+    }
+
+    .posSh .row {
+        display: none;
+    }
+
+
+    .listF ul {
+        display: none;
+
+    }
+
+    .LineP {
+        margin-top: 40px;
+    }
+
+    .LineP h2 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .LineP p {
+        margin-left: 0;
+    }
+
+    .LineP p small {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .artO h3, .artO p {
+        font-size: 10px !important;
+        padding: 0 50px;
+    }
+
+    .artO {
+        padding: 10px 0 !important;
+    }
+
+    .algN {
+        padding: 0;
+    }
+
+    .BuCen {
+        margin-top: 40px;
+    }
+
+    .BuCen p {
+        color: black;
+        font-weight: 700;
+        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
+    }
+
+    .buttonBlock .brifC {
+        display: none;
+    }
+
+    .brifC a {
+        margin-left: 0;
         display: flex;
         justify-content: center;
+    }
+
+    .Serv {
+        padding: 5px 20px;
+    }
+
+    .algF {
+        padding-top: 0;
+    }
+
+    .infBlock {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .OneSec {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .blockTwo img {
+        display: none;
+    }
+
+    .blockCol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogTextInf  {
+        line-height: inherit!important;
+    }
+
+    .ThereSec {
+        height: auto;
+        background-color: #171717 !important;
+        background-image: none;
+        /*margin-top: 150px;*/
+        padding-bottom: 25px;
+
+    }
+
+    .hInImg {
+        margin-top: 50px;
+    }
+
+    .blogTextInf {
+        margin-top: 0;
+    }
+
+    .buttonInInfBlock {
+        display: none;
+    }
+
+    .FourSec {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .oneObj, .twoObj {
+        padding: 0!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conFImg .oneObj, .twoObj {
+        max-width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .conFImg {
+        display: none;
+    }
+
+    .inpInf input {
+        border: 1px solid black;
+    }
+
+    #contacts_name, #contacts_email, #telNumb, #spaL  {
+        border: 1px solid #868686 !important;
+    }
+
+    .infoFS p small {
+        font-size: 13px;
+    }
+
+
+    .butInNav p {
+        font-size: 15px !important;
+    }
+
+    .butInNav {
+        margin: 0 0 100px 0 !important;
+
+    }
+
+    .SrvN p {
+        margin-right: 0;
+    }
+    .navB p {
+        font-size: 15px;
+    }
+
+    .navB h1 {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .iconsBl {
+        font-size: 25px;
+    }
+
+    .desScr h2 , .desScr p {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .contactUs {
+        height: 900px;
+    }
+
+    .fiveBlockContUs {
+        display: none !important;
+    }
+
+    .fiveBlockInfUs div p {
+        font-size: 15px !important;
+    }
+
+    .fiveBlockInfUs div {
+        margin: 20px 15px;
+        width: 100%;
+    }
+
+    .infoServ h1 {
+        text-align: center;
+    }
+
+    .infoServ p {
+        font-size: 15px !important;
+    }
+
+    .descOfServ {
+        height: auto !important;
+        padding-bottom: 200px;
+
+    }
+
+    .workEx div {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .workEx div p {
+        font-size: 15px !important;
+    }
+
+    .thereBlock div {
+        height: 150px;
+        width: 90%;
+        margin: 15px 25px;
+    }
+
+    .thereBlock div p {
+        font-size: 15px !important;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .costServ {
+        height: auto !important;
+        padding-bottom: 100px;
+    }
+
+    .pricSch div h1 {
+        text-align: center;
+    }
+
+    .pricSch div p {
+        font-size: 15px !important;
+    }
+
+    #radius, #radiusTwo {
+        border-radius: 25px !important;
+    }
+    #newCol  {
+        margin: 25px 30px;
+    }
+
+
+
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
+    .twoS {
+        padding: 0 !important;
+    }
+
+    .creatInf h1 {
+        text-align: left;
+    }
+
+    .creatS {
+        height: auto;
+    }
+
+    .seoW {
+        height: auto !important;
+    }
+
+    .twoS {
+        display: none !important;
+    }
+
+    .seoInf h1 {
+        text-align: center;
+    }
+
+    .oneB {
+        display: none !important;
+    }
+
+    .firstB {
+        padding-bottom: 200px;
+    }
+
+    .firstB div p {
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 414px) and (max-width: 768px) {
+
+    body p {
+        z-index: 199 !important;
+    }
+
+    body h1,h2,h3,h4,h5,h6 {
+        z-index: 999 !important;
+    }
+
+    #octoImg{
+        height: 91.5%;
+        top: 20.5%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(90deg);
+    }
+    #down{
+        opacity: 0;
+    }
+
+    .adptiveMenu {
+        z-index: 999 !important;
+        display: block !important;
+    }
+
+    .containerMenu {
+        z-index: 999 !important;
+    }
+
+    .header {
+        z-index: 999 !important;
     }
 
     .nav-burger__checkbox {
@@ -35,17 +1126,10 @@
         z-index: 999 !important;
     }
 
-    #octoImg{
-        height: 76%;
-        top: 32.5%;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        transform: rotate(90deg);
+    .imgInOneObj img {
+        width: 100%;
     }
-    #down{
-        opacity: 0;
-    }
+
     .infTwoObj p {
         padding: 0 10px;
     }
@@ -53,11 +1137,6 @@
     .infOneObj h1 {
         font-size: 17px;
     }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
 
     .mainS .row {
         padding: 25px 0;
@@ -76,10 +1155,6 @@
         padding: 0;
     }
 
-    .nav__item  {
-        z-index: 999;
-    }
-
     .octH {
         margin-top: 40px;
     }
@@ -91,11 +1166,13 @@
     }
     .octH p{
         top: 25px;
+        font-size: 10px;
         position: relative;
     }
 
     .imgR {
         overflow: hidden;
+        display: block !important;
     }
 
     .imgR img {
@@ -106,30 +1183,32 @@
         transform: rotate(90deg);
         max-width: 100%;
         height: auto;
-        margin-top: 215px !important;
+        margin-top: 180px;
     }
 
-    .pointers {
-        margin-top: 0 !important;
+    #object {
+        position: relative;
+        bottom: 9px;
+        margin-top: 2%;
+        margin-left: 3%;
     }
-
-    .pointers img {
-        margin-top: 30px !important;
-    }
-
-    #imgLineMain {
-        /*max-width: 70%;*/
-        display: none;
-    }
-
-    .imgBlock {
-        display: none;
-        /*position: relative;*/
-        /*bottom: 200px;*/
-        /*right: 65px;*/
+    #webStudio{
+        position: relative;
+        margin-top: 3%;
+        left: 3%;
+        font-size: 13px;
+        text-align: center;
     }
 
     .butInNav {
+        display: none;
+    }
+
+    .pointers img {
+        margin-top: 80px !important;
+    }
+
+    #imgLineMain {
         display: none;
     }
 
@@ -151,31 +1230,37 @@
         display: none;
     }
 
+    .ourWork {
+        height: auto;
+    }
+
+    .blInW #infW {
+        width: 100%;
+    }
+
+    .imgV {
+        display: none;
+    }
+
     .LineP {
-        margin-top: -10px;
+        margin-top: 40px;
     }
 
     .LineP h2 {
         font-size: 20px;
         text-align: left;
-        display:inline;
     }
 
     .LineP p {
         margin-left: 0;
-        text-align: left;
-        float: left;
-        width: 100%;
     }
 
     .LineP p small {
         font-size: 12px;
         text-align: left;
-        float: left;
-        width: 100%;
     }
 
-    .artO h3, p {
+    .artO h3,.artO p {
         font-size: 10px !important;
         padding: 0 50px;
     }
@@ -184,12 +1269,20 @@
         padding: 10px 0 !important;
     }
 
+    .firstB div p {
+        margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
     .algN {
         padding: 0;
     }
 
     .BuCen {
-        margin-top: 10px !important;
+        margin-top: 140px !important;
         background-color: red;
         border: none;
     }
@@ -213,10 +1306,6 @@
         padding: 5px 20px;
     }
 
-    .Serv h2 {
-        width: 200px;
-    }
-
     .algF {
         padding-top: 0;
     }
@@ -229,11 +1318,7 @@
 
     .OneSec {
         height: 750px !important;
-    }
-
-    #object {
-        position: relative;
-        bottom: 9px;
+        padding-top: 55px;
     }
 
     .blockTwo img {
@@ -254,7 +1339,7 @@
         height: auto;
         background-color: #171717 !important;
         background-image: none;
-        /*margin-top: 300px;*/
+        /*margin-top: 150px;*/
         padding-bottom: 0;
     }
 
@@ -263,12 +1348,16 @@
     }
 
     .blogTextInf {
-        margin-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .buttonInInfBlock {
+        display: none;
     }
 
     .FourSec {
         max-width: 100%;
-        height: 730px;
+        height: auto;
     }
 
     .oneObj, .twoObj {
@@ -292,8 +1381,6 @@
 
     .inpInf input {
         border: 1px solid black;
-        padding: 0;
-        margin: 0;
     }
 
     #contacts_name, #contacts_email, #telNumb, #spaL  {
@@ -303,6 +1390,7 @@
     .infoFS p small {
         font-size: 13px;
     }
+
 
     .butInNav p {
         font-size: 15px !important;
@@ -317,26 +1405,21 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .navB h1 {
         padding-top: 40px;
         text-align: center;
-        font-size: 25px;
     }
 
     .iconsBl {
         font-size: 25px;
     }
 
-    .desScr h2, p {
+    .desScr h2, .desScr p {
         text-align: center;
         margin-left: 0 !important;
-    }
-
-    .desScr p {
-        font-size: 15px !important;
     }
 
     .contactUs {
@@ -366,7 +1449,8 @@
     }
 
     .descOfServ {
-        height: auto;
+        height: auto !important;
+        padding-bottom: 200px;
     }
 
     .workEx div {
@@ -405,70 +1489,17 @@
         border-radius: 25px !important;
     }
 
-    #radius p {
-        font-size: 20px !important;
-        text-align: center !important;
-        padding-right: 0 !important;
-        border-radius: 25px 25px 0 0 !important;
+    #radiusTwo, #newCol, #radius h1 {
+        text-align: center;
     }
 
-    #radiusTwo p {
-        padding-left: 0 !important;
-        font-size: 20px !important;
-        text-align: center !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-
-    #newCol p {
-        font-size: 20px !important;
-        text-align: center !important;
+    #newCol  {
+        margin: 25px 30px;
     }
 
     #newCol {
         position: relative;
         top: 1px;
-    }
-
-
-    #radiusTwo, #newCol, #radius h1 {
-        text-align: center;
-    }
-
-    .imgV {
-        display: none;
-    }
-
-    .hText {
-        margin-top: 100px;
-        text-align: center !important;
-    }
-
-    .hText p {
-        text-align: center !important;
-        margin-right: 0;
-    }
-
-    .infInBeli {
-        padding-bottom: 0 !important;
-        margin-top: 100px;
-    }
-
-    #infW {
-        width: 100% !important;
-        height: 150px;
-    }
-
-    .ourWork {
-         height: 3400px;
-     }
-
-    .twBlInVal p {
-        font-size: 20px !important;
-    }
-
-    .frR p {
-        font-size: 15px !important;
     }
 
     .TwoSec p {
@@ -502,16 +1533,10 @@
 
     .creatInf h1 {
         text-align: left;
-        font-size: 20px;
-    }
-
-    .creatInf p {
-        text-align: left;
-        padding-left: 0 !important;
     }
 
     .creatS {
-        height: 700px;
+        height: 750px !important;
     }
 
     .seoW {
@@ -526,6 +1551,7 @@
         text-align: center;
     }
 
+
     .creatF {
         padding: 10px 0;
     }
@@ -534,15 +1560,6 @@
         width: 90% !important;
         margin: 5px 0;
     }
-
-    .firstB div p {
-        margin-top: 0;
-        font-size: 15px !important;
-        text-align: center;
-        margin-top: 25px;
-
-    }
-
 
     .creatF a p {
         font-size: 20px !important;
@@ -569,9 +1586,6 @@
     }
 
 }
-
-
-
 @media only screen and (max-width: 375px) {
 
 
@@ -651,7 +1665,16 @@
 
     #object {
         position: relative;
-        bottom: 9px;
+        bottom: 8px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #webStudio{
+        position: relative;
+        margin-top: 4%;
+        left: 3%;
+        font-size: 13px;
+        text-align: center;
     }
 
     .octH {
@@ -665,6 +1688,8 @@
     }
     .octH p{
         top: 25px;
+        font-size: 10px;
+        margin-left: 0;
         position: relative;
     }
 
@@ -736,7 +1761,7 @@
         text-align: left;
     }
 
-    .artO h3, p {
+    .artO h3,.artO p {
         font-size: 10px !important;
         padding: 0 50px;
     }
@@ -900,7 +1925,7 @@
         font-size: 25px;
     }
 
-    .desScr h2, p {
+    .desScr h2, .desScr p {
         text-align: center;
         margin-left: 0 !important;
     }
@@ -1063,8 +2088,7 @@
     }
 
 }
-
-@media only screen and (max-width: 414px) and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
 
     body p {
         z-index: 199 !important;
@@ -1072,18 +2096,6 @@
 
     body h1,h2,h3,h4,h5,h6 {
         z-index: 999 !important;
-    }
-
-    #octoImg{
-        height: 93.5%;
-        top: 20.5%;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        transform: rotate(90deg);
-    }
-    #down{
-        opacity: 0;
     }
 
     .adptiveMenu {
@@ -1099,6 +2111,11 @@
         z-index: 999 !important;
     }
 
+    .header img {
+        display: flex;
+        justify-content: center;
+    }
+
     .nav-burger__checkbox {
         z-index: 999 !important;
     }
@@ -1107,10 +2124,17 @@
         z-index: 999 !important;
     }
 
-    .imgInOneObj img {
-        width: 100%;
+    #octoImg{
+        height: 100%;
+        top: 12%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(90deg);
     }
-
+    #down{
+        opacity: 0;
+    }
     .infTwoObj p {
         padding: 0 10px;
     }
@@ -1118,6 +2142,11 @@
     .infOneObj h1 {
         font-size: 17px;
     }
+
+    .imgInOneObj img {
+        width: 100%;
+    }
+
 
     .mainS .row {
         padding: 25px 0;
@@ -1136,6 +2165,10 @@
         padding: 0;
     }
 
+    .nav__item  {
+        z-index: 999;
+    }
+
     .octH {
         margin-top: 40px;
     }
@@ -1152,7 +2185,6 @@
 
     .imgR {
         overflow: hidden;
-        display: block !important;
     }
 
     .imgR img {
@@ -1163,23 +2195,30 @@
         transform: rotate(90deg);
         max-width: 100%;
         height: auto;
-        margin-top: 180px;
+        margin-top: 215px !important;
     }
 
-    #object {
-        position: relative;
-        bottom: 9px;
-    }
-
-    .butInNav {
-        display: none;
+    .pointers {
+        margin-top: 0 !important;
     }
 
     .pointers img {
-        margin-top: 80px !important;
+        margin-top: 30px !important;
     }
 
     #imgLineMain {
+        /*max-width: 70%;*/
+        display: none;
+    }
+
+    .imgBlock {
+        display: none;
+        /*position: relative;*/
+        /*bottom: 200px;*/
+        /*right: 65px;*/
+    }
+
+    .butInNav {
         display: none;
     }
 
@@ -1201,37 +2240,31 @@
         display: none;
     }
 
-    .ourWork {
-        height: auto;
-    }
-
-    .blInW #infW {
-        width: 100%;
-    }
-
-    .imgV {
-        display: none;
-    }
-
     .LineP {
-        margin-top: 40px;
+        margin-top: -10px;
     }
 
     .LineP h2 {
         font-size: 20px;
         text-align: left;
+        display:inline;
     }
 
     .LineP p {
         margin-left: 0;
+        text-align: left;
+        float: left;
+        width: 100%;
     }
 
     .LineP p small {
         font-size: 12px;
         text-align: left;
+        float: left;
+        width: 100%;
     }
 
-    .artO h3, p {
+    .artO h3,.artO p {
         font-size: 10px !important;
         padding: 0 50px;
     }
@@ -1240,22 +2273,15 @@
         padding: 10px 0 !important;
     }
 
-    .firstB div p {
-        margin-top: 0;
-        font-size: 15px !important;
-        text-align: center;
-        margin-top: 20px;
-
-    }
-
     .algN {
         padding: 0;
     }
 
     .BuCen {
-        margin-top: 140px !important;
+        margin-top: 70px !important;
         background-color: red;
         border: none;
+        width: 70%;
     }
 
     .BuCen p {
@@ -1277,6 +2303,10 @@
         padding: 5px 20px;
     }
 
+    .Serv h2 {
+        width: 200px;
+    }
+
     .algF {
         padding-top: 0;
     }
@@ -1289,7 +2319,20 @@
 
     .OneSec {
         height: 750px !important;
-        padding-top: 55px;
+    }
+
+    #object {
+        position: relative;
+        bottom: 7px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #webStudio{
+        position: relative;
+        margin-top: 5%;
+        left: 3%;
+        font-size: 13px;
+        text-align: center;
     }
 
     .blockTwo img {
@@ -1310,7 +2353,7 @@
         height: auto;
         background-color: #171717 !important;
         background-image: none;
-        /*margin-top: 150px;*/
+        /*margin-top: 300px;*/
         padding-bottom: 0;
     }
 
@@ -1319,16 +2362,12 @@
     }
 
     .blogTextInf {
-        padding-bottom: 25px;
-    }
-
-    .buttonInInfBlock {
-        display: none;
+        margin-top: 0;
     }
 
     .FourSec {
         max-width: 100%;
-        height: auto;
+        height: 730px;
     }
 
     .oneObj, .twoObj {
@@ -1352,6 +2391,8 @@
 
     .inpInf input {
         border: 1px solid black;
+        padding: 0;
+        margin: 0;
     }
 
     #contacts_name, #contacts_email, #telNumb, #spaL  {
@@ -1361,7 +2402,6 @@
     .infoFS p small {
         font-size: 13px;
     }
-
 
     .butInNav p {
         font-size: 15px !important;
@@ -1376,21 +2416,26 @@
         margin-right: 0;
     }
     .navB p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .navB h1 {
         padding-top: 40px;
         text-align: center;
+        font-size: 25px;
     }
 
     .iconsBl {
         font-size: 25px;
     }
 
-    .desScr h2, p {
+    .desScr h2, .desScr p {
         text-align: center;
         margin-left: 0 !important;
+    }
+
+    .desScr p {
+        font-size: 15px !important;
     }
 
     .contactUs {
@@ -1420,8 +2465,7 @@
     }
 
     .descOfServ {
-        height: auto !important;
-        padding-bottom: 200px;
+        height: auto;
     }
 
     .workEx div {
@@ -1460,17 +2504,70 @@
         border-radius: 25px !important;
     }
 
-    #radiusTwo, #newCol, #radius h1 {
-        text-align: center;
+    #radius p {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-right: 0 !important;
+        border-radius: 25px 25px 0 0 !important;
     }
 
-    #newCol  {
-        margin: 25px 30px;
+    #radiusTwo p {
+        padding-left: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        border-radius: 25px 25px 0 0 !important;
+    }
+
+
+    #newCol p {
+        font-size: 20px !important;
+        text-align: center !important;
     }
 
     #newCol {
         position: relative;
         top: 1px;
+    }
+
+
+    #radiusTwo, #newCol, #radius h1 {
+        text-align: center;
+    }
+
+    .imgV {
+        display: none;
+    }
+
+    .hText {
+        margin-top: 100px;
+        text-align: center !important;
+    }
+
+    .hText p {
+        text-align: center !important;
+        margin-right: 0;
+    }
+
+    .infInBeli {
+        padding-bottom: 0 !important;
+        margin-top: 100px;
+    }
+
+    #infW {
+        width: 100% !important;
+        height: 150px;
+    }
+
+    .ourWork {
+        height: 3400px;
+    }
+
+    .twBlInVal p {
+        font-size: 20px !important;
+    }
+
+    .frR p {
+        font-size: 15px !important;
     }
 
     .TwoSec p {
@@ -1504,10 +2601,16 @@
 
     .creatInf h1 {
         text-align: left;
+        font-size: 20px;
+    }
+
+    .creatInf p {
+        text-align: left;
+        padding-left: 0 !important;
     }
 
     .creatS {
-        height: 750px !important;
+        height: 700px;
     }
 
     .seoW {
@@ -1522,7 +2625,6 @@
         text-align: center;
     }
 
-
     .creatF {
         padding: 10px 0;
     }
@@ -1531,6 +2633,15 @@
         width: 90% !important;
         margin: 5px 0;
     }
+
+    .firstB div p {
+        margin-top: 0;
+        font-size: 15px !important;
+        text-align: center;
+        margin-top: 25px;
+
+    }
+
 
     .creatF a p {
         font-size: 20px !important;
@@ -1558,997 +2669,7 @@
 
 }
 
-@media only screen and (max-width: 768px) and (max-width: 1024px) {
 
 
-    body p {
-        z-index: 199 !important;
-    }
 
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 999 !important;
-    }
 
-    .adptiveMenu {
-        z-index: 999 !important;
-        display: block !important;
-    }
-
-    .containerMenu {
-        z-index: 999 !important;
-    }
-
-    .header {
-        z-index: 999 !important;
-    }
-
-    .nav-burger__checkbox {
-        z-index: 999 !important;
-    }
-
-    .nav {
-        z-index: 999 !important;
-    }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
-    .infTwoObj p {
-        padding: 0 10px;
-    }
-
-    .infOneObj h1 {
-        font-size: 17px;
-    }
-
-    .mainS .row {
-        padding: 25px 0;
-    }
-
-    .mainS .container .row {
-        margin: 25px 0;
-    }
-
-    .headInf {
-        display: none;
-    }
-
-
-    .headerB ul li {
-        font-size: 10px;
-    }
-
-    #imgInHL {
-        width: 70px;
-        height: auto;
-    }
-
-    nav p {
-        height: auto;
-    }
-
-    .octH h1 {
-        font-size: 30px;
-        margin-top: 0 !important;
-    }
-
-    .imgS {
-        height: 67px;
-    }
-
-    #object {
-        position: relative;
-        bottom: 9px;
-    }
-
-    .imgR {
-        overflow: hidden;
-        display: none;
-    }
-
-    .imgR img {
-        display: flex;
-    }
-
-    #imgInMedia {
-        transform: rotate(270deg);
-        height: auto;
-    }
-
-    .pointers {
-        margin-top: 55px;
-
-    }
-
-    /*#imgLineMain {*/
-        /*display: none;*/
-    /*}*/
-
-    .buttonBlock {
-        max-width: 33.333%;
-    }
-
-    .conFImg, infoFS {
-        max-width: 33.333%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .iconsMes {
-        display: none;
-
-    }
-
-    .ourWork {
-        height: auto;
-    }
-
-    .blInW #infW {
-        width: 100%;
-    }
-
-    .posSh .row {
-        display: none;
-    }
-
-
-    .listF ul {
-        display: none;
-
-    }
-
-    .LineP {
-        margin-top: 40px;
-    }
-
-    .LineP h2 {
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .LineP p {
-        margin-left: 0;
-    }
-
-    .LineP p small {
-        font-size: 12px;
-        text-align: left;
-    }
-
-    .artO h3, p {
-        font-size: 10px !important;
-        padding: 0 50px;
-    }
-
-    .artO {
-        padding: 10px 0 !important;
-    }
-
-    .algN {
-        padding: 0;
-    }
-
-    .BuCen {
-        margin-top: 40px;
-    }
-
-    .BuCen p {
-        color: black;
-        font-weight: 700;
-        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
-    }
-
-    .buttonBlock .brifC {
-        display: none;
-    }
-
-    .brifC a {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .Serv {
-        padding: 5px 20px;
-    }
-
-    .algF {
-        padding-top: 0;
-    }
-
-    .infBlock {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .OneSec {
-        height: auto;
-        padding-bottom: 35px;
-    }
-
-    .blockTwo img {
-        display: none;
-    }
-
-    .blockCol {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .blogTextInf  {
-        line-height: inherit!important;
-    }
-
-    .ThereSec {
-        height: auto;
-        background-color: #171717 !important;
-        background-image: none;
-        /*margin-top: 150px;*/
-        padding-bottom: 25px;
-
-    }
-
-    .hInImg {
-        margin-top: 50px;
-    }
-
-    .blogTextInf {
-        margin-top: 0;
-    }
-
-    .buttonInInfBlock {
-        display: none;
-    }
-
-    .FourSec {
-        max-width: 100%;
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    .oneObj, .twoObj {
-        padding: 0!important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .conFImg .oneObj, .twoObj {
-        max-width: 100%;
-        display: flex;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    .conFImg {
-        display: none;
-    }
-
-    .inpInf input {
-        border: 1px solid black;
-    }
-
-    #contacts_name, #contacts_email, #telNumb, #spaL  {
-        border: 1px solid #868686 !important;
-    }
-
-    .infoFS p small {
-        font-size: 13px;
-    }
-
-
-    .butInNav p {
-        font-size: 15px !important;
-    }
-
-    .butInNav {
-        margin: 0 0 100px 0 !important;
-
-    }
-
-    .SrvN p {
-        margin-right: 0;
-    }
-    .navB p {
-        font-size: 15px;
-    }
-
-    .navB h1 {
-        padding-top: 40px;
-        text-align: center;
-    }
-
-    .iconsBl {
-        font-size: 25px;
-    }
-
-    .desScr h2, p {
-        text-align: center;
-        margin-left: 0 !important;
-    }
-
-    .contactUs {
-        height: 900px;
-    }
-
-    .fiveBlockContUs {
-        display: none !important;
-    }
-
-    .fiveBlockInfUs div p {
-        font-size: 15px !important;
-    }
-
-    .fiveBlockInfUs div {
-        margin: 20px 15px;
-        width: 100%;
-    }
-
-    .infoServ h1 {
-        text-align: center;
-    }
-
-    .infoServ p {
-        font-size: 15px !important;
-    }
-
-    .descOfServ {
-        height: auto !important;
-        padding-bottom: 200px;
-
-    }
-
-    .workEx div {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .workEx div p {
-        font-size: 15px !important;
-    }
-
-    .thereBlock div {
-        height: 150px;
-        width: 90%;
-        margin: 15px 25px;
-    }
-
-    .thereBlock div p {
-        font-size: 15px !important;
-        color: white;
-        margin-top: 45px;
-    }
-
-    .costServ {
-        height: auto !important;
-        padding-bottom: 100px;
-    }
-
-    .pricSch div h1 {
-        text-align: center;
-    }
-
-    .pricSch div p {
-        font-size: 15px !important;
-    }
-
-    #radius, #radiusTwo {
-        border-radius: 25px !important;
-    }
-    #newCol  {
-        margin: 25px 30px;
-    }
-
-
-
-    #radius p {
-        font-size: 20px !important;
-        text-align: center !important;
-        padding-right: 0 !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #radiusTwo p {
-        padding-left: 0 !important;
-        font-size: 20px !important;
-        text-align: center !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #newCol p {
-        font-size: 20px !important;
-        text-align: center !important;
-    }
-
-    .twoS {
-        padding: 0 !important;
-    }
-
-    .creatInf h1 {
-        text-align: left;
-    }
-
-    .creatS {
-        height: auto;
-    }
-
-    .seoW {
-        height: auto !important;
-    }
-
-    .twoS {
-        display: none !important;
-    }
-
-    .seoInf h1 {
-        text-align: center;
-    }
-
-    .oneB {
-        display: none !important;
-    }
-
-    .firstB {
-        padding-bottom: 200px;
-    }
-
-    .firstB div p {
-        margin-top: 15px;
-    }
-
-}
-@media only screen and (max-width: 1024px)  {
-
-    header {
-        display: none !important;
-    }
-
-    body p {
-        z-index: 199 !important;
-    }
-
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 199 !important;
-    }
-
-    .adptiveMenu {
-        z-index: 999 !important;
-        display: block !important;
-    }
-
-    .containerMenu {
-        z-index: 999 !important;
-    }
-
-    .header {
-        z-index: 999 !important;
-    }
-
-    .nav-burger__checkbox {
-        z-index: 999 !important;
-    }
-
-    .nav {
-        z-index: 999 !important;
-    }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
-    .infTwoObj p {
-        padding: 0 10px;
-    }
-
-    .imgBlock{
-        display: none
-    }
-
-    .infOneObj h1 {
-        font-size: 17px;
-    }
-
-    .mainS .row {
-        padding: 25px 0;
-    }
-
-    .mainS .container .row {
-        margin: 25px 0;
-    }
-
-
-    header section {
-        /*display: none;*/
-    }
-
-    #object {
-        position: relative;
-        bottom: 9px;
-    }
-
-    .headerB ul li {
-        font-size: 15px;
-    }
-
-    #imgInHL {
-        width: 70px;
-        height: auto;
-    }
-
-    nav p {
-        height: auto;
-    }
-
-    .octH h1 {
-        font-size: 30px;
-        margin-top: 0 !important;
-    }
-
-    .imgS {
-        height: 67px;
-    }
-
-    .imgR {
-        overflow: hidden;
-        max-width: 88.7%;
-        height: 88.7%;
-    }
-
-    /*.imgR img {*/
-    /*    display: flex;*/
-    /*}*/
-
-    #imgInMedia {
-        width: inherit;
-        height:inherit;
-
-    }
-
-    .pointers {
-        margin-top: 55px;
-
-    }
-
-    /*#imgLineMain {*/
-        /*display: none;*/
-    /*}*/
-
-    .buttonBlock {
-        max-width: 33.333%;
-    }
-
-    .conFImg, infoFS {
-        max-width: 33.333%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .iconsMes {
-        /*display: none;*/
-    }
-
-    .listF ul {
-        /*display: none;*/
-    }
-
-    .LineP {
-        margin-top: 40px;
-    }
-
-    .LineP h2 {
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .LineP p {
-        margin-left: 0;
-    }
-
-    .LineP p small {
-        font-size: 12px;
-        text-align: left;
-    }
-
-    .artO h3, p {
-        font-size: 10px !important;
-        padding: 13px 20px;
-    }
-
-    .artO {
-        padding: 10px 0 !important;
-    }
-
-    .algN {
-        padding: 0;
-    }
-
-    .BuCen {
-        margin-top: 40px;
-    }
-
-    .posSh .row {
-        display: none;
-    }
-
-
-    .BuCen p {
-        color: black;
-        font-weight: 700;
-        /*text-shadow: 1px 1px 40px black, 0 0 1em white;*/
-    }
-
-    .buttonBlock .brifC {
-        display: none;
-    }
-
-    .brifC a {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .Serv {
-        padding: 5px 20px;
-    }
-
-    .algF {
-        padding-top: 0;
-    }
-
-    .infBlock {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .OneSec {
-        height: auto;
-        padding-bottom: 35px;
-    }
-
-    .blockTwo img {
-        display: none;
-    }
-
-    .blockCol {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .blogTextInf  {
-        line-height: inherit!important;
-    }
-
-    .ThereSec {
-        height: auto;
-        background-color: #171717 !important;
-        background-image: none;
-        /*margin-top: 150px;*/
-        padding-bottom: 15px;
-    }
-
-    .hInImg {
-        margin-top: 50px;
-    }
-
-    .blogTextInf {
-        margin-top: 0;
-    }
-
-    .buttonInInfBlock {
-        display: none;
-    }
-
-    .FourSec {
-        max-width: 100%;
-        height: auto;
-        padding-bottom: 50px;
-    }
-
-    .oneObj, .twoObj {
-        padding: 0!important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .conFImg .oneObj, .twoObj {
-        max-width: 100%;
-        display: none;
-    }
-
-    .conFImg {
-        display: none;
-    }
-
-    .inpInf input {
-        border: 1px solid black;
-    }
-
-    #contacts_name, #contacts_email, #telNumb, #spaL  {
-        border: 1px solid #868686 !important;
-    }
-
-    .infoFS p small {
-        font-size: 13px;
-    }
-
-
-    .butInNav p {
-        font-size: 15px !important;
-    }
-
-    .butInNav {
-        margin: 0 0 100px 0 !important;
-
-    }
-
-    .SrvN p {
-        margin-right: 0;
-    }
-    .navB p {
-        font-size: 15px;
-    }
-
-    .navB h1 {
-        padding-top: 40px;
-        text-align: center;
-    }
-
-    .iconsBl {
-        font-size: 25px;
-    }
-
-    .desScr h2, p {
-        text-align: center;
-        margin-left: 0 !important;
-    }
-
-    .contactUs {
-        height: auto;
-    }
-
-    .fiveBlockContUs {
-        display: none !important;
-    }
-
-    .fiveBlockInfUs div p {
-        font-size: 15px !important;
-    }
-
-    .fiveBlockInfUs div {
-        margin: 20px 15px;
-        width: 100%;
-    }
-
-    .infoServ h1 {
-        text-align: center;
-    }
-
-    .infoServ p {
-        font-size: 15px !important;
-    }
-
-    .descOfServ {
-        height: auto;
-        padding-bottom: 200px;
-    }
-
-    .workEx div {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .workEx div p {
-        font-size: 15px !important;
-    }
-
-    .thereBlock div {
-        height: 150px;
-        width: 90%;
-        margin: 15px 25px;
-    }
-
-    .thereBlock div p {
-        font-size: 15px !important;
-        color: white;
-        margin-top: 45px;
-    }
-
-    .costServ {
-        height: auto;
-        padding-bottom: 100px;
-    }
-
-    .pricSch div h1 {
-        text-align: center;
-    }
-
-    .pricSch div p {
-        font-size: 15px !important;
-    }
-
-    #radius, #radiusTwo {
-        border-radius: 25px !important;
-    }
-    #newCol  {
-        margin: 25px 30px;
-    }
-
-
-    #radius p {
-        font-size: 20px !important;
-        text-align: center !important;
-        padding-right: 0 !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #radiusTwo p {
-        padding-left: 0 !important;
-        font-size: 20px !important;
-        text-align: center !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #newCol p {
-        font-size: 20px !important;
-        text-align: center !important;
-    }
-
-    .twoS {
-        padding: 0 !important;
-    }
-
-    .creatInf h1 {
-        text-align: left;
-    }
-
-    .creatS {
-        height: auto;
-    }
-
-    .seoW {
-        height: auto !important;
-    }
-
-    .twoS {
-        display: none !important;
-    }
-
-    .seoInf h1 {
-        text-align: center;
-    }
-
-    .oneB {
-        display: none !important;
-    }
-
-    .firstB {
-        padding-bottom: 130px;
-    }
-
-    /*.twoS {*/
-        /*position: relative;*/
-        /*top: 105px;*/
-    /*}*/
-}
-@media only screen and(max-width:1199px ) {
-    .line{
-        display: none!important;    }
-}
-
-@media only screen and (max-width: 1440px) and (max-width: 1920px)  {
-
-
-    body p {
-        z-index: 199 !important;
-    }
-
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 199 !important;
-    }
-
-    .adptiveMenu {
-        z-index: 999 !important;
-        display: none;
-    }
-
-    .containerMenu {
-        z-index: 999 !important;
-    }
-
-    .header {
-        z-index: 999 !important;
-    }
-
-    .nav-burger__checkbox {
-        z-index: 999 !important;
-    }
-
-    .nav {
-        z-index: 999 !important;
-    }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
-    .infTwoObj p {
-        padding: 0 10px;
-    }
-
-    .imgR img {
-       max-width: 95.6%;
-    }
-
-    .ThereSec {
-        height: auto;
-        background-color: #171717 !important;
-        background-image: none;
-        padding-bottom: 75px;
-    }
-
-    .twoS {
-        display: none !important;
-    }
-
-    #radius, #newCol, #radiusTwo h1 {
-        text-align: center;
-    }
-
-
-}
-
-
-
-@media only screen and (min-width: 1440px) and (max-width: 1920px)  {
-    .adptiveMenu {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1920px) and (max-height: 1080px) {
-    .imgR img {
-        max-width: 95.6%;
-    }
-    .buttonInInfBlock a {
-        margin-top: 0;
-    }
-    .firstButton {
-        padding: 15px 25px 0 25px;
-    }
-    .descOfServ {
-        height: auto;
-        padding-bottom: 200px;
-    }
-    .inpInf {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .adptiveMenu {
-        display: none;
-    }
-    .buttonInInfBlock {
-        margin-top: 0;
-    }
-    .ThereSec {
-        padding-bottom: 410px !important;
-    }
-}
-
-@media only screen and (min-width: 1920px) and (max-width: 10000px) {
-
-    .adptiveMenu {
-        display: none;
-    }
-
-    .ThereSec {
-        max-width: 100%;
-
-    }
-}
