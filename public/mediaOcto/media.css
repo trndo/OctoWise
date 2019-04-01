@@ -1205,6 +1205,7 @@
         margin-top: 15px;
     }
 
+
 }
 
 @media only screen and (max-width: 414px) and (max-width: 768px) {
@@ -1284,7 +1285,7 @@
     }
 
     .octH h1 {
-        font-size: 20px !important;
+        font-size: 30px !important;
         top: 25px;
         position: relative;
     }
@@ -1710,1088 +1711,1118 @@
     }
 
 }
-@media only screen and (max-width: 375px) {
-
-
-    body p {
-        z-index: 199 !important;
-    }
-
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 999 !important;
-    }
-
-    #octoImg{
-        height: 79%;
-        top: 30.5%;
+@media only screen and (max-width: 411px) {
+    #octoImg {
+        height: 90.7%;
+        top: 20.5%;
         left: 0;
         position: absolute;
         z-index: -1;
         transform: rotate(90deg);
     }
-    #down{
-        opacity: 0;
-    }
-
-    .adptiveMenu {
-        z-index: 999 !important;
-        display: block !important;
-    }
-
-    .containerMenu {
-        z-index: 999 !important;
-    }
-
-    .header {
-        z-index: 999 !important;
-    }
-
-    .nav-burger__checkbox {
-        z-index: 999 !important;
-    }
-
-    .nav {
-        z-index: 999 !important;
-    }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
-    .infTwoObj p {
-        padding: 0 10px;
-    }
-
-    .infOneObj h1 {
-        font-size: 17px;
-    }
-
-    .mainS .row {
-        padding: 25px 0;
-    }
-
-    .mainS .container .row {
-        margin: 25px 0;
-    }
-
-
-    .headInf {
-        display: none;
-    }
-
-    nav p {
-        padding: 0;
-    }
-
-    .butInNav {
-        display: none;
-    }
-
-    #object {
-        position: relative;
-        bottom: 8px;
-        margin-top: 2%;
-        margin-left: 3%;
-    }
-    #webStudio{
-        position: relative;
-        margin-top: 4%;
-        left: 3%;
-        font-size: 13px;
-        text-align: center;
-    }
-
-    .octH {
-        margin-top: 40px;
-    }
-
-    .octH h1 {
-        font-size: 20px !important;
-        top: 25px;
-        position: relative;
-    }
-    .octH p{
-        top: 25px;
-        font-size: 10px;
-        margin-left: 0;
-        position: relative;
-    }
-
-    .imgR {
-        overflow: hidden;
-    }
-
-    .imgR img {
-        display: flex;
-    }
-
-    #imgInMedia {
-        transform: rotate(90deg);
-        max-width: 100%;
-        height: auto;
-        margin-top: 180px;
-    }
-
-
-    .pointers img {
-        margin-top: 180px;
-
-    }
-
-    #imgLineMain {
-        display: none;
-    }
-
-    .buttonBlock {
-        max-width: 33.333%;
-    }
-
-    .conFImg, infoFS {
-        max-width: 33.333%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .firstB div p {
-        margin-top: 0;
-        font-size: 15px !important;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .iconsMes {
-        display: none;
-    }
-
-    .listF ul {
-        display: none;
-    }
-
-    .LineP {
-        margin-top: 40px;
-    }
-
-    .LineP h2 {
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .LineP p {
-        margin-left: 0;
-    }
-
-    .LineP p small {
-        font-size: 12px;
-        text-align: left;
-    }
-
-    .artO h3,.artO p {
-        font-size: 10px !important;
-        padding: 0 50px;
-    }
-
-    .artO {
-        padding: 10px 0 !important;
-    }
-
-    .algN {
-        padding: 0;
-    }
-
-    .ourWork {
-        height: auto;
-    }
-
-    .blInW #infW {
-        width: 100%;
-    }
-
-    .imgV {
-        display: none;
-    }
-
-    .BuCen {
-        margin-top: 40px;
-    }
-
-    .BuCen {
-        margin-top: 40px;
-        background-color: red;
-        border: none;
-    }
-
-    .BuCen p {
-        color: white !important;
-        font-weight: 700;
-    }
-
-    .buttonBlock .brifC {
-        display: none;
-    }
-
-    .brifC a {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .Serv {
-        padding: 5px 20px;
-    }
-
-    .algF {
-        padding-top: 0;
-    }
-
-    .infBlock {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .OneSec {
-        height: 750px !important;
-    }
-
-    .blockTwo img {
-        display: none;
-    }
-
-    .blockCol {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .blogTextInf {
-        line-height: inherit !important;
-    }
-
-    .ThereSec {
-        height: auto;
-        background-color: #171717 !important;
-        background-image: none;
-        /*margin-top: 300px;*/
-        padding-bottom: 0;
-    }
-
-    .hInImg {
-        margin-top: 50px;
-    }
-
-    .blogTextInf {
-        margin-top: 0;
-    }
-
-    .buttonInInfBlock {
-        display: none;
-    }
-
-    .FourSec {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .oneObj, .twoObj {
-        padding: 0 !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .conFImg .oneObj, .twoObj {
-        max-width: 100%;
-        display: flex;
-        justify-content: center !important;
-        align-items: center !important;
-
-    }
-
-    .conFImg {
-        display: none;
-    }
-
-    .inpInf input {
-        border: 1px solid black;
-    }
-
-    #contacts_name, #contacts_email, #telNumb, #spaL {
-        border: 1px solid #868686 !important;
-    }
-
-    .infoFS p small {
-        font-size: 13px;
-    }
-
-
-    .butInNav p {
-        font-size: 15px !important;
-    }
-
-    .butInNav {
-        margin: 0 0 100px 0 !important;
-
-    }
-
-    .SrvN p {
-        margin-right: 0;
-    }
-    .navB p {
-        font-size: 15px;
-    }
-
-    .navB h1 {
-        padding-top: 40px;
-        text-align: center;
-    }
-
-    .iconsBl {
-        font-size: 25px;
-    }
-
-    .desScr h2, .desScr p {
-        text-align: center;
-        margin-left: 0 !important;
-    }
-
-    .contactUs {
-        height: 900px;
-    }
-
-    .fiveBlockContUs {
-        display: none !important;
-    }
-
-    .fiveBlockInfUs div p {
-        font-size: 15px !important;
-    }
-
-    .fiveBlockInfUs div {
-        margin: 20px 15px;
-        width: 100%;
-        height: auto;
-    }
-
-    .infoServ h1 {
-        text-align: center;
-    }
-
-    .infoServ p {
-        font-size: 15px !important;
-    }
-
-    .descOfServ {
-        height: auto !important;
-        padding-bottom: 200px;
-    }
-
-    .workEx div {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .workEx div p {
-        font-size: 15px !important;
-    }
-
-    .thereBlock div {
-        height: 150px;
-        margin: 15px 25px;
-    }
-
-    .thereBlock div p {
-        font-size: 15px !important;
-        color: white;
-        margin-top: 45px;
-    }
-
-    .costServ {
-        height: 2000px;
-    }
-
-    .pricSch div h1 {
-        text-align: center;
-    }
-
-    .pricSch div p {
-        font-size: 15px !important;
-    }
-
-    #radius, #radiusTwo {
-        border-radius: 25px !important;
-    }
-    #newCol  {
-        margin: 25px 30px;
-    }
-
-
-    #radius p {
-        font-size: 20px !important;
-        text-align: center !important;
-        padding-right: 0 !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #radiusTwo p {
-        padding-left: 0 !important;
-        font-size: 20px !important;
-        text-align: center !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #radiusTwo, #newCol, #radius h1 {
-        text-align: center;
-    }
-
-    #newCol p {
-        font-size: 20px !important;
-        text-align: center !important;
-    }
-
-    #newCol {
-        position: relative;
-        top: 1px;
-    }
-
-    .twoS {
-        padding: 0 !important;
-    }
-
-    .creatInf h1 {
-        text-align: left;
-    }
-
-    .creatS {
-        height: auto;
-    }
-
-    .seoW {
-        height: auto !important;
-    }
-
-    .twoS {
-        display: none !important;
-    }
-
-    .seoInf h1 {
-        text-align: center;
-    }
-
-
-    .creatF {
-        padding: 10px 0;
-    }
-
-    .firstB div {
-        width: 90% !important;
-        margin: 5px 0;
-    }
-
-    .creatF a p {
-        font-size: 20px !important;
-    }
-
-    .oneB {
-        display: none !important;
-    }
-
-    .seoW {
-        /*padding-top: 450px;*/
-    }
-
-    .seoInf p {
-        font-size: 13px !important;
-    }
-
-    .designW {
-        padding-bottom: 100px;
-    }
-
-    .desB {
-        text-align: center;
-    }
-
 }
-@media only screen and (max-width: 320px) {
 
-    body p {
-        z-index: 199 !important;
+    @media only screen and (max-width: 375px) {
+
+
+        body p {
+            z-index: 199 !important;
+        }
+
+        body h1, h2, h3, h4, h5, h6 {
+            z-index: 999 !important;
+        }
+
+        #octoImg {
+            height: 74.5%;
+            top: 34%;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+            transform: rotate(90deg);
+        }
+
+        #down {
+            opacity: 0;
+        }
+
+        .adptiveMenu {
+            z-index: 999 !important;
+            display: block !important;
+        }
+
+        .containerMenu {
+            z-index: 999 !important;
+        }
+
+        .header {
+            z-index: 999 !important;
+        }
+
+        .nav-burger__checkbox {
+            z-index: 999 !important;
+        }
+
+        .nav {
+            z-index: 999 !important;
+        }
+
+        .imgInOneObj img {
+            width: 100%;
+        }
+
+        .infTwoObj p {
+            padding: 0 10px;
+        }
+
+        .infOneObj h1 {
+            font-size: 17px;
+        }
+
+        .mainS .row {
+            padding: 25px 0;
+        }
+
+        .mainS .container .row {
+            margin: 25px 0;
+        }
+
+
+        .headInf {
+            display: none;
+        }
+
+        nav p {
+            padding: 0;
+        }
+
+        .butInNav {
+            display: none;
+        }
+
+        #object {
+            position: relative;
+            bottom: 8px;
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+
+        #webStudio {
+            position: relative;
+            margin-top: 4%;
+            left: 3%;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .octH {
+            margin-top: 40px;
+        }
+
+        .octH h1 {
+            font-size: 30px !important;
+            top: 25px;
+            position: relative;
+        }
+
+        .octH p {
+            top: 25px;
+            font-size: 10px;
+            margin-left: 0;
+            position: relative;
+        }
+
+        .imgR {
+            overflow: hidden;
+        }
+
+        .imgR img {
+            display: flex;
+        }
+
+        #imgInMedia {
+            transform: rotate(90deg);
+            max-width: 100%;
+            height: auto;
+            margin-top: 180px;
+        }
+
+
+        .pointers img {
+            margin-top: 180px;
+
+        }
+
+        #imgLineMain {
+            display: none;
+        }
+
+        .buttonBlock {
+            max-width: 33.333%;
+        }
+
+        .conFImg, infoFS {
+            max-width: 33.333%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .firstB div p {
+            margin-top: 0;
+            font-size: 15px !important;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .iconsMes {
+            display: none;
+        }
+
+        .listF ul {
+            display: none;
+        }
+
+        .LineP {
+            margin-top: 40px;
+        }
+
+        .LineP h2 {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .LineP p {
+            margin-left: 0;
+        }
+
+        .LineP p small {
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .artO h3, .artO p {
+            font-size: 10px !important;
+            padding: 0 50px;
+        }
+
+        .artO {
+            padding: 10px 0 !important;
+        }
+
+        .algN {
+            padding: 0;
+        }
+
+        .ourWork {
+            height: auto;
+        }
+
+        .blInW #infW {
+            width: 100%;
+        }
+
+        .imgV {
+            display: none;
+        }
+
+        .BuCen {
+            margin-top: 40px;
+        }
+
+        .BuCen {
+            margin-top: 40px;
+            background-color: red;
+            border: none;
+        }
+
+        .BuCen p {
+            color: white !important;
+            font-weight: 700;
+        }
+
+        .buttonBlock .brifC {
+            display: none;
+        }
+
+        .brifC a {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .Serv {
+            padding: 5px 20px;
+        }
+
+        .algF {
+            padding-top: 0;
+        }
+
+        .infBlock {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .OneSec {
+            height: 750px !important;
+        }
+
+        .blockTwo img {
+            display: none;
+        }
+
+        .blockCol {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .blogTextInf {
+            line-height: inherit !important;
+        }
+
+        .ThereSec {
+            height: auto;
+            background-color: #171717 !important;
+            background-image: none;
+            /*margin-top: 300px;*/
+            padding-bottom: 0;
+        }
+
+        .hInImg {
+            margin-top: 50px;
+        }
+
+        .blogTextInf {
+            margin-top: 0;
+        }
+
+        .buttonInInfBlock {
+            display: none;
+        }
+
+        .FourSec {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .oneObj, .twoObj {
+            padding: 0 !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .conFImg .oneObj, .twoObj {
+            max-width: 100%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+
+        }
+
+        .conFImg {
+            display: none;
+        }
+
+        .inpInf input {
+            border: 1px solid black;
+        }
+
+        #contacts_name, #contacts_email, #telNumb, #spaL {
+            border: 1px solid #868686 !important;
+        }
+
+        .infoFS p small {
+            font-size: 13px;
+        }
+
+
+        .butInNav p {
+            font-size: 15px !important;
+        }
+
+        .butInNav {
+            margin: 0 0 100px 0 !important;
+
+        }
+
+        .SrvN p {
+            margin-right: 0;
+        }
+
+        .navB p {
+            font-size: 15px;
+        }
+
+        .navB h1 {
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .iconsBl {
+            font-size: 25px;
+        }
+
+        .desScr h2, .desScr p {
+            text-align: center;
+            margin-left: 0 !important;
+        }
+
+        .contactUs {
+            height: 900px;
+        }
+
+        .fiveBlockContUs {
+            display: none !important;
+        }
+
+        .fiveBlockInfUs div p {
+            font-size: 15px !important;
+        }
+
+        .fiveBlockInfUs div {
+            margin: 20px 15px;
+            width: 100%;
+            height: auto;
+        }
+
+        .infoServ h1 {
+            text-align: center;
+        }
+
+        .infoServ p {
+            font-size: 15px !important;
+        }
+
+        .descOfServ {
+            height: auto !important;
+            padding-bottom: 200px;
+        }
+
+        .workEx div {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .workEx div p {
+            font-size: 15px !important;
+        }
+
+        .thereBlock div {
+            height: 150px;
+            margin: 15px 25px;
+        }
+
+        .thereBlock div p {
+            font-size: 15px !important;
+            color: white;
+            margin-top: 45px;
+        }
+
+        .costServ {
+            height: 2000px;
+        }
+
+        .pricSch div h1 {
+            text-align: center;
+        }
+
+        .pricSch div p {
+            font-size: 15px !important;
+        }
+
+        #radius, #radiusTwo {
+            border-radius: 25px !important;
+        }
+
+        #newCol {
+            margin: 25px 30px;
+        }
+
+
+        #radius p {
+            font-size: 20px !important;
+            text-align: center !important;
+            padding-right: 0 !important;
+            border-radius: 25px 25px 0 0 !important;
+        }
+
+        #radiusTwo p {
+            padding-left: 0 !important;
+            font-size: 20px !important;
+            text-align: center !important;
+            border-radius: 25px 25px 0 0 !important;
+        }
+
+        #radiusTwo, #newCol, #radius h1 {
+            text-align: center;
+        }
+
+        #newCol p {
+            font-size: 20px !important;
+            text-align: center !important;
+        }
+
+        #newCol {
+            position: relative;
+            top: 1px;
+        }
+
+        .twoS {
+            padding: 0 !important;
+        }
+
+        .creatInf h1 {
+            text-align: left;
+        }
+
+        .creatS {
+            height: auto;
+        }
+
+        .seoW {
+            height: auto !important;
+        }
+
+        .twoS {
+            display: none !important;
+        }
+
+        .seoInf h1 {
+            text-align: center;
+        }
+
+
+        .creatF {
+            padding: 10px 0;
+        }
+
+        .firstB div {
+            width: 90% !important;
+            margin: 5px 0;
+        }
+
+        .creatF a p {
+            font-size: 20px !important;
+        }
+
+        .oneB {
+            display: none !important;
+        }
+
+        .seoW {
+            /*padding-top: 450px;*/
+        }
+
+        .seoInf p {
+            font-size: 13px !important;
+        }
+
+        .designW {
+            padding-bottom: 100px;
+        }
+
+        .desB {
+            text-align: center;
+        }
+
+    }
+    @media only screen and (max-width: 360px) {
+        #octoImg {
+            height: 71.5%;
+            top: 37%;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+            transform: rotate(90deg);
+        }
+    }
+    @media only screen and (max-width: 320px) {
+
+        body p {
+            z-index: 199 !important;
+        }
+
+        body h1, h2, h3, h4, h5, h6 {
+            z-index: 999 !important;
+        }
+
+        .adptiveMenu {
+            z-index: 999 !important;
+            display: block !important;
+        }
+
+        .containerMenu {
+            z-index: 999 !important;
+        }
+
+        .header {
+            z-index: 999 !important;
+        }
+
+        .header img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-burger__checkbox {
+            z-index: 999 !important;
+        }
+
+        .nav {
+            z-index: 999 !important;
+        }
+
+        #octoImg {
+            height: 100%;
+            top: 12%;
+            left: 0;
+            position: absolute;
+            z-index: -1;
+            transform: rotate(90deg);
+        }
+
+        #down {
+            opacity: 0;
+        }
+
+        .infTwoObj p {
+            padding: 0 10px;
+        }
+
+        .infOneObj h1 {
+            font-size: 17px;
+        }
+
+        .imgInOneObj img {
+            width: 100%;
+        }
+
+
+        .mainS .row {
+            padding: 25px 0;
+        }
+
+        .mainS .container .row {
+            margin: 25px 0;
+        }
+
+
+        .headInf {
+            display: none;
+        }
+
+        nav p {
+            padding: 0;
+        }
+
+        .nav__item {
+            z-index: 999;
+        }
+
+        .octH {
+            margin-top: 40px;
+        }
+
+        .octH h1 {
+            font-size: 20px !important;
+            top: 25px;
+            position: relative;
+        }
+
+        .octH p {
+            top: 25px;
+            position: relative;
+        }
+
+        .imgR {
+            overflow: hidden;
+        }
+
+        .imgR img {
+            display: flex;
+        }
+
+        #imgInMedia {
+            transform: rotate(90deg);
+            max-width: 100%;
+            height: auto;
+            margin-top: 215px !important;
+        }
+
+        .pointers {
+            margin-top: 0 !important;
+        }
+
+        .pointers img {
+            margin-top: 30px !important;
+        }
+
+        #imgLineMain {
+            /*max-width: 70%;*/
+            display: none;
+        }
+
+        .imgBlock {
+            display: none;
+            /*position: relative;*/
+            /*bottom: 200px;*/
+            /*right: 65px;*/
+        }
+
+        .butInNav {
+            display: none;
+        }
+
+        .buttonBlock {
+            max-width: 33.333%;
+        }
+
+        .conFImg, infoFS {
+            max-width: 33.333%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .iconsMes {
+            display: none;
+        }
+
+        .listF ul {
+            display: none;
+        }
+
+        .LineP {
+            margin-top: -10px;
+        }
+
+        .LineP h2 {
+            font-size: 20px;
+            text-align: left;
+            display: inline;
+        }
+
+        .LineP p {
+            margin-left: 0;
+            text-align: left;
+            float: left;
+            width: 100%;
+        }
+
+        .LineP p small {
+            font-size: 12px;
+            text-align: left;
+            float: left;
+            width: 100%;
+        }
+
+        .artO h3, .artO p {
+            font-size: 10px !important;
+            padding: 0 50px;
+        }
+
+        .artO {
+            padding: 10px 0 !important;
+        }
+
+        .algN {
+            padding: 0;
+        }
+
+        .BuCen {
+            margin-top: 70px !important;
+            background-color: red;
+            border: none;
+            width: 70%;
+        }
+
+        .BuCen p {
+            color: white !important;
+            font-weight: 700;
+        }
+
+        .buttonBlock .brifC {
+            display: none;
+        }
+
+        .brifC a {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .Serv {
+            padding: 5px 20px;
+        }
+
+        .Serv h2 {
+            width: 200px;
+        }
+
+        .algF {
+            padding-top: 0;
+        }
+
+        .infBlock {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .OneSec {
+            height: 750px !important;
+        }
+
+        #object {
+            position: relative;
+            bottom: 7px;
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+
+        #webStudio {
+            position: relative;
+            margin-top: 5%;
+            left: 3%;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .blockTwo img {
+            display: none;
+        }
+
+        .blockCol {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .blogTextInf {
+            line-height: inherit !important;
+        }
+
+        .ThereSec {
+            height: auto;
+            background-color: #171717 !important;
+            background-image: none;
+            /*margin-top: 300px;*/
+            padding-bottom: 0;
+        }
+
+        .hInImg {
+            margin-top: 50px;
+        }
+
+        .blogTextInf {
+            margin-top: 0;
+        }
+
+        .FourSec {
+            max-width: 100%;
+            height: 730px;
+        }
+
+        .oneObj, .twoObj {
+            padding: 0 !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .conFImg .oneObj, .twoObj {
+            max-width: 100%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+
+        }
+
+        .conFImg {
+            display: none;
+        }
+
+        .inpInf input {
+            border: 1px solid black;
+            padding: 0;
+            margin: 0;
+        }
+
+        #contacts_name, #contacts_email, #telNumb, #spaL {
+            border: 1px solid #868686 !important;
+        }
+
+        .infoFS p small {
+            font-size: 13px;
+        }
+
+        .butInNav p {
+            font-size: 15px !important;
+        }
+
+        .butInNav {
+            margin: 0 0 100px 0 !important;
+
+        }
+
+        .SrvN p {
+            margin-right: 0;
+        }
+
+        .navB p {
+            font-size: 13px;
+        }
+
+        .navB h1 {
+            padding-top: 40px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .iconsBl {
+            font-size: 25px;
+        }
+
+        .desScr h2, .desScr p {
+            text-align: center;
+            margin-left: 0 !important;
+        }
+
+        .desScr p {
+            font-size: 15px !important;
+        }
+
+        .contactUs {
+            height: 900px;
+        }
+
+        .fiveBlockContUs {
+            display: none !important;
+        }
+
+        .fiveBlockInfUs div p {
+            font-size: 15px !important;
+        }
+
+        .fiveBlockInfUs div {
+            margin: 20px 15px;
+            width: 100%;
+            height: auto;
+        }
+
+        .infoServ h1 {
+            text-align: center;
+        }
+
+        .infoServ p {
+            font-size: 15px !important;
+        }
+
+        .descOfServ {
+            height: auto;
+        }
+
+        .workEx div {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .workEx div p {
+            font-size: 15px !important;
+        }
+
+        .thereBlock div {
+            height: 150px;
+            margin: 15px 25px;
+        }
+
+        .thereBlock div p {
+            font-size: 15px !important;
+            color: white;
+            margin-top: 45px;
+        }
+
+        .costServ {
+            height: 2000px;
+        }
+
+        .pricSch div h1 {
+            text-align: center;
+        }
+
+        .pricSch div p {
+            font-size: 15px !important;
+        }
+
+        #radius, #radiusTwo {
+            border-radius: 25px !important;
+        }
+
+        #radius p {
+            font-size: 20px !important;
+            text-align: center !important;
+            padding-right: 0 !important;
+            border-radius: 25px 25px 0 0 !important;
+        }
+
+        #radiusTwo p {
+            padding-left: 0 !important;
+            font-size: 20px !important;
+            text-align: center !important;
+            border-radius: 25px 25px 0 0 !important;
+        }
+
+
+        #newCol p {
+            font-size: 20px !important;
+            text-align: center !important;
+        }
+
+        #newCol {
+            position: relative;
+            top: 1px;
+        }
+
+
+        #radiusTwo, #newCol, #radius h1 {
+            text-align: center;
+        }
+
+        .imgV {
+            display: none;
+        }
+
+        .hText {
+            margin-top: 100px;
+            text-align: center !important;
+        }
+
+        .hText p {
+            text-align: center !important;
+            margin-right: 0;
+        }
+
+        .infInBeli {
+            padding-bottom: 0 !important;
+            margin-top: 100px;
+        }
+
+        #infW {
+            width: 100% !important;
+            height: 150px;
+        }
+
+        .ourWork {
+            height: 3400px;
+        }
+
+        .twBlInVal p {
+            font-size: 20px !important;
+        }
+
+        .frR p {
+            font-size: 15px !important;
+        }
+
+        .TwoSec p {
+            font-size: 18px;
+        }
+
+        .textBeli p {
+            display: none;
+        }
+
+        .bgBl {
+            height: 200px;
+        }
+
+        .WhaWeBeliIn {
+            background-color: #363636;
+        }
+
+        .infInBeli h2 {
+            color: lightgray;
+        }
+
+        .ourValu {
+            padding: 100px 0;
+            height: auto;
+        }
+
+        .twoS {
+            padding: 0 !important;
+        }
+
+        .creatInf h1 {
+            text-align: left;
+            font-size: 20px;
+        }
+
+        .creatInf p {
+            text-align: left;
+            padding-left: 0 !important;
+        }
+
+        .creatS {
+            height: 700px;
+        }
+
+        .seoW {
+            height: auto !important;
+        }
+
+        .twoS {
+            display: none !important;
+        }
+
+        .seoInf h1 {
+            text-align: center;
+        }
+
+        .creatF {
+            padding: 10px 0;
+        }
+
+        .firstB div {
+            width: 90% !important;
+            margin: 5px 0;
+        }
+
+        .firstB div p {
+            margin-top: 0;
+            font-size: 15px !important;
+            text-align: center;
+            margin-top: 25px;
+
+        }
+
+
+        .creatF a p {
+            font-size: 20px !important;
+        }
+
+        .oneB {
+            display: none !important;
+        }
+
+        .seoW {
+            /*padding-top: 450px;*/
+        }
+
+        .seoInf p {
+            font-size: 13px !important;
+        }
+
+        .designW {
+            padding-bottom: 100px;
+        }
+
+        .desB {
+            text-align: center;
+        }
     }
-
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 999 !important;
-    }
-
-    .adptiveMenu {
-        z-index: 999 !important;
-        display: block !important;
-    }
-
-    .containerMenu {
-        z-index: 999 !important;
-    }
-
-    .header {
-        z-index: 999 !important;
-    }
-
-    .header img {
-        display: flex;
-        justify-content: center;
-    }
-
-    .nav-burger__checkbox {
-        z-index: 999 !important;
-    }
-
-    .nav {
-        z-index: 999 !important;
-    }
-
-    #octoImg{
-        height: 100%;
-        top: 12%;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        transform: rotate(90deg);
-    }
-    #down{
-        opacity: 0;
-    }
-    .infTwoObj p {
-        padding: 0 10px;
-    }
-
-    .infOneObj h1 {
-        font-size: 17px;
-    }
-
-    .imgInOneObj img {
-        width: 100%;
-    }
-
-
-    .mainS .row {
-        padding: 25px 0;
-    }
-
-    .mainS .container .row {
-        margin: 25px 0;
-    }
-
-
-    .headInf {
-        display: none;
-    }
-
-    nav p {
-        padding: 0;
-    }
-
-    .nav__item  {
-        z-index: 999;
-    }
-
-    .octH {
-        margin-top: 40px;
-    }
-
-    .octH h1 {
-        font-size: 20px !important;
-        top: 25px;
-        position: relative;
-    }
-    .octH p{
-        top: 25px;
-        position: relative;
-    }
-
-    .imgR {
-        overflow: hidden;
-    }
-
-    .imgR img {
-        display: flex;
-    }
-
-    #imgInMedia {
-        transform: rotate(90deg);
-        max-width: 100%;
-        height: auto;
-        margin-top: 215px !important;
-    }
-
-    .pointers {
-        margin-top: 0 !important;
-    }
-
-    .pointers img {
-        margin-top: 30px !important;
-    }
-
-    #imgLineMain {
-        /*max-width: 70%;*/
-        display: none;
-    }
-
-    .imgBlock {
-        display: none;
-        /*position: relative;*/
-        /*bottom: 200px;*/
-        /*right: 65px;*/
-    }
-
-    .butInNav {
-        display: none;
-    }
-
-    .buttonBlock {
-        max-width: 33.333%;
-    }
-
-    .conFImg, infoFS {
-        max-width: 33.333%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .iconsMes {
-        display: none;
-    }
-
-    .listF ul {
-        display: none;
-    }
-
-    .LineP {
-        margin-top: -10px;
-    }
-
-    .LineP h2 {
-        font-size: 20px;
-        text-align: left;
-        display:inline;
-    }
-
-    .LineP p {
-        margin-left: 0;
-        text-align: left;
-        float: left;
-        width: 100%;
-    }
-
-    .LineP p small {
-        font-size: 12px;
-        text-align: left;
-        float: left;
-        width: 100%;
-    }
-
-    .artO h3,.artO p {
-        font-size: 10px !important;
-        padding: 0 50px;
-    }
-
-    .artO {
-        padding: 10px 0 !important;
-    }
-
-    .algN {
-        padding: 0;
-    }
-
-    .BuCen {
-        margin-top: 70px !important;
-        background-color: red;
-        border: none;
-        width: 70%;
-    }
-
-    .BuCen p {
-        color: white !important;
-        font-weight: 700;
-    }
-
-    .buttonBlock .brifC {
-        display: none;
-    }
-
-    .brifC a {
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .Serv {
-        padding: 5px 20px;
-    }
-
-    .Serv h2 {
-        width: 200px;
-    }
-
-    .algF {
-        padding-top: 0;
-    }
-
-    .infBlock {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .OneSec {
-        height: 750px !important;
-    }
-
-    #object {
-        position: relative;
-        bottom: 7px;
-        margin-top: 2%;
-        margin-left: 3%;
-    }
-    #webStudio{
-        position: relative;
-        margin-top: 5%;
-        left: 3%;
-        font-size: 13px;
-        text-align: center;
-    }
-
-    .blockTwo img {
-        display: none;
-    }
-
-    .blockCol {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .blogTextInf  {
-        line-height: inherit!important;
-    }
-
-    .ThereSec {
-        height: auto;
-        background-color: #171717 !important;
-        background-image: none;
-        /*margin-top: 300px;*/
-        padding-bottom: 0;
-    }
-
-    .hInImg {
-        margin-top: 50px;
-    }
-
-    .blogTextInf {
-        margin-top: 0;
-    }
-
-    .FourSec {
-        max-width: 100%;
-        height: 730px;
-    }
-
-    .oneObj, .twoObj {
-        padding: 0!important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .conFImg .oneObj, .twoObj {
-        max-width: 100%;
-        display: flex;
-        justify-content: center !important;
-        align-items: center !important;
-
-    }
-
-    .conFImg {
-        display: none;
-    }
-
-    .inpInf input {
-        border: 1px solid black;
-        padding: 0;
-        margin: 0;
-    }
-
-    #contacts_name, #contacts_email, #telNumb, #spaL  {
-        border: 1px solid #868686 !important;
-    }
-
-    .infoFS p small {
-        font-size: 13px;
-    }
-
-    .butInNav p {
-        font-size: 15px !important;
-    }
-
-    .butInNav {
-        margin: 0 0 100px 0 !important;
-
-    }
-
-    .SrvN p {
-        margin-right: 0;
-    }
-    .navB p {
-        font-size: 13px;
-    }
-
-    .navB h1 {
-        padding-top: 40px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .iconsBl {
-        font-size: 25px;
-    }
-
-    .desScr h2, .desScr p {
-        text-align: center;
-        margin-left: 0 !important;
-    }
-
-    .desScr p {
-        font-size: 15px !important;
-    }
-
-    .contactUs {
-        height: 900px;
-    }
-
-    .fiveBlockContUs {
-        display: none !important;
-    }
-
-    .fiveBlockInfUs div p {
-        font-size: 15px !important;
-    }
-
-    .fiveBlockInfUs div {
-        margin: 20px 15px;
-        width: 100%;
-        height: auto;
-    }
-
-    .infoServ h1 {
-        text-align: center;
-    }
-
-    .infoServ p {
-        font-size: 15px !important;
-    }
-
-    .descOfServ {
-        height: auto;
-    }
-
-    .workEx div {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .workEx div p {
-        font-size: 15px !important;
-    }
-
-    .thereBlock div {
-        height: 150px;
-        margin: 15px 25px;
-    }
-
-    .thereBlock div p {
-        font-size: 15px !important;
-        color: white;
-        margin-top: 45px;
-    }
-
-    .costServ {
-        height: 2000px;
-    }
-
-    .pricSch div h1 {
-        text-align: center;
-    }
-
-    .pricSch div p {
-        font-size: 15px !important;
-    }
-
-    #radius, #radiusTwo {
-        border-radius: 25px !important;
-    }
-
-    #radius p {
-        font-size: 20px !important;
-        text-align: center !important;
-        padding-right: 0 !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-    #radiusTwo p {
-        padding-left: 0 !important;
-        font-size: 20px !important;
-        text-align: center !important;
-        border-radius: 25px 25px 0 0 !important;
-    }
-
-
-    #newCol p {
-        font-size: 20px !important;
-        text-align: center !important;
-    }
-
-    #newCol {
-        position: relative;
-        top: 1px;
-    }
-
-
-    #radiusTwo, #newCol, #radius h1 {
-        text-align: center;
-    }
-
-    .imgV {
-        display: none;
-    }
-
-    .hText {
-        margin-top: 100px;
-        text-align: center !important;
-    }
-
-    .hText p {
-        text-align: center !important;
-        margin-right: 0;
-    }
-
-    .infInBeli {
-        padding-bottom: 0 !important;
-        margin-top: 100px;
-    }
-
-    #infW {
-        width: 100% !important;
-        height: 150px;
-    }
-
-    .ourWork {
-        height: 3400px;
-    }
-
-    .twBlInVal p {
-        font-size: 20px !important;
-    }
-
-    .frR p {
-        font-size: 15px !important;
-    }
-
-    .TwoSec p {
-        font-size: 18px;
-    }
-
-    .textBeli p {
-        display: none;
-    }
-
-    .bgBl {
-        height: 200px;
-    }
-
-    .WhaWeBeliIn {
-        background-color: #363636;
-    }
-
-    .infInBeli h2 {
-        color: lightgray;
-    }
-
-    .ourValu {
-        padding: 100px 0;
-        height: auto;
-    }
-
-    .twoS {
-        padding: 0 !important;
-    }
-
-    .creatInf h1 {
-        text-align: left;
-        font-size: 20px;
-    }
-
-    .creatInf p {
-        text-align: left;
-        padding-left: 0 !important;
-    }
-
-    .creatS {
-        height: 700px;
-    }
-
-    .seoW {
-        height: auto !important;
-    }
-
-    .twoS {
-        display: none !important;
-    }
-
-    .seoInf h1 {
-        text-align: center;
-    }
-
-    .creatF {
-        padding: 10px 0;
-    }
-
-    .firstB div {
-        width: 90% !important;
-        margin: 5px 0;
-    }
-
-    .firstB div p {
-        margin-top: 0;
-        font-size: 15px !important;
-        text-align: center;
-        margin-top: 25px;
-
-    }
-
-
-    .creatF a p {
-        font-size: 20px !important;
-    }
-
-    .oneB {
-        display: none !important;
-    }
-
-    .seoW {
-        /*padding-top: 450px;*/
-    }
-
-    .seoInf p {
-        font-size: 13px !important;
-    }
-
-    .designW {
-        padding-bottom: 100px;
-    }
-
-    .desB {
-        text-align: center;
-    }
-
-}
 
 
 
