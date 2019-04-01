@@ -337,7 +337,14 @@ body {
   color: white; }
   .hInImg p {
     color: #979797;
-    margin-left: 40px; }
+     }
+.readmore{
+    display: none;
+}
+
+.willHide{
+    display: block;
+}
 
 .FourSec {
   width: 100%;
