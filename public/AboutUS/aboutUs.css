@@ -33,41 +33,6 @@ body {
 #LInH:hover {
   color: black !important; }
 
-.iconsMes {
-  display: flex;
-  justify-content: center;
-  margin-top: 200px; }
-  .iconsMes i {
-    font-size: 24px;
-    padding: 0 10px; }
-  .iconsMes a {
-    color: black; }
-  .iconsMes a:hover {
-    color: #979797; }
-
-.listF ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  font-size: 13px; }
-  .listF ul li {
-    padding: 25px 25px; }
-  .listF ul a {
-    color: black; }
-  .listF ul a:hover {
-    color: #ed1c24; }
-
-#FotL {
-  padding-right: 85px;
-  color: #bbbbbb; }
-
-#FotR {
-  padding-left: 85px; }
-  #FotR li {
-    display: flex;
-    flex-direction: column;
-    color: #bbbbbb;
-    text-align: center; }
 
 .infBlock {
   display: flex;

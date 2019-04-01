@@ -85,22 +85,6 @@ body {
     color: #ed1c24;
 }
 
-#FotL {
-    padding-right: 85px;
-    color: #bbbbbb;
-}
-
-#FotR {
-    padding-left: 85px;
-}
-
-#FotR li {
-    display: flex;
-    flex-direction: column;
-    color: #bbbbbb;
-    text-align: center;
-}
-
 .infBlock {
     display: flex;
     align-items: center;
