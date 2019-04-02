@@ -1,5 +1,17 @@
 @media only screen and (min-width: 1920px) and (max-width: 10000px) {
 
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
     .adptiveMenu {
         display: none;
     }
@@ -10,6 +22,19 @@
     }
 }
 @media only screen and (min-width: 1920px) and (max-height: 1080px) {
+
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
     .imgR img {
         max-width: 95.6%;
     }
@@ -40,12 +65,37 @@
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1920px)  {
+
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
     .adptiveMenu {
         display: none;
     }
 }
 @media only screen and (max-width: 1440px) and (max-width: 1920px)  {
 
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
 
     body p {
         z-index: 199 !important;
@@ -104,6 +154,18 @@
     }
 }
 @media only screen and (max-width: 1199px) {
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
     .line{
         display: none;   }
     #line {
@@ -176,6 +238,18 @@
     }
 }
 @media only screen and (max-width: 1080px) {
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
 
     .headerWrapperL p {
         color: #979797;
@@ -242,6 +316,19 @@
 
 
 @media only screen and (max-width: 1024px)  {
+
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
 
     .headerWrapperL p {
         color: #979797;
@@ -752,6 +839,18 @@
 }
 @media only screen and (max-width: 768px) and (max-width: 1024px) {
 
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide {
+        display: none;
+    }
 
     body p {
         z-index: 199 !important;
@@ -1210,6 +1309,18 @@
 
 @media only screen and (max-width: 414px) and (max-width: 768px) {
 
+    .op-gradient{
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+        from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+
+    .readmore{
+        display: block;
+    }
+
+    .willHide{
+        display: none;
+    }
     body p {
         z-index: 199 !important;
     }
