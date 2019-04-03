@@ -321,7 +321,10 @@ body {
     color: #979797; }
 
 .ThereSec {
-  background-image: url(../img/ServicesBackground.svg);
+    background-color: #000;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  /*background-image: url(../img/ServicesBackground.svg);*/
   max-width: 100%;
   height: auto;
   padding-bottom: 213px; }
