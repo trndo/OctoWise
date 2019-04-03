@@ -257,7 +257,7 @@
                             Недорогие сайты по всей Украине вы можете заказать в веб-студии OctoWice, наше сотрудничество не будет безуспешным, мы сможем повысить вовлеченность аудитории, повысить конверсию и в конце концов сделать сайт отличающимся отменным дизайном, продуманной структурой и отличной работой.
                             Свяжитесь с нами!
                         </p>
-                        <button class="readmore" onclick="showP();">Читать дальше</button>
+                        <button class="readmore" id="button_show" onclick="showP();">Читать дальше</button>
                         <script>
                             function showP(){
                               let list =  document.getElementsByClassName('willHide');
@@ -265,6 +265,7 @@
                                    list[i].style.display = 'block';
                                 }
                               document.getElementById('back').removeAttribute('class');
+                              document.getElementById('button_show').style.display = 'none';
                             }
                         </script>
                     </div>

@@ -339,7 +339,10 @@ body {
     color: #979797;
      }
 .readmore{
-    display: none;
+    position: relative;
+    margin: 0 auto;
+    height: 45px;
+    width: 300px;
 }
 
 .willHide{
