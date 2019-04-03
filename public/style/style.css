@@ -348,6 +348,10 @@ body {
     width: 300px;
 }
 
+#mobile-types{
+  display: none;
+}
+
 .willHide{
     display: block;
 }
