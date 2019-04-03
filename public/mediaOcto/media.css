@@ -982,10 +982,9 @@
         margin: 0;
     }
 
-    .iconsMes {
-        display: none;
-
-    }
+    /*.iconsMes {*/
+    /*    display: none;*/
+    /*}*/
 
     .ourWork {
         height: auto;
@@ -1460,9 +1459,9 @@
         margin: 0;
     }
 
-    .iconsMes {
-        display: none;
-    }
+    /*.iconsMes {*/
+    /*    display: none;*/
+    /*}*/
 
     .listF ul {
         display: none;
@@ -2018,9 +2017,9 @@
             margin-top: 20px;
         }
 
-        .iconsMes {
-            display: none;
-        }
+        /*.iconsMes {*/
+        /*    display: none;*/
+        /*}*/
 
         .listF ul {
             display: none;
@@ -2534,9 +2533,9 @@
             margin: 0;
         }
 
-        .iconsMes {
-            display: none;
-        }
+        /*.iconsMes {*/
+        /*    display: none;*/
+        /*}*/
 
         .listF ul {
             display: none;
