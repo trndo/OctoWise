@@ -64,6 +64,26 @@ nav {
   nav h1 {
     text-align: center; }
 
+.textWrapp{
+  text-align: center;
+  text-decoration: none;
+}
+#sorry{
+  position:relative;
+  margin:0 auto;
+  display: block;
+}
+.homeButt{
+  border: 1px solid #333;
+  display: inline-block;
+  padding: 5px 15px;
+  color: #919191;
+}
+.homeButt:hover{
+    background: red;
+    color: white;
+    text-decoration: none;
+}
 .butInNav {
   color: white;
   background-color: white;

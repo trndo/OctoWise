@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-lg-12 col-md-12 infTwoObj">
                         <p><i id="clockInBlog" class="far fa-clock"></i>{{ article.CreatedAt|date('Y/m/d') }}</p>
-                        <p><a href="{{ path('article',{'slug':article.slug}) }}">Подробнее</a> </p>
+                        <p><a id="toArticle" href="{{ path('article',{'slug':article.slug}) }}">Подробнее</a> </p>
                     </div>
                     <div class="imgInOneObj">
                         <img src="/uploads/{{ article.img }}">

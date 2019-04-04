@@ -30,7 +30,10 @@ body {
   background-color: #ed1c24;
   color: white !important;
   padding: 10px; }
-
+#toArticle{
+  color: red;
+  text-decoration:none ;
+}
 .infBlock {
   display: flex;
   align-items: center; }
