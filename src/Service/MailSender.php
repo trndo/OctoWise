@@ -10,15 +10,19 @@ namespace App\Service;
 
 
 use App\Entity\Contacts;
+use Twig\Environment;
+
 
 class MailSender
 {
     private $mailer;
-    private $message;
 
-    public function __construct(\Swift_Mailer $mailer)
+    private $template;
+
+    public function __construct(\Swift_Mailer $mailer,Environment $template)
     {
         $this->mailer = $mailer;
+        $this->template = $template;
     }
 
     public function sendMessage(Contacts $data)
@@ -30,13 +34,15 @@ class MailSender
                 $data->getName().'<br>'.$data->getEmail().'<br>'.$data->getTelNumber().'<br>'.$data->getInformation(),
                 'text/html'
             );
-        $message2 = (new \Swift_Message('Компанія ЙобанаСрака'))
+        $message2 = (new \Swift_Message('Web-studio OctoWice'))
             ->setFrom('OctoWice@gmail.com')
             ->setTo($data->getEmail())
             ->setBody(
-                $data->getName().' - хуй ми вам зробимо сайт.Платіть 1000000000$ - потым поговоримо!!!',
-                'text/html'
-            );
+                $this->template->render(
+                    'components/mail.html.twig'
+                )
+                ,
+                    'text/html');
 
         $this->mailer->send($message1);
         $this->mailer->send($message2);
