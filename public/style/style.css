@@ -97,6 +97,7 @@ body {
 .headerWrapperR h3{
   color:white;
 }
+
 .headerWrapperR h3::before{
   content: url(../img/icon.png);
   position:absolute;
@@ -428,8 +429,13 @@ body {
 
 #footer{
   width: 100%;
-  height: 20vh;
+  height: 10vh;
 }
+
+#etaps-mobile{
+  display: none;
+}
+
 .iconsMes {
   display: flex;
   justify-content: center;
