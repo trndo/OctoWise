@@ -59,7 +59,10 @@ span {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #333;
+}
 
+.nav__item:hover{
+    background-color: black;
 }
 
 /*.nav__item:not(:first-of-type) {*/
@@ -76,18 +79,10 @@ span {
 
 }
 
-.nav__item:hover {
-    background-color: #2768c1;
-
-}
-
-
 .nav__item:active {
     background-color: black;
-    color: #fff;
-
+    color: white;
 }
-
 
 .nav-burger {
     display: block;
@@ -112,7 +107,6 @@ span {
 
 .nav-burger__checkbox:checked + .nav-burger {
     background-image: url("../img/icon-cross.svg");
-
 }
 
 .nav-burger__checkbox:checked ~ .nav {

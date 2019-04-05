@@ -349,6 +349,7 @@ body {
     margin: 0 auto;
     height: 45px;
     width: 300px;
+    cursor: pointer;
 }
 
 #mobile-types{
@@ -563,7 +564,9 @@ body {
   color: white;
   background-color: red;
   padding: 17px !important;
-  margin-left: 20px !important; }
+  margin-left: 20px !important;
+  cursor: pointer;
+}
 
 .blogTextInf {
   color: #979797;
