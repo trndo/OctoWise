@@ -20,6 +20,7 @@ class Contacts
 
     /**
      * @ORM\Column(type="string", length=255)
+     *git
      */
     private $email;
 
