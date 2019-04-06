@@ -117,70 +117,11 @@
                     </div>
                 </div>
                 <div class="servButtonMobile">
-                    <a id="noBorder" href="#"><h2>Наши услуги</h2></a>
+                    <a id="noBorder" href="{{ path('services') }}"><h2>Наши услуги</h2></a>
                 </div>
                 <img src="/img/Elipse-mobile.png" alt="" id="mobile-line">
             </div>
         </section>
-{#            <div class="container">#}
-{#                <div class="row">#}
-{#                    <div class="col-lg-12 col-md-12 LineP">#}
-{#                        <h2>Типажи сайтов которые мы делаем</h2>#}
-{#                        <p><small>А какой сайт нужен вам?</small></p>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <article class="infBlock">#}
-{#                    <div class="algN">#}
-{#                        <div class="row">#}
-{#                            <div class="col-lg-12 col-md-12 artO">#}
-{#                                <h3>#}
-{#                                    Лендинг страница#}
-{#                                </h3>#}
-{#                                <p>одностраничный сайт отличается повышенной конверсией, меньшей информативностью по сравнению с другими сайтами.</p>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                        <div class="row">#}
-{#                            <div class="col-lg-12 col-md-12 artO">#}
-{#                                <h3>#}
-{#                                    Сайт каталог#}
-{#                                </h3>#}
-{#                                <p>идеальный тип сайта для отображения товаров или услуг методом каталога#}
-{#                                </p>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="imgBlock">#}
-{#                        <img id="imgLineMain" src="/img/EllipseOne.png" alt="Line">#}
-{#                    </div>#}
-{#                    <div class="algF">#}
-{#                        <div class="row">#}
-{#                            <div class="col-lg-12 col-md-12 artO">#}
-{#                                <h3>#}
-{#                                    Информационный сайт#}
-{#                                </h3>#}
-{#                                <p>сайт с повышенной информативностью, подходит для описания вашего проекта#}
-{#                                </p>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                        <div class="row">#}
-{#                            <div class="col-lg-12 col-md-12 artO">#}
-{#                                <h3>#}
-{#                                    Интернет магазин#}
-{#                                </h3>#}
-{#                                <p>любимые всеми магазины, похожи на сайты каталоги, однако есть функция покупки#}
-{#                                </p>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                </article>#}
-{#            </div>#}
-{#            <div class="blInF">#}
-{#                <a  href="#">#}
-{#                <div class="Serv">#}
-{#                    <a id="noBorder" href="#"><h2>Наши услуги</h2></a>#}
-{#                </div>#}
-{#                </a>#}
-{#            </div>#}
         <section class="TwoSec">
 
             <h1 class="forMb">Этапы создания сайта</h1>
@@ -351,13 +292,18 @@
                         <h1>Наши Контакты</h1>
                         <p><small><i>Свяжись с нами. Работаем с 10:00 - 19:00</i></small></p>
                         <div class="col-lg-12 col-md-12 conFImg">
-                            <div class="oneObj">
-                                <i onclick="window.location.href = 'tel:38(066)010-51-78'" class="fas fa-phone"></i>
+                            <div class="oneObj" onclick="window.location.href = 'tel:38(066)010-51-78'">
+                                <i class="fas fa-phone"></i>
                                 <p><small>38(066)010-51-78</small></p>
                             </div>
-                            <div class="twoObj">
-                                <i onclick="window.location.href = 'mailto:octowice@gmail.com'" class="fas fa-envelope"></i>
+                            <div class="twoObj" onclick="window.location.href = 'mailto:octowice@gmail.com'">
+                                <i class="fas fa-envelope"></i>
                                 <p><small>octowice@gmail.com</small></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 conFImg-mobile">
+                                <p onclick="window.location.href = 'tel:38(066)010-51-78'"><i class="fas fa-phone"></i><small>38(066)010-51-78</small></p>
+                                <p onclick="window.location.href = 'mailto:octowice@gmail.com'"><i class="fas fa-envelope"></i><small>octowice@gmail.com</small></p>
                             </div>
                         </div>
                     </div>
