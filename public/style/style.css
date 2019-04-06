@@ -35,7 +35,9 @@ body {
       body .headerB li #bacRed {
         background-color: red;
         color: white;
-        padding: 7px 7px; }
+        padding: 7px 7px;
+        cursor: pointer;
+      }
       body .headerB li #bacRed:hover{
         background-color: #e74c3c;
       }
@@ -250,6 +252,7 @@ body {
   -webkit-box-shadow: 0 0 4px 4px rgba(255,255,255,0.7);
   -moz-box-shadow: 0 0 4px 4px rgba(255,255,255,0.7);
   box-shadow: 0 0 4px 4px rgba(255,255,255,0.7);
+  cursor: pointer;
 
 }
 
@@ -346,6 +349,7 @@ body {
     margin: 0 auto;
     height: 45px;
     width: 300px;
+    cursor: pointer;
 }
 
 #mobile-types{
@@ -560,7 +564,9 @@ body {
   color: white;
   background-color: red;
   padding: 17px !important;
-  margin-left: 20px !important; }
+  margin-left: 20px !important;
+  cursor: pointer;
+}
 
 .blogTextInf {
   color: #979797;

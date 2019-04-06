@@ -261,7 +261,7 @@
                                 </div>
                             </a>
 
-                            <a id="noBorder" href="#">
+                            <a id="noBorder">
                                 <div class="twoButton">Заказать звонок</div>
                             </a>
 
@@ -349,16 +349,6 @@
                             Свяжитесь с нами!
                         </p>
                         <button class="readmore" id="button_show" onclick="showP();">Читать дальше</button>
-                        <script>
-                            function showP(){
-                              let list =  document.getElementsByClassName('willHide');
-                                for (let i = 0; i < list.length; i++) {
-                                   list[i].style.display = 'block';
-                                }
-                              document.getElementById('back').removeAttribute('class');
-                              document.getElementById('button_show').style.display = 'none';
-                            }
-                        </script>
                     </div>
                 </div>
                 {#<div class="row">#}
@@ -397,5 +387,39 @@
                 'contacts'
             )) }}
     </section>
+        <script>
+            function showP(){
+                let list =  document.getElementsByClassName('willHide');
+                for (let i = 0; i < list.length; i++) {
+                    list[i].style.display = 'block';
+                }
+                document.getElementById('back').removeAttribute('class');
+                document.getElementById('button_show').style.display = 'none';
+            }
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#down').click(function () {
+                        window.scrollTo({
+                            top: $('.OneSec').offset().top,
+                            behavior: "smooth"
+                        })
+                });
+                $('#bacRed').click(function () {
+                    window.scrollTo({
+                        top: $('.FourSec').offset().top,
+                        behavior: "smooth"
+                    })
+                });
+                $('.twoButton').click(function () {
+                    window.scrollTo({
+                        top: $('.FourSec').offset().top,
+                        behavior: "smooth"
+                    })
+                });
+
+            })
+
+        </script>
 </main>
 {% endblock %}
