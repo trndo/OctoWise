@@ -248,28 +248,22 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="buttonBlock">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 brifC">
-
                             <a id="noBorder" href="{{ path('services') }}">
                                 <div class="firstButton">
                                     <p>Наши услуги</p>
                                 </div>
                             </a>
-
-                            <a id="noBorder">
+                            <a href="{{ path('home') }}#scrlO" id="noBorder">
                                 <div class="twoButton">Заказать звонок</div>
                             </a>
-
                         </div>
                     </div>
                 </div>
             </div>
-
             <div id="etaps-mobile">
                 <div class="container">
                      <div class="row">
@@ -320,11 +314,8 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
         <section class="ThereSec">
-
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 hInImg">
@@ -351,20 +342,9 @@
                         <button class="readmore" id="button_show" onclick="showP();">Читать дальше</button>
                     </div>
                 </div>
-                {#<div class="row">#}
-                    {#<div class="col-12 buttonInInfBlock">#}
-                        {#<a href="#"><button>Читать Дальше</button></a>#}
-                    {#</div>#}
-                {#</div>#}
             </div>
-
-
-
         </section>
-
-
-        <section class="FourSec">
-
+        <section id="scrlO" class="FourSec">
             <div class="container">
                 <div class="row">
                     <div id="form" class="col-lg-12 col-md-12 infoFS">
@@ -387,39 +367,5 @@
                 'contacts'
             )) }}
     </section>
-        <script>
-            function showP(){
-                let list =  document.getElementsByClassName('willHide');
-                for (let i = 0; i < list.length; i++) {
-                    list[i].style.display = 'block';
-                }
-                document.getElementById('back').removeAttribute('class');
-                document.getElementById('button_show').style.display = 'none';
-            }
-        </script>
-        <script>
-            $(document).ready(function () {
-                $('#down').click(function () {
-                        window.scrollTo({
-                            top: $('.OneSec').offset().top,
-                            behavior: "smooth"
-                        })
-                });
-                $('#bacRed').click(function () {
-                    window.scrollTo({
-                        top: $('.FourSec').offset().top,
-                        behavior: "smooth"
-                    })
-                });
-                $('.twoButton').click(function () {
-                    window.scrollTo({
-                        top: $('.FourSec').offset().top,
-                        behavior: "smooth"
-                    })
-                });
-
-            })
-
-        </script>
 </main>
 {% endblock %}

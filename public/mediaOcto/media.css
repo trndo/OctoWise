@@ -1390,6 +1390,15 @@
 
 @media only screen and (max-width: 414px) and (max-width: 768px) {
 
+    .articleOn{
+        margin-top:10%!important;
+    }
+    .headT{
+        display: block;
+    }
+    .artAlgn{
+        text-align: center;
+    }
     .blockOne, .blockTwo, .blockThere {
         display: none;
     }

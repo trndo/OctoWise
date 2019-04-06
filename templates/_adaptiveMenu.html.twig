@@ -9,28 +9,19 @@
         <div class="containerMenu">
             <div class="header">
                 <div>
-                    <object type="image/svg+xml" data="/img/newLogoWhiteColor.svg" id="object" class="icon" width="45px" height="auto">
-                    </object>
-                    <p  id="webStudio">Web-Studio<br><b>OctoWice</b></p>
-                </div>
+                    <object type="image/svg+xml" data="/img/newLogoWhiteColor.svg" id="object" class="icon" width="45px" height="auto"></object>
+                    <p id="webStudio">Web-Studio<br><b>OctoWice</b></p>
+                    </div>
                 <input class="nav-burger__checkbox" type="checkbox" id="burger">
                 <label class="nav-burger" for="burger">Меню</label>
+
                 <nav class="nav">
                     <a class="nav__item" href="{{ path('home') }}">Главная</a>
                     <a class="nav__item" href="{{ path('services') }}"><span>Услуги</span></a>
                     <a class="nav__item" href="{{ path('blog') }}">Блог</a>
-                    <a class="nav__item" href="#form" onclick="document.getElementById('burger').checked = false"><span>Контакты</span></a>
+                    <a class="nav__item" href="{{ path('home') }}#scrlO" onclick="document.getElementById('burger').checked = false"><span>Контакты</span></a>
                 </nav>
             </div>
         </div>
-        <script>
-            window.addEventListener("load", function() {
-                var svgObject = document.getElementById('object').contentDocument;
-                var element = svgObject.getElementById('svg');
-                element.onclick = function () {
-                    window.location.href = '/';
-                };
-            });
-        </script>
     </section>
 

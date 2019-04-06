@@ -21,8 +21,7 @@ Encore
 
     .enableReactPreset()
     .addEntry('app', './assets/js/app.js')
-    .addEntry('main', './assets/js/main.js')
-    .addEntry('adaptiveMenu', './assets/js/adaptiveMenu.js')
+    .addEntry('showUp','./assets/js/showUp.js')
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app

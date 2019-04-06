@@ -1,8 +1,17 @@
 body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
 .Err { margin: 30px; max-width: 600px; text-align: center;}
-.Mess { color: #dc3545; font-size: 24px; }
-.MessServ { font-size: 18px; }
+.Mess {
+    margin-top: 20%;
+    color: #dc3545;
+}
+.MessServ {
+    font-size: 18px;
+}
 
+.errorB{
+    text-align: center;
+    margin-bottom: 20%;
+}
 .MpB {
     height: 53px;
     width: 110px;

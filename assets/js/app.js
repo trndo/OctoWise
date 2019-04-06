@@ -22,13 +22,18 @@
         })
     });
 
+    $(document).ready(function () {
+        $('#down').click(function () {
+            window.scrollTo({
+                top: $('.OneSec').offset().top,
+                behavior: "smooth"
+            })
+        });
+        $('.twoButton').click(function () {
+            window.scrollTo({
+                top: $('.FourSec').offset().top,
+                behavior: "smooth"
+            })
+        });
 
-
-    // var LInH = document.getElementById('contacts_save');
-    //
-    // LInH.addEventListener('click', function () {                            Simple alert for form
-    //     alert('Ваше письмо было отправленно');
-    // });
-
-
-
+    })
