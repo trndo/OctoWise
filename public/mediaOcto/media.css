@@ -532,6 +532,7 @@
         max-width: 33.333%;
         padding: 0;
         margin: 0;
+        justify-content: space-around;
     }
 
     .iconsMes {
@@ -665,12 +666,12 @@
 
     .conFImg .oneObj, .twoObj {
         max-width: 100%;
-        display: none;
+        /*display: none;*/
     }
 
-    .conFImg {
-        display: none;
-    }
+    /*.conFImg {*/
+    /*    display: ;*/
+    /*}*/
 
     .inpInf input {
         border: 1px solid black;
@@ -1061,7 +1062,7 @@
     }
 
     .conFImg, infoFS {
-        max-width: 33.333%;
+        max-width: 100%;
         padding: 0;
         margin: 0;
     }
@@ -1210,7 +1211,7 @@
     }
 
     .conFImg {
-        display: none;
+        display: block;
     }
 
     .inpInf input {
@@ -1655,7 +1656,7 @@
     }
 
     .conFImg, infoFS {
-        max-width: 33.333%;
+        max-width: 100%;
         padding: 0;
         margin: 0;
     }
@@ -1812,7 +1813,7 @@
     }
 
     .conFImg {
-        display: none;
+        display: block;
     }
 
     .inpInf input {
@@ -2526,7 +2527,7 @@
         }
 
         .conFImg, infoFS {
-            max-width: 33.333%;
+            max-width: 100%;
             padding: 0;
             margin: 0;
         }
@@ -2684,7 +2685,7 @@
         }
 
         .conFImg {
-            display: none;
+            display: block;
         }
 
         .inpInf input {
@@ -3295,7 +3296,7 @@
         }
 
         .conFImg, infoFS {
-            max-width: 33.333%;
+            max-width: 100%;
             padding: 0;
             margin: 0;
         }
@@ -3452,7 +3453,7 @@
         }
 
         .conFImg {
-            display: none;
+            display: block;
         }
 
         .inpInf input {
