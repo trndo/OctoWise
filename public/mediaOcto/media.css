@@ -102,9 +102,7 @@
         z-index: 199 !important;
     }
 
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 199 !important;
-    }
+
 
     .adptiveMenu {
         z-index: 999 !important;
@@ -409,9 +407,7 @@
         z-index: 199 !important;
     }
 
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 199 !important;
-    }
+
     #object {
         position: relative;
         bottom: 9px;
@@ -944,9 +940,6 @@
         z-index: 199 !important;
     }
 
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 999 !important;
-    }
 
     .adptiveMenu {
         z-index: 999 !important;
@@ -1511,7 +1504,7 @@
         color: lightgray; }
 
     .OneSec {
-        height: 210vh;
+        height: 1550px;
     }
 
     .op-gradient{
@@ -1530,9 +1523,6 @@
         z-index: 199 !important;
     }
 
-    body h1,h2,h3,h4,h5,h6 {
-        z-index: 999 !important;
-    }
 
     #octoImg{
         height: 82.5%;
@@ -2076,7 +2066,7 @@
     }
 
     .OneSec{
-        height: 210vh;
+        height: 1750px;
     }
     .mobileWrapper-1{
         color: white;
@@ -2199,7 +2189,7 @@
         transform: rotate(90deg);
     }
     .OneSec {
-        height: 210vh;
+        height: 1550px;
     }
 
     .mobileWrapper-1{
@@ -2302,7 +2292,7 @@
         }
 
         .OneSec {
-            height: 210vh;
+            height: 1410px;
         }
 
         .mobileWrapper-1{
@@ -2399,9 +2389,7 @@
             z-index: 199 !important;
         }
 
-        body h1, h2, h3, h4, h5, h6 {
-            z-index: 999 !important;
-        }
+
 
         #octoImg {
             height: 74.7%;
@@ -2943,7 +2931,7 @@
         }
 
         .OneSec{
-            height: 210vh;
+            height: 1350px;
         }
         .mobileWrapper-1{
             color: white;
@@ -3090,7 +3078,7 @@
         }
 
         .OneSec{
-            height: 210vh;
+            height: 1200px;
         }
 
         .mobileWrapper-1{
@@ -3179,9 +3167,7 @@
             z-index: 199 !important;
         }
 
-        body h1, h2, h3, h4, h5, h6 {
-            z-index: 999 !important;
-        }
+
 
         .adptiveMenu {
             z-index: 999 !important;
